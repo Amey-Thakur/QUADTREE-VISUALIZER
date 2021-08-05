@@ -13,8 +13,10 @@ An application capable of presenting a view of quad tree. Design and development
   3. [Optimal QuadTree Construction Algorithms](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Optimal%20QuadTree%20Construction%20Algorithms.pdf)
   4. [Quad Trees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Quad%20Trees.pdf)
     
-  ## Tests
+  ## QuadTree from Images
   
-  - Kaggle [QuadTree](https://www.kaggle.com/ameythakur20/quadtree)
-  - [Test Code - 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Tests/QuadTree_1.ipynb)
-  - [Test Code - 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Tests/QuadTree_2.ipynb)
+  >**AIM:** The main objective is to generate a quad tree from an image and display it.
+  
+  - Kaggle [QuadTree](https://www.kaggle.com/ameythakur20/quadtree) | [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/QuadTree%20from%20Images/IMAGES)
+  - [Test Code - 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/QuadTree%20from%20Images/QuadTree_1.ipynb)
+  - [Test Code - 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/QuadTree%20from%20Images/QuadTree_2.ipynb)

@@ -4,7 +4,7 @@ An application capable of presenting a view of quad tree. Design and development
 ## Major Project
   *Currently Working*
 
-<h1 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h1>
+<h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
 
  ## Reference Papers
 

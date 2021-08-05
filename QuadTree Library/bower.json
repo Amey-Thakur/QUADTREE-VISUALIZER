@@ -1,0 +1,29 @@
+{
+    "name": "quadtree-lib",
+    "version": "1.0.9",
+    "authors": [
+        "Julien Elbaz <elbywan@hotmail.com>"
+    ],
+    "description": "Efficient quadtrees library written in CoffeeScript.",
+    "main": "./build/js/quadtree.min.js",
+    "moduleType": [
+        "globals",
+        "node"
+    ],
+    "keywords": [
+        "quadtree",
+        "collision",
+        "2d",
+        "data",
+        "structure"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/elbywan/quadtree-lib",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

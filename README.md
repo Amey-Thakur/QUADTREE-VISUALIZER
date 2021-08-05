@@ -20,10 +20,3 @@ An application capable of presenting a view of the QuadTree. Design and developm
   2. [An Effective Way To Represent Quadtrees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/An%20Effective%20Way%20To%20Represent%20Quadtrees.pdf)
   3. [Optimal QuadTree Construction Algorithms](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Optimal%20QuadTree%20Construction%20Algorithms.pdf)
   4. [Quad Trees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Quad%20Trees.pdf)
-
-
-
-If you want to see the library in action :
-- [Collision demo](http://amey-thakur.github.io/quadtree-lib/demo/collisions/collisions.html)
-- [Movement demo](http://amey-thakur.github.io/quadtree-lib/demo/movement/movement.html)
-- [Mass demo](http://amey-thakur.github.io/quadtree-lib/demo/basic/basic.html)

@@ -1,5 +1,5 @@
 # QUADTREE VISUALIZER
-An application capable of presenting a view of quad tree. Design and development of quad tree view and data model.
+An application capable of presenting a view of the QuadTree. Design and development of QuadTree view and data model.
 
 ## Major Project
   *Currently Working*

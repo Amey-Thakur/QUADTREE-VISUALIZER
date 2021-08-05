@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>quadtree-lib</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="public/stylesheets/normalize.css" />
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="page">
+
+      <div class="header">
+        
+          
+          <h1 id="quadtree-lib">quadtree-lib</h1>
+
+          
+        
+
+        
+      </div>
+
+      
+        
+        <p><strong>Quadtree-lib</strong> is an easy to use, developer friendly quadtree library
+which contains many helper methods to add, remove, iterate, filter, simulate
+collisions over 2d elements and more.</p>
+
+        
+      
+        
+        <h4 id="umd-bundling-related-code">UMD bundling related code</h4>
+
+        
+          <div class='highlight'><pre>(<span class="hljs-function"><span class="hljs-params">(root, factory)</span> -&gt;</span>
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">typeof</span> define <span class="hljs-keyword">is</span> <span class="hljs-string">'function'</span> <span class="hljs-keyword">and</span> define.amd
+        define [], factory
+    <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">typeof</span> exports <span class="hljs-keyword">is</span> <span class="hljs-string">'object'</span> <span class="hljs-keyword">and</span> <span class="hljs-built_in">module</span>.exports
+        <span class="hljs-built_in">module</span>.exports = factory()
+    <span class="hljs-keyword">else</span>
+        root[<span class="hljs-string">'Quadtree'</span>] = factory()
+) @, (<span class="hljs-function">-&gt;</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Quadtree</span></span></pre></div>
+        
+      
+        
+        <h2 id="the-quadtree-class">The Quadtree class</h2>
+
+        
+      
+        
+        
+        
+      
+        
+        <h3 id="constructor">Constructor</h3>
+
+        
+      
+        
+        <p>The quadtree constructor accepts a single parameter object containing the following properties :</p>
+<ul>
+<li>width / length : dimensions of the quadtree. [ <em>mandatory</em> ]</li>
+<li>maxElements : the maximum number of elements before the leaf ‘splits’ into subtrees. [ <em>defaults to 1</em> ]</li>
+<li>x / y : these coordinates are used internally by the library to position subtrees. [ <em>internal use only</em> ]</li>
+</ul>
+
+        
+          <div class='highlight'><pre>    constructor: <span class="hljs-function"><span class="hljs-params">({ @x, @y, @width, @height, @maxElements })</span> -&gt;</span></pre></div>
+        
+      
+        
+        <p>An error is thrown when the width &amp; length are not passed as constructor arguments.</p>
+
+        
+          <div class='highlight'><pre>        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'Missing quadtree dimensions.'</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> @width? <span class="hljs-keyword">or</span> <span class="hljs-keyword">not</span> @height?
+        @x ?= <span class="hljs-number">0</span>
+        @y ?= <span class="hljs-number">0</span>
+        @maxElements ?= <span class="hljs-number">1</span>
+        @contents = []
+        @oversized = []
+        @size = <span class="hljs-number">0</span></pre></div>
+        
+      
+        
+        <p>Dimension &amp; coordinates are checked, an error is thrown in case of bad input.</p>
+
+        
+          <div class='highlight'><pre>        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'Dimensions must be positive integers.'</span> <span class="hljs-keyword">if</span> @width &lt; <span class="hljs-number">1</span> <span class="hljs-keyword">or</span> @height &lt; <span class="hljs-number">1</span>
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'Coordinates must be integers'</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> Number.isInteger(@x) <span class="hljs-keyword">or</span> <span class="hljs-keyword">not</span> Number.isInteger(@y)
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'The maximum number of elements before a split must be a positive integer.'</span> <span class="hljs-keyword">if</span> @maxElements &lt; <span class="hljs-number">1</span>
+
+        that = @</pre></div>
+        
+      
+        
+        <p>The subtrees list, by position.</p>
+
+        
+          <div class='highlight'><pre>        @children = {</pre></div>
+        
+      
+        
+        <p>Northwest tree.</p>
+
+        
+          <div class='highlight'><pre>            NW:
+                create: <span class="hljs-function">-&gt;</span>
+                    <span class="hljs-keyword">new</span> Quadtree({
+                        x: that.x
+                        y: that.y
+                        width: Math.max (Math.floor that.width / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        height: Math.max (Math.floor that.height / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        maxElements: that.maxElements
+                    })
+                tree: <span class="hljs-literal">null</span></pre></div>
+        
+      
+        
+        <p>Northeast tree.</p>
+
+        
+          <div class='highlight'><pre>            NE:
+                create: <span class="hljs-function">-&gt;</span>
+                    <span class="hljs-keyword">new</span> Quadtree({
+                        x: that.x + Math.max (Math.floor that.width / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        y: that.y
+                        width: Math.ceil that.width / <span class="hljs-number">2</span>
+                        height: Math.max (Math.floor that.height / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        maxElements: that.maxElements
+                    })
+                tree: <span class="hljs-literal">null</span></pre></div>
+        
+      
+        
+        <p>Southwest tree.</p>
+
+        
+          <div class='highlight'><pre>            SW:
+                create: <span class="hljs-function">-&gt;</span>
+                    <span class="hljs-keyword">new</span> Quadtree({
+                        x: that.x
+                        y: that.y + Math.max (Math.floor that.height / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        width: Math.max (Math.floor that.width / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        height: Math.ceil that.height / <span class="hljs-number">2</span>
+                        maxElements: that.maxElements
+                    })
+                tree: <span class="hljs-literal">null</span></pre></div>
+        
+      
+        
+        <p>Southeast tree.</p>
+
+        
+          <div class='highlight'><pre>            SE:
+                create: <span class="hljs-function">-&gt;</span>
+                    <span class="hljs-keyword">new</span> Quadtree({
+                        x: that.x + Math.max (Math.floor that.width / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        y: that.y + Math.max (Math.floor that.height / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+                        width: Math.ceil that.width / <span class="hljs-number">2</span>
+                        height: Math.ceil that.height / <span class="hljs-number">2</span>
+                        maxElements: that.maxElements
+                    })
+                tree: <span class="hljs-literal">null</span>
+        }</pre></div>
+        
+      
+        
+        <p>Adding a getter which lazily creates the tree.</p>
+
+        
+          <div class='highlight'><pre>        <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> @children
+            @children[child].get = <span class="hljs-function">-&gt;</span>
+                <span class="hljs-keyword">if</span> @tree? <span class="hljs-keyword">then</span> @tree <span class="hljs-keyword">else</span> @tree = @create(); @tree</pre></div>
+        
+      
+        
+        <h3 id="internal-methods-vars">Internal methods &amp; vars</h3>
+
+        
+      
+        
+        <p>Retrieves the center coordinates of a rectangle.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">getCenter</span> = <span class="hljs-params">(item)</span> -&gt;</span>
+        x: Math.floor((item.width  ? <span class="hljs-number">1</span>) / <span class="hljs-number">2</span>) + item.x
+        y: Math.floor((item.height ? <span class="hljs-number">1</span>) / <span class="hljs-number">2</span>) + item.y</pre></div>
+        
+      
+        
+        <p>Bounding box collision algorithm.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">boundingBoxCollision</span> = <span class="hljs-params">(elt1, elt2)</span> -&gt;</span>
+        <span class="hljs-keyword">not</span>(elt1.x &gt;= elt2.x + (elt2.width ? <span class="hljs-number">1</span>)      <span class="hljs-keyword">or</span>
+            elt1.x + (elt1.width ? <span class="hljs-number">1</span>) &lt;= elt2.x      <span class="hljs-keyword">or</span>
+            elt1.y &gt;= elt2.y + (elt2.height ? <span class="hljs-number">1</span>)     <span class="hljs-keyword">or</span>
+            elt1.y + (elt1.height ? <span class="hljs-number">1</span>) &lt;= elt2.y)</pre></div>
+        
+      
+        
+        <p>Determines which subtree an element belongs to.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">calculateDirection</span> = <span class="hljs-params">(element, tree)</span> -&gt;</span>
+        quadCenter = getCenter tree
+
+        <span class="hljs-keyword">if</span> element.x &lt; quadCenter.x
+            <span class="hljs-keyword">if</span> element.y &lt; quadCenter.y <span class="hljs-keyword">then</span> <span class="hljs-string">'NW'</span>
+            <span class="hljs-keyword">else</span> <span class="hljs-string">'SW'</span>
+        <span class="hljs-keyword">else</span>
+            <span class="hljs-keyword">if</span> element.y &lt; quadCenter.y <span class="hljs-keyword">then</span> <span class="hljs-string">'NE'</span>
+            <span class="hljs-keyword">else</span> <span class="hljs-string">'SE'</span></pre></div>
+        
+      
+        
+        <p>Validates a potential element of the tree.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">validateElement</span> = <span class="hljs-params">(element)</span> -&gt;</span>
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> (<span class="hljs-keyword">typeof</span> element <span class="hljs-keyword">is</span> <span class="hljs-string">'object'</span>)
+            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'Element must be an Object.'</span>
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> element.x? <span class="hljs-keyword">or</span> <span class="hljs-keyword">not</span> element.y?
+            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'Coordinates properties are missing.'</span>
+        <span class="hljs-keyword">if</span> element?.width &lt; <span class="hljs-number">0</span> <span class="hljs-keyword">or</span> element?.height &lt; <span class="hljs-number">0</span>
+            <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> Error <span class="hljs-string">'Width and height must be positive integers.'</span></pre></div>
+        
+      
+        
+        <p>Returns splitted coordinates and dimensions.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">splitTree</span> = <span class="hljs-params">(tree)</span> -&gt;</span>
+        leftWidth    = Math.max (Math.floor tree.width / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+        rightWidth   = Math.ceil tree.width / <span class="hljs-number">2</span>
+        topHeight    = Math.max (Math.floor tree.height / <span class="hljs-number">2</span>), <span class="hljs-number">1</span>
+        bottomHeight = Math.ceil tree.height / <span class="hljs-number">2</span>
+        NW:
+            x: tree.x
+            y: tree.y
+            width: leftWidth
+            height: topHeight
+        NE:
+            x: tree.x + leftWidth
+            y: tree.y
+            width: rightWidth
+            height: topHeight
+        SW:
+            x: tree.x
+            y: tree.y + topHeight
+            width: leftWidth
+            height: bottomHeight
+        SE:
+            x: tree.x + leftWidth
+            y: tree.y + topHeight
+            width: rightWidth
+            height: bottomHeight</pre></div>
+        
+      
+        
+        <p>Determines wether an element fits into subtrees.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">fitting</span> = <span class="hljs-params">(element, tree)</span> -&gt;</span>
+        where = []
+        <span class="hljs-keyword">for</span> direction, coordinates <span class="hljs-keyword">of</span> splitTree tree <span class="hljs-keyword">when</span> boundingBoxCollision element, coordinates
+            where.push direction
+        where</pre></div>
+        
+      
+        
+        <p>Add getters and setters for coordinates and dimensions properties in order to automatically reorganize the elements on change.</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">observe</span> = <span class="hljs-params">(item, tree)</span> -&gt;</span>
+<span class="hljs-function">        <span class="hljs-title">writeAccessors</span> = <span class="hljs-params">(propName)</span> -&gt;</span>
+            item[<span class="hljs-string">"_<span class="hljs-subst">#{propName}</span>"</span>] = item[propName]
+            Object.defineProperty item, propName, {
+                set: <span class="hljs-function"><span class="hljs-params">(val)</span> -&gt;</span>
+                    tree.remove @, <span class="hljs-literal">true</span>
+                    @[<span class="hljs-string">"_<span class="hljs-subst">#{propName}</span>"</span>] = val
+                    tree.push @
+                get: <span class="hljs-function">-&gt;</span>
+                    @[<span class="hljs-string">"_<span class="hljs-subst">#{propName}</span>"</span>]
+                configurable: <span class="hljs-literal">true</span>
+            }
+        writeAccessors <span class="hljs-string">'x'</span>
+        writeAccessors <span class="hljs-string">'y'</span>
+        writeAccessors <span class="hljs-string">'width'</span>
+        writeAccessors <span class="hljs-string">'height'</span></pre></div>
+        
+      
+        
+        <p>Remove getters and setters and restore previous properties</p>
+
+        
+          <div class='highlight'><pre><span class="hljs-function">    <span class="hljs-title">unobserve</span> = <span class="hljs-params">(item)</span> -&gt;</span>
+<span class="hljs-function">        <span class="hljs-title">unwriteAccessors</span> = <span class="hljs-params">(propName)</span> -&gt;</span>
+            <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> item[<span class="hljs-string">"_<span class="hljs-subst">#{propName}</span>"</span>]? <span class="hljs-keyword">then</span> <span class="hljs-keyword">return</span>
+            <span class="hljs-keyword">delete</span> item[propName]
+            item[propName] = item[<span class="hljs-string">"_<span class="hljs-subst">#{propName}</span>"</span>]
+            <span class="hljs-keyword">delete</span> item[<span class="hljs-string">"_<span class="hljs-subst">#{propName}</span>"</span>]
+        unwriteAccessors <span class="hljs-string">'x'</span>
+        unwriteAccessors <span class="hljs-string">'y'</span>
+        unwriteAccessors <span class="hljs-string">'width'</span>
+        unwriteAccessors <span class="hljs-string">'height'</span></pre></div>
+        
+      
+        
+        <h3 id="exposed-methods">Exposed methods</h3>
+
+        
+      
+        
+        <p>Removes all elements from the quadtree and restores it to pristine state.</p>
+
+        
+          <div class='highlight'><pre>    clear: <span class="hljs-function">-&gt;</span>
+        @contents = []
+        @oversized = []
+        @size = <span class="hljs-number">0</span>
+        <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> @children
+            @children[child].tree = <span class="hljs-literal">null</span></pre></div>
+        
+      
+        
+        <p>Add an element to the quadtree.
+Elements can be observed to reorganize them into the quadtree automatically whenever their coordinates or dimensions are set (for ex. obj.x = …).</p>
+
+        
+          <div class='highlight'><pre>    push: <span class="hljs-function"><span class="hljs-params">(item, doObserve)</span> -&gt;</span>
+        @pushAll([item], doObserve)</pre></div>
+        
+      
+        
+        <p>Push an array of elements.</p>
+
+        
+          <div class='highlight'><pre>    pushAll: <span class="hljs-function"><span class="hljs-params">(items, doObserve)</span> -&gt;</span>
+        <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> items
+            validateElement item
+            observe item, @ <span class="hljs-keyword">if</span> doObserve
+
+        fifo = [tree: @, elements: items]
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            { tree, elements } = fifo.shift()
+
+            fifoCandidates = { NW: <span class="hljs-literal">null</span>, NE: <span class="hljs-literal">null</span>, SW: <span class="hljs-literal">null</span>, SE: <span class="hljs-literal">null</span> }
+
+            <span class="hljs-keyword">for</span> element <span class="hljs-keyword">in</span> elements
+                tree.size++
+
+                fits = fitting element, tree
+
+                <span class="hljs-keyword">if</span> fits.length <span class="hljs-keyword">isnt</span> <span class="hljs-number">1</span> <span class="hljs-keyword">or</span> tree.width <span class="hljs-keyword">is</span> <span class="hljs-number">1</span> <span class="hljs-keyword">or</span> tree.height <span class="hljs-keyword">is</span> <span class="hljs-number">1</span>
+                    tree.oversized.push element
+
+                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (tree.size - tree.oversized.length) &lt;= tree.maxElements
+                    tree.contents.push element
+
+                <span class="hljs-keyword">else</span>
+                    direction = fits[<span class="hljs-number">0</span>]
+                    relatedChild = tree.children[direction]
+                    fifoCandidates[direction] ?= { tree: relatedChild.get(), elements: [] }
+                    fifoCandidates[direction].elements.push(element)
+
+                    <span class="hljs-keyword">for</span> content <span class="hljs-keyword">in</span> tree.contents
+                        contentDir = (fitting content, tree)[<span class="hljs-number">0</span>]
+                        fifoCandidates[contentDir] ?= { tree: tree.children[contentDir].get(), elements: [] }
+                        fifoCandidates[contentDir].elements.push(content)
+
+                    tree.contents = []
+
+            <span class="hljs-keyword">for</span> direction, candidate <span class="hljs-keyword">of</span> fifoCandidates
+                <span class="hljs-keyword">if</span> candidate? <span class="hljs-keyword">then</span> fifo.push candidate
+
+        @</pre></div>
+        
+      
+        
+        <p>Removes an element from the quadtree.</p>
+
+        
+          <div class='highlight'><pre>    remove: <span class="hljs-function"><span class="hljs-params">(item, stillObserve)</span> -&gt;</span>
+        validateElement item
+
+        index = @oversized.indexOf item
+        <span class="hljs-keyword">if</span> index &gt; <span class="hljs-number">-1</span>
+            @oversized.splice index, <span class="hljs-number">1</span>
+            @size--
+            <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> stillObserve <span class="hljs-keyword">then</span> unobserve item
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+
+        index = @contents.indexOf item
+        <span class="hljs-keyword">if</span> index &gt; <span class="hljs-number">-1</span>
+            @contents.splice index, <span class="hljs-number">1</span>
+            @size--
+            <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> stillObserve <span class="hljs-keyword">then</span> unobserve item
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+
+        relatedChild = @children[calculateDirection item, @]
+
+        <span class="hljs-keyword">if</span> relatedChild.tree? <span class="hljs-keyword">and</span> relatedChild.tree.remove item, stillObserve
+            @size--
+            relatedChild.tree = <span class="hljs-literal">null</span> <span class="hljs-keyword">if</span> relatedChild.tree.size <span class="hljs-keyword">is</span> <span class="hljs-number">0</span>
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+
+        <span class="hljs-literal">false</span></pre></div>
+        
+      
+        
+        <p>Returns an array of elements which collides with the <code>item</code> argument.
+<code>item</code> being an object having x, y, width &amp; height properties.</p>
+
+        
+      
+        
+        <p>The default collision function is a basic bounding box algorithm.
+You can change it by providing a function as a second argument.</p>
+<pre><code class="lang-javascript">colliding({<span class="hljs-attr">x</span>: <span class="hljs-number">10</span>, <span class="hljs-attr">y</span>: <span class="hljs-number">20</span>}, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">element1, element2</span>) </span>{
+   <span class="hljs-keyword">return</span> <span class="hljs-comment">// Place predicate here //</span>
+})
+</code></pre>
+
+        
+          <div class='highlight'><pre>    colliding: <span class="hljs-function"><span class="hljs-params">(item, collisionFunction = boundingBoxCollision)</span> -&gt;</span>
+        validateElement item
+
+        items = []
+        fifo  = [@]
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            top = fifo.shift()
+
+            <span class="hljs-keyword">for</span> elt <span class="hljs-keyword">in</span> top.oversized <span class="hljs-keyword">when</span> elt <span class="hljs-keyword">isnt</span> item <span class="hljs-keyword">and</span> collisionFunction item, elt <span class="hljs-keyword">then</span> items.push elt
+            <span class="hljs-keyword">for</span> elt <span class="hljs-keyword">in</span> top.contents  <span class="hljs-keyword">when</span> elt <span class="hljs-keyword">isnt</span> item <span class="hljs-keyword">and</span> collisionFunction item, elt <span class="hljs-keyword">then</span> items.push elt
+
+            fits = fitting item, top</pre></div>
+        
+      
+        
+        <p>Special case for elements located outside of the quadtree on the right / bottom side</p>
+
+        
+          <div class='highlight'><pre>            <span class="hljs-keyword">if</span> fits.length <span class="hljs-keyword">is</span> <span class="hljs-number">0</span>
+                fits = []
+                <span class="hljs-keyword">if</span> item.x &gt;= top.x + top.width
+                    fits.push <span class="hljs-string">'NE'</span>
+                <span class="hljs-keyword">if</span> item.y &gt;= top.y + top.height
+                    fits.push <span class="hljs-string">'SW'</span>
+                <span class="hljs-keyword">if</span> fits.length &gt; <span class="hljs-number">0</span>
+                    <span class="hljs-keyword">if</span> fits.length <span class="hljs-keyword">is</span> <span class="hljs-number">1</span> <span class="hljs-keyword">then</span> fits.push <span class="hljs-string">'SE'</span> <span class="hljs-keyword">else</span> fits = [<span class="hljs-string">'SE'</span>]
+
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">in</span> fits <span class="hljs-keyword">when</span> top.children[child].tree?
+                fifo.push top.children[child].tree
+
+        items</pre></div>
+        
+      
+        
+        <p>Performs an action on elements which collides with the <code>item</code> argument.
+<code>item</code> being an object having x, y, width &amp; height properties.</p>
+
+        
+      
+        
+        <p>The default collision function is a basic bounding box algorithm.
+You can change it by providing a function as a third argument.</p>
+<pre><code class="lang-javascript">onCollision(
+   {<span class="hljs-attr">x</span>: <span class="hljs-number">10</span>, <span class="hljs-attr">y</span>: <span class="hljs-number">20</span>},
+   <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item</span>) </span>{ <span class="hljs-comment">/* stuff */</span> },
+   <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">element1, element2</span>) </span>{
+       <span class="hljs-keyword">return</span> <span class="hljs-comment">// Place predicate here //</span>
+})
+</code></pre>
+
+        
+          <div class='highlight'><pre>    onCollision: <span class="hljs-function"><span class="hljs-params">(item, callback, collisionFunction = boundingBoxCollision)</span> -&gt;</span>
+        validateElement item
+
+        fifo  = [@]
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            top = fifo.shift()
+
+            <span class="hljs-keyword">for</span> elt <span class="hljs-keyword">in</span> top.oversized <span class="hljs-keyword">when</span> elt <span class="hljs-keyword">isnt</span> item <span class="hljs-keyword">and</span> collisionFunction item, elt <span class="hljs-keyword">then</span> callback elt
+            <span class="hljs-keyword">for</span> elt <span class="hljs-keyword">in</span> top.contents  <span class="hljs-keyword">when</span> elt <span class="hljs-keyword">isnt</span> item <span class="hljs-keyword">and</span> collisionFunction item, elt <span class="hljs-keyword">then</span> callback elt
+
+            fits = fitting item, top</pre></div>
+        
+      
+        
+        <p>Special case for elements located outside of the quadtree on the right / bottom side</p>
+
+        
+          <div class='highlight'><pre>            <span class="hljs-keyword">if</span> fits.length <span class="hljs-keyword">is</span> <span class="hljs-number">0</span>
+                fits = []
+                <span class="hljs-keyword">if</span> item.x &gt;= top.x + top.width
+                    fits.push <span class="hljs-string">'NE'</span>
+                <span class="hljs-keyword">if</span> item.y &gt;= top.y + top.height
+                    fits.push <span class="hljs-string">'SW'</span>
+                <span class="hljs-keyword">if</span> fits.length &gt; <span class="hljs-number">0</span>
+                    <span class="hljs-keyword">if</span> fits.length <span class="hljs-keyword">is</span> <span class="hljs-number">1</span> <span class="hljs-keyword">then</span> fits.push <span class="hljs-string">'SE'</span> <span class="hljs-keyword">else</span> fits = [<span class="hljs-string">'SE'</span>]
+
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">in</span> fits <span class="hljs-keyword">when</span> top.children[child].tree?
+                fifo.push top.children[child].tree
+
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span></pre></div>
+        
+      
+        
+        <p>Alias of <code>where</code>.</p>
+
+        
+          <div class='highlight'><pre>    get: <span class="hljs-function"><span class="hljs-params">(query)</span> -&gt;</span>
+        @where query</pre></div>
+        
+      
+        
+        <p>Returns an array of elements that match the <code>query</code> argument.</p>
+
+        
+          <div class='highlight'><pre>    where: <span class="hljs-function"><span class="hljs-params">(query)</span> -&gt;</span></pre></div>
+        
+      
+        
+        <p>Naïve parsing (missing coordinates)</p>
+
+        
+          <div class='highlight'><pre>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">typeof</span> query <span class="hljs-keyword">is</span> <span class="hljs-string">'object'</span> <span class="hljs-keyword">and</span> (<span class="hljs-keyword">not</span> query.x? <span class="hljs-keyword">or</span> <span class="hljs-keyword">not</span> query.y?)
+            <span class="hljs-keyword">return</span> @find (elt) -&gt;
+                check = <span class="hljs-literal">true</span>
+                <span class="hljs-keyword">for</span> key <span class="hljs-keyword">of</span> query <span class="hljs-keyword">when</span> query[key] <span class="hljs-keyword">isnt</span> elt[key] <span class="hljs-keyword">then</span> check = <span class="hljs-literal">false</span>
+                check</pre></div>
+        
+      
+        
+        <p>Optimised parsing</p>
+
+        
+          <div class='highlight'><pre>        validateElement query
+
+        items = []
+        fifo = [@]
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            top = fifo.shift()
+
+            <span class="hljs-keyword">for</span> elt <span class="hljs-keyword">in</span> top.oversized
+                check = <span class="hljs-literal">true</span>
+                <span class="hljs-keyword">for</span> key <span class="hljs-keyword">of</span> query <span class="hljs-keyword">when</span> query[key] <span class="hljs-keyword">isnt</span> elt[key] <span class="hljs-keyword">then</span> check = <span class="hljs-literal">false</span>
+                items.push elt <span class="hljs-keyword">if</span> check
+            <span class="hljs-keyword">for</span> elt <span class="hljs-keyword">in</span> top.contents
+                check = <span class="hljs-literal">true</span>
+                <span class="hljs-keyword">for</span> key <span class="hljs-keyword">of</span> query <span class="hljs-keyword">when</span> query[key] <span class="hljs-keyword">isnt</span> elt[key] <span class="hljs-keyword">then</span> check = <span class="hljs-literal">false</span>
+                items.push elt <span class="hljs-keyword">if</span> check
+
+            relatedChild = top.children[calculateDirection query, top]
+
+            <span class="hljs-keyword">if</span> relatedChild.tree?
+                fifo.push relatedChild.tree
+
+        items</pre></div>
+        
+      
+        
+        <p>For each element of the quadtree, performs the <code>action</code> function.</p>
+<pre><code class="lang-javascript">quad.each(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item</span>) </span>{ <span class="hljs-built_in">console</span>.log(item) })
+</code></pre>
+
+        
+          <div class='highlight'><pre>    each: <span class="hljs-function"><span class="hljs-params">(action)</span> -&gt;</span>
+        fifo = [@]
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            top = fifo.shift()
+            <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> top.oversized <span class="hljs-keyword">then</span> action?(i)
+            <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> top.contents <span class="hljs-keyword">then</span> action?(i)
+
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> top.children <span class="hljs-keyword">when</span> top.children[child].tree?
+                fifo.push top.children[child].tree
+        @</pre></div>
+        
+      
+        
+        <p>Returns an array of elements which validates the predicate.</p>
+
+        
+          <div class='highlight'><pre>    find: <span class="hljs-function"><span class="hljs-params">(predicate)</span> -&gt;</span>
+        fifo = [@]
+        items = []
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            top = fifo.shift()
+            <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> top.oversized <span class="hljs-keyword">when</span> predicate?(i) <span class="hljs-keyword">then</span> items.push i
+            <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> top.contents <span class="hljs-keyword">when</span> predicate?(i) <span class="hljs-keyword">then</span> items.push i
+
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> top.children <span class="hljs-keyword">when</span> top.children[child].tree?
+                fifo.push top.children[child].tree
+        items</pre></div>
+        
+      
+        
+        <p>Returns a <strong>cloned</strong> <code>Quadtree</code> object which contains only the elements that validate the predicate.</p>
+
+        
+          <div class='highlight'><pre>    filter: <span class="hljs-function"><span class="hljs-params">(predicate)</span> -&gt;</span>
+<span class="hljs-function">        <span class="hljs-title">deepclone</span> = <span class="hljs-params">(target)</span> -&gt;</span>
+            copycat = <span class="hljs-keyword">new</span> Quadtree x: target.x, y: target.y, width: target.width, height: target.height, maxElements: target.maxElements
+            copycat.size = <span class="hljs-number">0</span>
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> target.children <span class="hljs-keyword">when</span> target.children[child].tree?
+                copycat.children[child].tree = deepclone target.children[child].tree
+                copycat.size += copycat.children[child].tree?.size ? <span class="hljs-number">0</span>
+
+            <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> target.oversized <span class="hljs-keyword">when</span> <span class="hljs-keyword">not</span> predicate? <span class="hljs-keyword">or</span> predicate?(item)
+                copycat.oversized.push item
+            <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> target.contents <span class="hljs-keyword">when</span> <span class="hljs-keyword">not</span> predicate? <span class="hljs-keyword">or</span> predicate?(item)
+                copycat.contents.push item
+
+            copycat.size += copycat.oversized.length + copycat.contents.length
+            <span class="hljs-keyword">if</span> copycat.size <span class="hljs-keyword">is</span> <span class="hljs-number">0</span> <span class="hljs-keyword">then</span> <span class="hljs-literal">null</span> <span class="hljs-keyword">else</span> copycat
+
+        deepclone @</pre></div>
+        
+      
+        
+        <p>Opposite of filter.</p>
+
+        
+          <div class='highlight'><pre>    reject: <span class="hljs-function"><span class="hljs-params">(predicate)</span> -&gt;</span>
+        @filter (i) -&gt;
+            <span class="hljs-keyword">not</span> predicate?(i)</pre></div>
+        
+      
+        
+        <p>Visits each tree &amp; subtree contained in the <code>Quadtree</code> object.
+For each node, performs the <code>action</code> function, inside which <code>this</code> is bound to the node tree object.</p>
+
+        
+          <div class='highlight'><pre>    visit: <span class="hljs-function"><span class="hljs-params">(action)</span> -&gt;</span>
+        fifo = [@]
+
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            that = fifo.shift()
+            action.bind(that)()
+
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> that.children <span class="hljs-keyword">when</span> that.children[child].tree?
+                fifo.push that.children[child].tree
+        @</pre></div>
+        
+      
+        
+        <p>Pretty printing function.</p>
+
+        
+          <div class='highlight'><pre>    pretty: <span class="hljs-function">-&gt;</span>
+        str = <span class="hljs-string">''</span>
+<span class="hljs-function">
+        <span class="hljs-title">indent</span> = <span class="hljs-params">(level)</span> -&gt;</span>
+            res = <span class="hljs-string">''</span>
+            res += <span class="hljs-string">'   '</span> <span class="hljs-keyword">for</span> times <span class="hljs-keyword">in</span> [level..<span class="hljs-number">.0</span>]
+            res
+
+        fifo  = [{ label: <span class="hljs-string">'ROOT'</span>, tree: @, level: <span class="hljs-number">0</span> }]
+        <span class="hljs-keyword">while</span> fifo.length &gt; <span class="hljs-number">0</span>
+            top = fifo.shift()
+            indentation = indent(top.level)
+            str += <span class="hljs-string">"""
+                   <span class="hljs-subst">#{indentation}</span>| <span class="hljs-subst">#{top.label}</span>
+                   <span class="hljs-subst">#{indentation}</span>| ------------\n
+                   """</span>
+
+            <span class="hljs-keyword">if</span> top.tree.oversized.length &gt; <span class="hljs-number">0</span>
+                str += <span class="hljs-string">"""
+                       <span class="hljs-subst">#{indentation}</span>| * Oversized elements *
+                       <span class="hljs-subst">#{indentation}</span>|   <span class="hljs-subst">#{top.tree.oversized}</span>\n
+                       """</span>
+
+            <span class="hljs-keyword">if</span> top.tree.contents.length &gt; <span class="hljs-number">0</span>
+                str += <span class="hljs-string">"""
+                       <span class="hljs-subst">#{indentation}</span>| * Leaf content *
+                       <span class="hljs-subst">#{indentation}</span>|   <span class="hljs-subst">#{top.tree.contents}</span>\n
+                       """</span>
+
+            isParent = <span class="hljs-literal">false</span>
+            <span class="hljs-keyword">for</span> child <span class="hljs-keyword">of</span> top.tree.children <span class="hljs-keyword">when</span> top.tree.children[child].tree?
+                isParent = <span class="hljs-literal">true</span>
+                fifo.unshift { label: child, tree: top.tree.children[child].tree, level: top.level + <span class="hljs-number">1</span> }
+
+            <span class="hljs-keyword">if</span> isParent <span class="hljs-keyword">then</span> str += <span class="hljs-string">"<span class="hljs-subst">#{indentation}</span>└──┐\n"</span>
+
+        str
+)</pre></div>
+        
+      
+      <div class="fleur">h</div>
+    </div>
+  </div>
+</body>
+</html>

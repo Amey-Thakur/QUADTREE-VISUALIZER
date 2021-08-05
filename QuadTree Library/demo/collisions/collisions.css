@@ -1,0 +1,39 @@
+div#canvas-container {
+    position: relative;
+}
+
+#quadtree_canvas {
+    position:absolute;
+    z-index: 1;
+}
+
+#layer_canvas {
+    position:absolute;
+    z-index: 2;
+}
+
+div#canvas-collision {
+    position: absolute;
+    cursor: move;
+    z-index: 3;
+    top: 70px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(229, 57, 53, 0.5);
+}
+
+div#canvas-collision::after {
+    content: "";
+    cursor: nwse-resize;
+    position: absolute;
+    background: transparent;
+    z-index: 4;
+    width: 10px;
+    height: 10px;
+    bottom: -5px;
+    right: -5px;
+    border-right: 2px solid rgba(229, 57, 53, 1);
+    border-bottom: 2px solid rgba(229, 57, 53, 1);
+}

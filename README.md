@@ -4,6 +4,8 @@ An application capable of presenting a view of quad tree. Design and development
 ## Major Project
   *Currently Working*
 
+<h1 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h1>
+
   >Reference Papers
 
   1. [A Quadtree-based Hierarchical Clustering Method](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method.pdf)

@@ -7,7 +7,6 @@ An application capable of presenting a view of the QuadTree. Design and developm
 <h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
 
 
-
 ## QuadTree from Images
   
   >**AIM:** The main objective is to generate a quad tree from an image and display it.

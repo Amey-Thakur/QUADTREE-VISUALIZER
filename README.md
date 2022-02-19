@@ -1,10 +1,12 @@
 # QUADTREE VISUALIZER
 An application capable of presenting a view of the QuadTree. Design and development of QuadTree view and data model.
 
+
 ## Major Project
   *Currently Working*
 
 <h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
+
 
 ## QuadTree from Images
   
@@ -15,6 +17,7 @@ An application capable of presenting a view of the QuadTree. Design and developm
   - Kaggle [QuadTree](https://www.kaggle.com/ameythakur20/quadtree) | [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/QuadTree%20from%20Images/IMAGES)
   - [Test Code - 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/QuadTree%20from%20Images/QuadTree_1.ipynb)
   - [Test Code - 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/QuadTree%20from%20Images/QuadTree_2.ipynb)
+
 
 ## Reference Papers
 

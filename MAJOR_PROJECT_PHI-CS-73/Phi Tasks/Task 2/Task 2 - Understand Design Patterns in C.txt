@@ -1,0 +1,31 @@
+Understand Design Patterns in C
+
+Task Details
+STARTED AT
+01 Oct 2021
+PLANNED END DATE
+15 Oct 2021
+ACTUAL END DATE
+19 Feb 2022
+STATUS
+Done
+
+Description
+In this task you shall develop the understanding of basics of design patterns in C. The task will help you understand the basics of API design and introduce you the though process required for writing industrial grade  reusable code. You shall create an abstract API for matrices (you aren't supposed to implement the API). You shall create the API for matrix. Following operations shall be supported by your API.
+
+create, delete, property access (think what properties you shall expose), various operations (this is something which will reflect your own understanding of matrices).
+
+The operations you will expose will also reflect on your understanding of the design pattern.
+
+Resources
+Patterns in C – Part 1
+https://www.adamtornhill.com/Patterns%20in%20C%201.pdf
+
+Patterns in C - State : Part 2
+https://www.adamtornhill.com/Patterns%20in%20C%202,%20STATE.pdf
+
+Patterns in C - Strategy - Part 3
+https://www.adamtornhill.com/Patterns%20in%20C%203,%20STRATEGY.pdf
+
+Patterns in C - Observer - Part 4
+https://www.adamtornhill.com/Patterns%20in%20C%204,%20OBSERVER.pdf

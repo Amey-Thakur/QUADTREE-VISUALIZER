@@ -1,0 +1,21 @@
+Learn how to use TinyXml
+
+Task Details
+STARTED AT
+19 Feb 2022
+PLANNED END DATE
+29 Oct 2021
+ACTUAL END DATE
+09 Mar 2022
+STATUS
+Done
+
+Description
+In this task you are expected to learn about xml file format and how to use library tinyxml for reading and writing the same.
+
+Resources
+Learn TinyXml
+https://www.youtube.com/watch?v=BuqHPQWRLvQ
+
+Understand XML : Beginnner
+https://www.youtube.com/watch?v=KeLiQXqVgMI

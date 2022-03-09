@@ -1,0 +1,24 @@
+Understand Object Oriented Programming in C
+
+Task Details
+STARTED AT
+17 Sept 2021
+PLANNED END DATE
+01 Oct 2021
+ACTUAL END DATE
+01 Oct 2021
+STATUS
+Done
+
+Description
+In this task you are supposed to develop an understanding of object oriented programming in C language. You must understand that languages are not object oriented, but they help you implement the object oriented code. OOP is more of a thought process than language feature. You shall submit a code snippet explaining, how you could implement "virtual" methods associated with a data type in C.
+
+Resources
+OOPC: Object Oriented C Programming
+http://staff.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html
+
+OOPC: Object-Oriented Programming in C (State Machine)
+https://www.state-machine.com/doc/AN_OOP_in_C.pdf
+
+OOPC : Object-Oriented Programming (OOP) in C
+https://www.codementor.io/@michaelsafyan/object-oriented-programming-in-c-du1081gw2

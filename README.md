@@ -12,7 +12,7 @@ An application capable of presenting a view of the QuadTree. Design and developm
  - [X] Task 3 - [Learn how to use TinyXml](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%203)
  - [ ] Task 4 - [Define ADT for Quad Tree]()
  - [ ] Task 5 - [Define the file format for Quad Tree]()
- - [ ] Task 6 - [Get your hands on pcf_ui library]()
+ - [ ] Task 6 - [Get your hands on pcf_ui library](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%206)
  - [ ] Task 7 - [Understand the Drawing View Control of pcf_ui]()
  - [ ] Task 8 - [Sequence diagram for your final application]()
  - [ ] Task 9 - [Implement the Visualizer]()

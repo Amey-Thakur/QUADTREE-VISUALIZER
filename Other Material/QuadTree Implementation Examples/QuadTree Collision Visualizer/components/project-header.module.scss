@@ -1,0 +1,26 @@
+@import "../styles/Home.module.scss";
+
+.header_container {
+  width: 100%;
+  display: flex;
+  color: $color4;
+  padding: $navPadTop;
+  min-height: $tabSize;
+  justify-content: center;
+  text-align: center;
+
+  @media screen and (max-width: 420px) {
+    padding-top: $navPadTop * 2 + $tabSize;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > #title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+}

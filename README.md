@@ -6,6 +6,9 @@ An application capable of presenting a view of the QuadTree. Design and developm
 
 <h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
 
+
+
+**_Tasks by Phi Education_**
  - [X] Task 1 - [Understand Object Oriented Programming in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%201)
  - [X] Task 2 - [Understand Design Patterns in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%202)
  - [X] Task 3 - [Learn how to use TinyXml](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%203)

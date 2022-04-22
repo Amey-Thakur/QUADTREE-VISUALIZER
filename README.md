@@ -3,7 +3,6 @@ An application capable of presenting a view of the QuadTree. Design and developm
 
 
 ## Major Project
-  *Currently Working*
 
 <h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
 

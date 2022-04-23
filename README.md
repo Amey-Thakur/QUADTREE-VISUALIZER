@@ -7,6 +7,9 @@ An application capable of presenting a view of the QuadTree. Design and developm
 <h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
 
 
+
+
+
 **_Tasks by Phi Education_**
  - [X] Task 1 - [Understand Object Oriented Programming in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%201)
  - [X] Task 2 - [Understand Design Patterns in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%202)
@@ -18,6 +21,7 @@ An application capable of presenting a view of the QuadTree. Design and developm
  - [ ] Task 8 - [Sequence diagram for your final application]()
  - [ ] Task 9 - [Implement the Visualizer]()
  - [ ] Task 10 - [Design the architecture of the application]()
+
 
 ## QuadTree from Images
   
@@ -36,4 +40,5 @@ An application capable of presenting a view of the QuadTree. Design and developm
   2. [An Effective Way To Represent Quadtrees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Other%20Material/Reference%20Papers/An%20Effective%20Way%20To%20Represent%20Quadtrees.pdf)
   3. [Optimal QuadTree Construction Algorithms](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Other%20Material/Reference%20Papers/Optimal%20QuadTree%20Construction%20Algorithms.pdf)
   4. [QuadTrees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Other%20Material/Reference%20Papers/Quad%20Trees.pdf)
+
 

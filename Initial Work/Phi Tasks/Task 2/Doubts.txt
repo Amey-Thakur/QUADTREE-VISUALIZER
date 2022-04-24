@@ -1,0 +1,73 @@
+Mega Satish
+Tue Dec 28 2021 18:43
+
+Sir, can you elaborate on what you mean by "fields in the matrix"? What should we be looking to fix?
+
+Pranay Kishore
+Wed Dec 29 2021 01:30
+
+struct XYZ
+{
+   int a;
+}
+
+a is the field of struct XYZ. Go through the video of first session where I explained the object oriented API design.
+
+Mega Satish
+Sat Jan 08 2022 11:21
+
+Sir, can you please tell us how do we improve the code for the create function? What should we be looking to fix?
+
+Pranay Kishore
+Mon Jan 10 2022 04:34
+
+You could start looking at the return value of your function and as suggested watch the video of the first session.
+
+Mega Satish
+Tue Jan 11 2022 09:42
+
+matrix_t *matrix_create(int n_i, int n_j);
+{
+	if(n_i > 0 && n_j > 0)
+	{
+		struct matrix_t *matrix = malloc(sizeof(*matrix));
+		matrix->i=n_i;
+		matrix->j=n_j;
+		matrix->value = malloc( i * j * sizeof(float*));
+		return matrix;
+	}
+	else
+	{
+		return INVALID_DATA;
+	}
+}
+
+Sir in the particular code, we made changes for return value. I also watched your video as you suggested but I still don't understand some things. The create function takes three arguments. The first two are the height and the width, the third one is the results and it indicates the status of the operation, like whether it was create or not. Based on this, the user gets to know whether the function worked or not. My question is what should the user give input for the results argument? Because it is the user who is giving input and how is he supposed to know what to put as result?
+
+Pranay Kishore
+Tue Jan 11 2022 10:38
+
+Not sure what you meant to ask, explain what is the meaning of returning INVALID_DATA to the user while the function says it returns a pointer to matrix_t, if the function fails then it shall return NULL and the status of the operation shall be conveyed to the user in another argument. So,, the function signature shall be : 
+
+matrix_t* matrix_new(int rows, int columns, int* status); Had you watched the video, I have clearly explained the need of status and how to convey to the user about the errors.
+
+Mega Satish
+Thu Jan 13 2022 16:06
+
+The matrix_create function is returning success when the memory is allocated for the matrix. Sir, what should we be looking for to fix here? The matrix is returning NULL when the memory is not allocated. So should we print before NULL the reason why it didn't get allocated?
+
+Pranay Kishore
+Mon Jan 17 2022 07:10
+
+You don't need to do the printing, but return the error code which the user will make the user of the code understand what went wrong.
+
+Mega Satish
+Wed Jan 26 2022 14:54
+
+Sir, if the error code isn't shown to the user, so who should be able to see the error and what should we be doing? 
+About the second query, since a matrix cannot be formed if the row or column parameters can't be 0 or less than 0, hence the memory won't be allocated and we won't be able to manipulate the matrix.
+
+Pranay Kishore
+Thu Jan 27 2022 10:10
+
+The function shall return the error code to the caller of the function and it is the responsibility of that caller to do whatever is necessary as per the error.

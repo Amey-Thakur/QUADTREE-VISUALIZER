@@ -1,0 +1,9 @@
+Mega Satish
+Sat Mar 05 2022 16:33
+
+Sir, can you please explain us how exactly are we supposed to complete this task? We also have been getting errors while installing and running the code with tinyxml library.
+
+Pranay Kishore
+Wed Mar 09 2022 03:38
+
+Now sure what error you are getting and how I could help. You could attend today's doubt session and we could discuss the issue. Next time when you ask this kind of doubt share some details, screenshots.

@@ -1,0 +1,24 @@
+Mega Satish
+Wed Apr 06 2022 17:30
+
+Sir, regarding the API, how exactly are we supposed to define the functions for manipulating the quadtree?
+
+Pranay Kishore
+Thu Apr 07 2022 04:34
+
+I have taken several sessions on the API design watch the videos of those. 
+
+Since, the quadtree is opaque, how the user is going to work with the tree. 
+You will need to define functions like following using which one could create the tree, access and modify it's attributes, add, remove .. 
+
+QuadTree_new
+QuadTree_delete
+
+QuadTree_getAttributeXYZ
+QuadTree_setAttributeXYZ
+
+QuadTree_insert
+QuadTree_add
+QuadTree_remove
+QuadTree_query
+QuadTree_foreach

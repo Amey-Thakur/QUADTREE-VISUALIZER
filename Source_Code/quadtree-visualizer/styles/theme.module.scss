@@ -1,0 +1,13 @@
+$color1: #000000;
+$color2: #000000;
+$color3: #ffffff;
+$color4: #ffffff;
+$textColor: #fff;
+
+:export {
+  color1: $color1;
+  color2: $color2;
+  color3: $color3;
+  color4: $color4;
+  textColor: $textColor;
+}

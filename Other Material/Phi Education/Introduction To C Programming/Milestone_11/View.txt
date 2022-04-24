@@ -1,3 +1,0 @@
-Word:Meaning
-Word1:Meaning1
-Word2:Meaning2

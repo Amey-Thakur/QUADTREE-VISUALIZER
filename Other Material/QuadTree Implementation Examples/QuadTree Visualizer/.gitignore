@@ -1,8 +1,0 @@
-node_modules
-.git
-.DS_Store
-logs
-*.log
-coverage
-*.bak
-bower_components

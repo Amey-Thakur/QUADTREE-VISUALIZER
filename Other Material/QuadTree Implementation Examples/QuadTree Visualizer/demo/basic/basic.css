@@ -1,9 +1,0 @@
-#quadtree_canvas {
-    position:absolute;
-    z-index: 1;
-}
-
-#layer_canvas {
-    position:absolute;
-    z-index: 2;
-}

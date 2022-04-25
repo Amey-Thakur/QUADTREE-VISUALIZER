@@ -2,12 +2,10 @@
 An application capable of presenting a view of the QuadTree. Design and development of QuadTree view and data model.
 
 
+
+<h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/165129412-cbc12312-2797-48a7-ad1f-c22253be4fa0.gif" alt="QuadTree" width="300" height="300"></h3>
+
 ## Major Project
-
-<h3 align="center"> <img alt="quatree gif" src="http://elbywan.github.io/quadtree-lib/assets/quadtree.gif"/> </h3>
-
-
-
 
 
 **_Tasks by Phi Education_**

@@ -53,6 +53,9 @@
  - [QuadTree-Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Source_Code/quadtree-visualizer)
 
  - [Project Implementation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code/quadtree-visualizer.zip)
+
+ 
+
  
  - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
 
@@ -77,18 +80,24 @@
 ### Review 1
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
+ 
  - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Panel.jpg) 
+ 
  - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Attendance_Proof.png)
+
 
 ### Review 2
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
  
+ 
 ### Final Review (SEMESTER VII)
 
-- [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
-- [Major-Project-I Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
-- [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg)
+ - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
+ 
+ - [Major-Project-I Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
+ 
+ - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg)
 
 
 ## Major-Project-II
@@ -96,12 +105,16 @@
 ### Review 3
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
+ 
  - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Panel.png)
+ 
  - [Schedule](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Schedule.png)
+
 
 ### Review 4
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
+
 
 ### Final Review (SEMESTER VIII)
 
@@ -109,39 +122,58 @@
  
  - [Major-Project-II-Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf)
 
+
 ## 25-04-2022
 
  - [Final Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Final%20Presentation.pdf)
+ 
  - [Presentation Preparation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Presentation_Preparation.pdf)
+ 
  - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/2022-04-25%20at%2010.53.18.jpeg)
+
 
 ## Submission Report
 
  - [Amey Thakur](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Amey_B-50_Submission_Report.pdf)
+ 
  - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Mega_B-58_Submission_Report.pdf)
+ 
  - []()
 
-
 ---
-
 
 ## Reference Papers
 
  - [A Quadtree-based Hierarchical Clustering Method for Visualizing Large Point Dataset](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method%20for%20Visualizing%20Large%20Point%20Dataset.pdf)
+ 
  - [An Effective Way to Represent Quadtrees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf)
+ 
  - [Efficient Quadtree Coding of Images and Video](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Efficient%20Quadtree%20Coding%20of%20Images%20and%20Video.pdf)
+ 
  - [Energetics of a bouncing drop - Coefficient of restitution, bubble entrapment, and escape](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf)
+ 
  - [Kinetic Compressed Quadtrees in the Black-Box Model with Applications to Collision Detection for Low-Density Scenes](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Kinetic%20Compressed%20Quadtrees%20in%20the%20Black-Box%20Model%20with%20Applications%20to%20Collision%20Detection%20for%20Low-Density%20Scenes.pdf)
+ 
  - [Nodejs - Using JavaScript to Build High-Performance Network Programs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Nodejs%20-%20Using%20JavaScript%20to%20Build%20High-Performance%20Network%20Programs.pdf)
+ 
  - [Optimal Quadtree Construction Algorithms](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Optimal%20Quadtree%20Construction%20Algorithms.pdf)
+ 
  - [Quad-Tree Motion Modelling with Leaf Merging](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf)
 
 
+###
+
 ## Major-Project Selection
 
- - []()
+ - [Project Guide Area of Specialization]()
+ 
+ - [Project Guide]()
 
+ - [Approval Message]()
 
+ - [Project Guide Selection]()
+
+ - [Final Year Project]()
 
 
 ### 

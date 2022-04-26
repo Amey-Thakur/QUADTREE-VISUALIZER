@@ -84,7 +84,7 @@
 
 ### Review 3
 
- - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)|[Panel's]()|[Schedule]()
+ - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)|[Panel's](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Panel.png)|[Schedule](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Schedule.png)
 
 ### Review 4
 
@@ -132,8 +132,8 @@
   
   >**AIM:** The main objective is to generate a quad tree from an image and display it.
 
-  >![Quadtree_compression](https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif) 
+  <h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif"></h3> 
   
-  - Kaggle [QuadTree](https://www.kaggle.com/ameythakur20/quadtree) | [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Other%20Material/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES)
-  - [Test Code - 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Other%20Material/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb)
-  - [Test Code - 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Other%20Material/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_2.ipynb)
+  - Kaggle [QuadTree](https://www.kaggle.com/ameythakur20/quadtree) | [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES)
+  - [Test Code - 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb)
+  - [Test Code - 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_2.ipynb)

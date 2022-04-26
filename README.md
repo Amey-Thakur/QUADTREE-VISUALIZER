@@ -1,10 +1,44 @@
 # QUADTREE VISUALIZER
-<h3 align="center">An application capable of presenting a view of the QuadTree.</h3> 
-<h3 align="center">Design and development of QuadTree view and data model.</h3>
+  
+  <h3 align="center">An application capable of presenting a view of the QuadTree.</h3> 
+  <h3 align="center">Design and development of QuadTree view and data model.</h3>
 
-<h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/165129412-cbc12312-2797-48a7-ad1f-c22253be4fa0.gif" alt="QuadTree" width="350" height="350"><img src="https://user-images.githubusercontent.com/54937357/165130570-bbab7825-fbbc-4b98-908e-1f591ac6d91e.gif" alt="QuadTree" width="350" height="350"></h3>
+  <h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/165129412-cbc12312-2797-48a7-ad1f-c22253be4fa0.gif" alt="QuadTree" width="350" height="350"><img src="https://user-images.githubusercontent.com/54937357/165130570-bbab7825-fbbc-4b98-908e-1f591ac6d91e.gif" alt="QuadTree" width="350" height="350"></h3>
+
+---
 
 ## Major Project
+
+ >**Project Guide - Prof. Randeep Kaur Kahlon**
+
+  | Group Members | Student ID | 
+  | :-------------: | ------------- |
+  | **AMEY MAHENDRA THAKUR** | **TU3F1819127** |
+  | **HASAN MEHDI RIZVI** | **TU3F1819130** |
+  | **MEGA SATISH** | **TU3F1819139** |
+  | **AJAY RAMESH DAVARE** | **TU3F1718006** |
+
+#
+
+### BlackBook
+
+  | **[MAJOR-PROJECT](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf)** |
+  | :-------------: | 
+  | **[AMEY MAHENDRA THAKUR](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf)** |
+  | **[HASAN MEHDI RIZVI](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf)** |
+  | **[MEGA SATISH](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)** | 
+  | **[AJAY RAMESH DAVARE](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf)** |
+
+#
+
+### Research Paper
+
+ - []()
+ - []()
+ - []()
+
+
+
 
 
 **_Tasks by Phi Education_**

@@ -18,7 +18,9 @@
   | **MEGA SATISH** | **TU3F1819139** |
   | **AJAY RAMESH DAVARE** | **TU3F1718006** |
 
+
 #
+
 
 ### BlackBook
 
@@ -29,17 +31,56 @@
   | **[MEGA SATISH](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)** | 
   | **[AJAY RAMESH DAVARE](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf)** |
 
+
 #
+
 
 ### Research Paper
 
  - []()
+ 
  - []()
+ 
  - []()
 
 
+#
 
 
+### Source Code
+
+ - [QuadTree-Visualizer]()
+ 
+ - [Outputs]()
+
+---
+
+## Major-Project-I
+
+### Review 1
+
+ - [Presentation]() | [Panels']() | [Attendance Proof]()
+
+### Review 2
+
+ - [Presentation]()
+
+
+## Major-Project-II
+
+### Review 3
+
+ - [Presentation]()
+
+### Review 4
+
+ - [Presentation]()
+
+
+
+
+
+### 
 
 **_Tasks by Phi Education_**
  - [X] Task 1 - [Understand Object Oriented Programming in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/MAJOR_PROJECT_PHI-CS-73/Phi%20Tasks/Task%201)

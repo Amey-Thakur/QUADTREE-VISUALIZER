@@ -37,11 +37,12 @@
 
 ### Research Paper
 
- - []()
+ - [Plagiarism Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf)
  
- - []()
+ - [Plagiarism Scan Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf)
  
- - []()
+ - [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Images)
+   
 
 
 #
@@ -49,7 +50,9 @@
 
 ### Source Code
 
- - [QuadTree-Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Source_Code)
+ - [QuadTree-Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Source_Code/quadtree-visualizer)
+
+ - [Project Implementation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code/quadtree-visualizer.zip)
  
  - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
 
@@ -73,22 +76,50 @@
 
 ### Review 1
 
- - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) | [Panels'](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Panel.jpg) | [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Attendance_Proof.png)
+ - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
+ - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Panel.jpg) 
+ - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Attendance_Proof.png)
 
 ### Review 2
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
+ 
+### Final Review (SEMESTER VII)
+
+- [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
+- [Major-Project-I Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
+- [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg)
 
 
 ## Major-Project-II
 
 ### Review 3
 
- - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)|[Panel's](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Panel.png)|[Schedule](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Schedule.png)
+ - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
+ - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Panel.png)
+ - [Schedule](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Schedule.png)
 
 ### Review 4
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
+
+### Final Review (SEMESTER VIII)
+
+ - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
+ 
+ - [Major-Project-II-Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf)
+
+## 25-04-2022
+
+ - [Final Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Final%20Presentation.pdf)
+ - [Presentation Preparation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Presentation_Preparation.pdf)
+ - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/2022-04-25%20at%2010.53.18.jpeg)
+
+## Submission Report
+
+ - [Amey Thakur](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Amey_B-50_Submission_Report.pdf)
+ - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Mega_B-58_Submission_Report.pdf)
+ - []()
 
 
 ---
@@ -114,6 +145,29 @@
 
 
 ### 
+
+## Initial Work 
+
+- [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf)
+
+## Phi Education - Introduction to C Programming
+
+ - [x] [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%201%20Completed.png)
+ - [x] [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%202%20Completed.png)
+ - [x] [Milestone 3](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%203%20Completed.png)
+ - [x] [Milestone 4](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%204%20Completed.png)
+ - [x] [Milestone 5](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%205%20Completed.png)
+ - [x] [Milestone 6](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%206%20Completed.png)
+ - [x] [Milestone 7](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%207%20Completed.png)
+ - [x] [Milestone 8](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%208%20Completed.png)
+ - [x] [Milestone 9](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%209%20Completed.png)
+ - [x] [Milestone 10](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png)
+ - [x] [Milestone 11](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png)
+ - [x] [Milestone 12](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png)
+ - [x] [Milestone 13](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png)
+ - [x] [Milestone 14](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png)
+
+
 
 **_Tasks by Phi Education_**
  - [X] Task 1 - [Understand Object Oriented Programming in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%201)

@@ -96,7 +96,14 @@
 
 ## Reference Papers
 
- - []()
+ - [A Quadtree-based Hierarchical Clustering Method for Visualizing Large Point Dataset](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method%20for%20Visualizing%20Large%20Point%20Dataset.pdf)
+ - [An Effective Way to Represent Quadtrees](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf)
+ - [Efficient Quadtree Coding of Images and Video](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Efficient%20Quadtree%20Coding%20of%20Images%20and%20Video.pdf)
+ - [Energetics of a bouncing drop - Coefficient of restitution, bubble entrapment, and escape](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf)
+ - [Kinetic Compressed Quadtrees in the Black-Box Model with Applications to Collision Detection for Low-Density Scenes](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Kinetic%20Compressed%20Quadtrees%20in%20the%20Black-Box%20Model%20with%20Applications%20to%20Collision%20Detection%20for%20Low-Density%20Scenes.pdf)
+ - [Nodejs - Using JavaScript to Build High-Performance Network Programs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Nodejs%20-%20Using%20JavaScript%20to%20Build%20High-Performance%20Network%20Programs.pdf)
+ - [Optimal Quadtree Construction Algorithms](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Optimal%20Quadtree%20Construction%20Algorithms.pdf)
+ - [Quad-Tree Motion Modelling with Leaf Merging](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf)
 
 
 ## Major-Project Selection

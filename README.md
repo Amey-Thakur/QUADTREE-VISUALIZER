@@ -1,5 +1,6 @@
 # QUADTREE VISUALIZER
-An application capable of presenting a view of the QuadTree. Design and development of QuadTree view and data model.
+<h3 align="center">An application capable of presenting a view of the QuadTree.</h3> 
+<h3 align="center">Design and development of QuadTree view and data model.</h3>
 
 <h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/165129412-cbc12312-2797-48a7-ad1f-c22253be4fa0.gif" alt="QuadTree" width="350" height="350"><img src="https://user-images.githubusercontent.com/54937357/165130570-bbab7825-fbbc-4b98-908e-1f591ac6d91e.gif" alt="QuadTree" width="350" height="350"></h3>
 

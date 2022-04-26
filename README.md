@@ -84,7 +84,7 @@
 
 ### Review 3
 
- - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
+ - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)|[Panel's]()|[Schedule]()
 
 ### Review 4
 

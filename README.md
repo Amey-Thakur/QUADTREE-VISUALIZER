@@ -59,17 +59,30 @@
 
 From the command line :
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/Amey-Thakur/QUADTREE-VISUALIZER.git
-# 2. Change the directory
-cd QUADTREE-VISUALIZER/Source_Code/quadtree-visualizer/
-# 3. Install the dependencies
-npm install packaage.json
-# 4. Run the development server
-npm run dev
+1. Clone the repository
 
+``` bash
+git clone https://github.com/Amey-Thakur/QUADTREE-VISUALIZER.git
 ```
+
+2. Change the directory
+
+``` bash
+cd QUADTREE-VISUALIZER/Source_Code/quadtree-visualizer/
+```
+
+3. Install the dependencies
+
+``` bash
+npm install packaage.json
+```
+
+4. Run the development server
+
+``` bash 
+npm run dev
+```
+
 
  
  - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)

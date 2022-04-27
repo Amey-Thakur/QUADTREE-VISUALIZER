@@ -42,6 +42,10 @@
  - [Plagiarism Scan Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf)
  
  - [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Images)
+
+ - [Research Paper](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
+ 
+ - [Certificates](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Certificates)
    
 
 

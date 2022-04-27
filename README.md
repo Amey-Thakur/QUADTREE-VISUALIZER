@@ -153,7 +153,7 @@ npm run dev
  
  - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Mega_B-58_Submission_Report.pdf)
  
- - [Hasan Rizvi]()
+ - [Hasan Rizvi](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Hasan_B-51_Submission_Report.pdf)
 
 ---
 
@@ -180,15 +180,15 @@ npm run dev
 
 ## Major-Project Selection
 
- - [Project Guide Area of Specialization]()
+ - [Project Guide Area of Specialization](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.xlsx)
  
  - [Project Guide]()
 
- - [Approval Message]()
+ - [Approval Message](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Approval%20Message.png)
 
- - [Project Guide Selection]()
+ - [Project Guide Selection](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/TN04_Project%20Guide%20Selection.pdf)
 
- - [Final Year Project]()
+ - [Final Year Project](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Final%20Year%20Project.jpg)
 
 
 ### 
@@ -249,7 +249,7 @@ Completed Milestones
 ## QuadTree Collision Visualizer
   >**AIM:** The main objective is to visualize collision in quadtree.
   
-  -[Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)
+  - [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)
   
  ## QuadTree Library
   >**AIM:** The main objective is to implement a quadtree library in C++.

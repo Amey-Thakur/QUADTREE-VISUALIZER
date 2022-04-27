@@ -46,8 +46,15 @@
  - [Research Paper](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
  
  - [Certificates](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Certificates)
+ 
+    - [Prof. Randeep Kaur Kahlon](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf)
+    
+    - [Amey Thakur](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf)
+    
+    - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf)
+    
+    - [Hasan Rizvi & Ajay Davare](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi%20%26%20Ajay%20Davare.pdf)
    
-
 
 #
 

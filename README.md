@@ -182,7 +182,7 @@ npm run dev
 
  - [Project Guide Area of Specialization](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.xlsx)
  
- - [Project Guide]()
+ - [Group Formation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
 
  - [Approval Message](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Approval%20Message.png)
 

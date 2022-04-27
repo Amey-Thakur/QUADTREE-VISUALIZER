@@ -153,7 +153,7 @@ npm run dev
  
  - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Mega_B-58_Submission_Report.pdf)
  
- - []()
+ - [Hasan Rizvi]()
 
 ---
 
@@ -199,6 +199,24 @@ npm run dev
 
 ## Phi Education - Introduction to C Programming
 
+
+ - [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1)
+ - [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2)
+ - [Milestone 3](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3)
+ - [Milestone 4](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_4)
+ - [Milestone 5](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_5)
+ - [Milestone 6](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_6)
+ - [Milestone 7](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_7)
+ - [Milestone 8](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_8)
+ - [Milestone 9](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9)
+ - [Milestone 10](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10)
+ - [Milestone 11](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11)
+ - [Milestone 12](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12)
+ - [Milestone 13](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13)
+ - [Milestone 14](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14)
+
+Completed Milestones
+
  - [x] [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%201%20Completed.png)
  - [x] [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%202%20Completed.png)
  - [x] [Milestone 3](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%203%20Completed.png)
@@ -228,6 +246,20 @@ npm run dev
  - [ ] Task 9 - [Implement the Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task9.jpeg)
  - [ ] Task 10 - [Design the architecture of the application](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task10.jpeg)
 
+## QuadTree Collision Visualizer
+  >**AIM:** The main objective is to visualize collision in quadtree.
+  
+  -[Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)
+  
+ ## QuadTree Library
+  >**AIM:** The main objective is to implement a quadtree library in C++.
+
+- [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Library)
+
+## QuadTree Visualizer
+  >**AIM:** The main objective is to visualize a quadtree.
+
+- [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Visualizer)
 
 ## QuadTree from Images
   

@@ -53,9 +53,9 @@
     
     - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf)
     
-    - [Hasan Rizvi]()
+    - [Hasan Rizvi](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf)
     
-    - [Ajay Davare]()
+    - [Ajay Davare](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf)
    
 
 #

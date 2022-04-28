@@ -7,7 +7,7 @@
 
 ---
 
-## Major Project
+## Major-Project
 
  >**Project Guide - Prof. Randeep Kaur Kahlon**
 

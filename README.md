@@ -96,7 +96,6 @@ npm install packaage.json
 npm run dev
 ```
 
-
  
  - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
 

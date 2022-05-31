@@ -37,12 +37,6 @@
 
 ### Research Paper
 
- - [Plagiarism Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf)
- 
- - [Plagiarism Scan Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf)
- 
- - [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Images)
-
  - [Research Paper](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
  
  - [Certificates](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Certificates)
@@ -56,6 +50,12 @@
     - [Hasan Rizvi](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf)
     
     - [Ajay Davare](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf)
+   
+ - [Plagiarism Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf)
+ 
+ - [Plagiarism Scan Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf)
+ 
+ - [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Images)
    
 
 #
@@ -96,22 +96,22 @@ npm install packaage.json
 npm run dev
 ```
 
- 
- - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
 
-   - [Homepage](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Homepage.png)
+   - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
+
+      - [Homepage](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Homepage.png)
   
-   - [Clear QuadTree](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Clear%20QuadTree.png)
+      - [Clear QuadTree](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Clear%20QuadTree.png)
    
-   - [Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Spawn%20Bodies.png)
+      - [Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Spawn%20Bodies.png)
    
-   - [(a) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/(a)%20Random%20Bodies.png)
+      - [(a) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/(a)%20Random%20Bodies.png)
 
-   - [(b) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/(b)%20Random%20Bodies.png)
+      - [(b) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/(b)%20Random%20Bodies.png)
    
-   - [Random & Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Random%20%26%20Spawn%20Bodies.png)
+      - [Random & Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Random%20%26%20Spawn%20Bodies.png)
    
-   - [Control Panel](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Control%20Panel.png)
+      - [Control Panel](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Control%20Panel.png)
 
 ---
 
@@ -121,9 +121,9 @@ npm run dev
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
  
- - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Panel.jpg) 
+    - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Panel.jpg) 
  
- - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Attendance_Proof.png)
+    - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-1/Review-1_Attendance_Proof.png)
 
 
 ### Review 2
@@ -135,9 +135,9 @@ npm run dev
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
  
- - [Major-Project-I Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
+    - [Major-Project-I Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
  
- - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg)
+    - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg)
 
 
 ## Major-Project-II
@@ -146,9 +146,9 @@ npm run dev
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
  
- - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Panel.png)
+    - [Panel List](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Panel.png)
  
- - [Schedule](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Schedule.png)
+    - [Schedule](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Review-3/Review-3_Schedule.png)
 
 
 ### Review 4
@@ -160,16 +160,16 @@ npm run dev
 
  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
  
- - [Major-Project-II-Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf)
+    - [Major-Project-II-Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf)
 
 
 ## 25-04-2022
 
  - [Final Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Final%20Presentation.pdf)
  
- - [Presentation Preparation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Presentation_Preparation.pdf)
+    - [Presentation Preparation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/Presentation_Preparation.pdf)
  
- - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/2022-04-25%20at%2010.53.18.jpeg)
+    - [Attendance Proof](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/25-04-2022/2022-04-25%20at%2010.53.18.jpeg)
 
 
 ## Submission Report
@@ -220,10 +220,10 @@ npm run dev
 
 ## Initial Work 
 
-- [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf)
+  - [Presentation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf)
+
 
 ## Phi Education - Introduction to C Programming
-
 
  - [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1)
  - [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2)
@@ -240,7 +240,8 @@ npm run dev
  - [Milestone 13](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13)
  - [Milestone 14](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14)
 
-Completed Milestones
+
+### Completed Milestones
 
  - [x] [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%201%20Completed.png)
  - [x] [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%202%20Completed.png)
@@ -258,7 +259,6 @@ Completed Milestones
  - [x] [Milestone 14](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png)
 
 
-
 **_Tasks by Phi Education_**
  - [X] Task 1 - [Understand Object Oriented Programming in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%201)
  - [X] Task 2 - [Understand Design Patterns in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%202)
@@ -271,20 +271,27 @@ Completed Milestones
  - [ ] Task 9 - [Implement the Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task9.jpeg)
  - [ ] Task 10 - [Design the architecture of the application](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task10.jpeg)
 
+
 ## QuadTree Collision Visualizer
+  
   >**AIM:** The main objective is to visualize collision in quadtree.
   
-  - [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)
+   - [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)
   
+ 
  ## QuadTree Library
+  
   >**AIM:** The main objective is to implement a quadtree library in C++.
 
-- [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Library)
-
+   - [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Library)
+ 
+ 
 ## QuadTree Visualizer
+  
   >**AIM:** The main objective is to visualize a quadtree.
 
-- [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Visualizer)
+   - [Source Code](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Visualizer)
+
 
 ## QuadTree from Images
   
@@ -293,6 +300,8 @@ Completed Milestones
   <h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif"></h3> 
   
   - Kaggle [QuadTree](https://www.kaggle.com/ameythakur20/quadtree) | [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES)
+   
   - [Test Code - 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb)
+  
   - [Test Code - 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_2.ipynb)
 

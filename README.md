@@ -37,7 +37,7 @@
 
 ### Research Paper
 
- - [Research Paper](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
+ >[Research Paper](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
  
  - [Certificates](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Certificates)
  
@@ -50,6 +50,8 @@
     - [Hasan Rizvi](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf)
     
     - [Ajay Davare](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf)
+
+ - [IJERT Portal](https://ems.ijert.org/download-section_14TVPS67DSYEpSjrSUlGAmuer)
    
  - [Plagiarism Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf)
  

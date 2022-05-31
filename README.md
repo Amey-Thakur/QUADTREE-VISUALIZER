@@ -272,7 +272,7 @@ npm run dev
  - [ ] Task 9 - [Implement the Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task9.jpeg)
  - [ ] Task 10 - [Design the architecture of the application](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task10.jpeg)
 
-#
+---
 
 ## QuadTree Collision Visualizer
   

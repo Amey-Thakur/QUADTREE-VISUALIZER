@@ -22,7 +22,7 @@
 #
 
 
-### BlackBook
+### BlackBooks
 
   | **[MAJOR-PROJECT](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf)** |
   | :-------------: | 
@@ -96,6 +96,7 @@ npm install packaage.json
 npm run dev
 ```
 
+#
 
    - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
 
@@ -271,6 +272,7 @@ npm run dev
  - [ ] Task 9 - [Implement the Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task9.jpeg)
  - [ ] Task 10 - [Design the architecture of the application](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task10.jpeg)
 
+#
 
 ## QuadTree Collision Visualizer
   

@@ -311,20 +311,15 @@ npm run dev
 
 ---
 
-
-
-<p align="center"> <b> 👉 Presented as part of the 8th Semester Major-Project @ Terna Engineering College <b> </p>
+<p align="center"> <b> 👉🏻 Presented as a part of the 8th Semester Major-Project @ Terna Engineering College <b> </p>
   
-
 <p align="center"> <b> 👷 Project Authors: Amey Thakur, Hasan Rizvi, Mega Satish and Ajay Davare (Batch of 2022) <b> </p>
 
 <p align="center"> <b> <a href='https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf' style="color: greenyellow;">📓 Read the paper by Amey Thakur, Hasan Rizvi, Mega Satish and Ajay Davare <b> </p>
   
-
 <p align="center"><a href="mailto:ameythakur20@gmail.com" style="color: greenyellow;">🔗 Queries? Get in touch </a><br> </p>
   
 <p align="center"><a href="https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/pulls" style="color: greenyellow;">🔗 Interested in collaborating? Open a pull request! </p>
   
 <p align="center"><a href='https://github.com/Amey-Thakur/QUADTREE-VISUALIZER#quadtree-visualizer', style='color: greenyellow;'>Back To Repository</p>
-  
-  
+ 

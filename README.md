@@ -89,7 +89,7 @@ cd QUADTREE-VISUALIZER/Source_Code/quadtree-visualizer/
 3. Install the dependencies
 
 ``` bash
-npm install packaage.json
+npm install package.json
 ```
 
 4. Run the development server

@@ -9,6 +9,8 @@
 
 ## Major-Project
 
+ - [Project Demo](https://youtu.be/8un0Qu8ibNk) 
+
  >**Project Guide - Prof. Randeep Kaur Kahlon**
 
   | Group Members | Student ID | 
@@ -58,7 +60,6 @@
  - [Plagiarism Scan Report](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf)
  
  - [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Images)
-   
 
 #
 

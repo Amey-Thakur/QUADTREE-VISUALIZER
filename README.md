@@ -9,7 +9,7 @@
 
 ## Major-Project
 
- - [Project Demo](https://youtu.be/8un0Qu8ibNk) 
+ >**[Project Demo](https://youtu.be/8un0Qu8ibNk)** 
 
  >**Project Guide - Prof. Randeep Kaur Kahlon**
 

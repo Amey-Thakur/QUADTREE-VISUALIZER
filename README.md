@@ -20,9 +20,7 @@
   | **MEGA SATISH** | **TU3F1819139** |
   | **AJAY RAMESH DAVARE** | **TU3F1718006** |
 
-
 #
-
 
 ### BlackBooks
 
@@ -33,9 +31,7 @@
   | **[MEGA SATISH](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)** | 
   | **[AJAY RAMESH DAVARE](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf)** |
 
-
 #
-
 
 ### Research Paper
 
@@ -62,7 +58,6 @@
  - [Images](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Research%20Paper/Images)
 
 #
-
 
 ### Source Code
 
@@ -230,49 +225,85 @@ npm run dev
 ## Phi Education - Introduction to C Programming
 
  - [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1)
+ 
  - [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2)
+ 
  - [Milestone 3](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3)
+ 
  - [Milestone 4](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_4)
+ 
  - [Milestone 5](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_5)
+ 
  - [Milestone 6](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_6)
+ 
  - [Milestone 7](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_7)
+ 
  - [Milestone 8](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_8)
+ 
  - [Milestone 9](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9)
+ 
  - [Milestone 10](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10)
+ 
  - [Milestone 11](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11)
+ 
  - [Milestone 12](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12)
+ 
  - [Milestone 13](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13)
+ 
  - [Milestone 14](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14)
 
 
 ### Completed Milestones
 
  - [x] [Milestone 1](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%201%20Completed.png)
+ 
  - [x] [Milestone 2](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%202%20Completed.png)
+ 
  - [x] [Milestone 3](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%203%20Completed.png)
+ 
  - [x] [Milestone 4](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%204%20Completed.png)
+ 
  - [x] [Milestone 5](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%205%20Completed.png)
+ 
  - [x] [Milestone 6](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%206%20Completed.png)
+ 
  - [x] [Milestone 7](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%207%20Completed.png)
+ 
  - [x] [Milestone 8](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%208%20Completed.png)
+ 
  - [x] [Milestone 9](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%209%20Completed.png)
+ 
  - [x] [Milestone 10](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png)
+ 
  - [x] [Milestone 11](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png)
+ 
  - [x] [Milestone 12](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png)
+ 
  - [x] [Milestone 13](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png)
+ 
  - [x] [Milestone 14](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png)
 
 
 **_Tasks by Phi Education_**
+ 
  - [X] Task 1 - [Understand Object Oriented Programming in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%201)
+ 
  - [X] Task 2 - [Understand Design Patterns in C](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%202)
+ 
  - [X] Task 3 - [Learn how to use TinyXml](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%203)
+ 
  - [ ] Task 4 - [Define ADT for Quad Tree](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%204)
+ 
  - [ ] Task 5 - [Define the file format for Quad Tree](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg)
+ 
  - [ ] Task 6 - [Get your hands on pcf_ui library](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Initial%20Work/Phi%20Tasks/Task%206)
+ 
  - [ ] Task 7 - [Understand the Drawing View Control of pcf_ui](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task7.jpeg)
+ 
  - [ ] Task 8 - [Sequence diagram for your final application](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task8.jpeg)
+ 
  - [ ] Task 9 - [Implement the Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task9.jpeg)
+ 
  - [ ] Task 10 - [Design the architecture of the application](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task10.jpeg)
 
 ---
@@ -300,7 +331,7 @@ npm run dev
 
 ## QuadTree from Images
   
-  >**AIM:** The main objective is to generate a quad tree from an image and display it.
+  >**AIM:** The main objective is to generate a quadtree from an image and display it.
 
   <h3 align="center"><img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif"></h3> 
   
@@ -322,5 +353,5 @@ npm run dev
   
 <p align="center"><a href="https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/pulls" style="color: greenyellow;">🔗 Interested in collaborating? Open a pull request! </p>
   
-<p align="center"><a href='https://github.com/Amey-Thakur/ENGINEERING', style='color: greenyellow;'>Back To Repository</p>
+<p align="center"><a href='https://github.com/Amey-Thakur/COMPUTER-ENGINEERING', style='color: greenyellow;'>Back To Repository</p>
  

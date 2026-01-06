@@ -34,23 +34,43 @@ export default class Home extends Component<object, HomeState> {
 
   componentDidMount(): void {
     const radius = Math.ceil(Math.min(window.innerWidth / 200, window.innerHeight / 200))
-    this.setState({ radius: radius }, () => this.spawnFromCorner())
+    this.setState({ radius: radius }, () => {
+      // Small delay to ensure canvas bounds are configured
+      setTimeout(() => this.spawnFromCorners(), 100)
+    })
   }
 
-  // Spawn bodies from corner on initial load - they spread out naturally
-  spawnFromCorner(count: number = this.state.count, radius: number = this.state.radius): void {
+  // Spawn bodies from all 4 corners naturally
+  spawnFromCorners(count: number = this.state.count, radius: number = this.state.radius): void {
     const canvas = this.simulationCanvasRef.current
-    if (canvas) {
-      const speed = 300
-      for (let i = 0; i < count; i++) {
-        // Spawn from corner with outward velocity
-        canvas.addBody(
-          canvas.cornerPointWithSpread(radius, 60),
-          new Vector2D(Math.random() * speed, Math.random() * speed), // Positive velocities = move outward
-          radius
+    if (!canvas) return
+
+    const dims = canvas.getCanvasDimensions()
+    const spread = 40
+    const speed = 100  // Gentler speed
+    const perCorner = Math.floor(count / 4)
+
+    // Corner positions: [x, y, vx_sign, vy_sign]
+    const corners = [
+      { x: radius, y: radius, vx: 1, vy: 1 },           // top-left -> move right-down
+      { x: dims.width - radius, y: radius, vx: -1, vy: 1 },    // top-right -> move left-down
+      { x: radius, y: dims.height - radius, vx: 1, vy: -1 },   // bottom-left -> move right-up
+      { x: dims.width - radius, y: dims.height - radius, vx: -1, vy: -1 }  // bottom-right -> move left-up
+    ]
+
+    corners.forEach(corner => {
+      for (let i = 0; i < perCorner; i++) {
+        const pos = new Vector2D(
+          corner.x + (Math.random() - 0.5) * spread,
+          corner.y + (Math.random() - 0.5) * spread
         )
+        const vel = new Vector2D(
+          corner.vx * Math.random() * speed,
+          corner.vy * Math.random() * speed
+        )
+        canvas.addBody(pos, vel, radius)
       }
-    }
+    })
   }
 
   // Spawn bodies randomly (used by Spawn Bodies button)

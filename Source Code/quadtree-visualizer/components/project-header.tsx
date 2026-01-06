@@ -1,6 +1,12 @@
+import React from 'react'
 import styles from './project-header.module.scss'
 
-const ProjectHeader = (props: { title: string, year: string }): JSX.Element => (
+interface ProjectHeaderProps {
+  title: string
+  year: string
+}
+
+const ProjectHeader = (props: ProjectHeaderProps): React.ReactElement => (
   <div className={styles.header_container}>
     <div>
       <div id={styles.title}>{props.title}</div>
@@ -9,4 +15,5 @@ const ProjectHeader = (props: { title: string, year: string }): JSX.Element => (
     </div>
   </div>
 )
+
 export default ProjectHeader

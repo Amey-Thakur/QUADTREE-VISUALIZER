@@ -425,7 +425,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
   <details>
     <summary><strong>View Attendance</strong></summary>
     <br>
-    <img src="Major-Project-I/Review_Major-Project-I_Attendance_Proof.png" width="80%">
+    <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="80%">
   </details>
 
 ### 3. Semester VIII (Major Project II)

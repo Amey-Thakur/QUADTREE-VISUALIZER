@@ -1,3 +1,27 @@
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Renders the project header component, displaying key metadata including the project title,
+ * academic cohort details (Group Phi-CS-73), and links to the authors' profiles.
+ * Serves as the primary attribution banner for the visualization interface.
+ */
+
 import React from 'react'
 import styles from './project-header.module.scss'
 

@@ -99,12 +99,16 @@ The application allows users to spawn varying numbers of particles, apply physic
 | 5 | **Randeep Kaur Kahlon** | Guide | Project Guide & Mentor | [View Certificate](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf) | - |
 | 6 | **Group** | - | Combined Major Project Thesis | - | [View PDF](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf) |
 
-<details>
-<summary><strong>Defense Day Photos (25-04-2022)</strong></summary>
 <br>
-<img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%" />
-<img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%" />
-</details>
+
+<p align="center">
+  <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="100%" />
+  <br>
+  <br>
+  <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="100%" />
+</p>
+
+<br>
 
 ### Additional Resources
 

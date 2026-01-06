@@ -99,6 +99,20 @@ The application allows users to spawn varying numbers of particles, apply physic
 | 5 | **Randeep Kaur Kahlon** | Guide | Project Guide & Mentor | [View Certificate](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf) | - |
 | 6 | **Group** | - | Combined Major Project Thesis | - | [View PDF](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf) |
 
+### Additional Resources
+
+| Resource | Description | Access |
+|---|---|---|
+| **Plagiarism Report** | Detailed analysis of content originality | [View PDF](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) |
+| **Scan Report** | Automated similarity index scan result | [View PDF](Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf) |
+| **Acceptance Letter** | Official acceptance from IJERT Editorial Board | [View PDF](Research%20Paper/IJERTV11IS040156_Acceptance.pdf) |
+| **Payment Receipt** | Processing fee transaction confirmation | [View PDF](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) |
+
+> [!TIP]
+> **Academic Integrity & Transparency**
+>
+> This repository maintains a complete audit trail of the publication process, including plagiarism checks, acceptance validation, and financial transparency, ensuring the highest standards of academic integrity and reproducibility in engineering research.
+
 ---
 
 <!-- FEATURES -->

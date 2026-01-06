@@ -6,7 +6,7 @@ import { Vector2D } from './vector2d'
 type BoundType = 'TOP' | 'LEFT' | 'BOTTOM' | 'RIGHT' | 'INSIDE'
 export class CircleBody implements QuadObject, PhysicsBody {
   mass: number
-  public collisionFlash: number = 0
+  collisionFlash: number = 0
 
   constructor(
     public position: Vector2D,
@@ -19,8 +19,7 @@ export class CircleBody implements QuadObject, PhysicsBody {
   tick(delta: number): void {
     this.position = this.position.plus(this.velocity.scale(delta))
     if (this.collisionFlash > 0) {
-      this.collisionFlash -= delta * 5 // Decay speed
-      if (this.collisionFlash < 0) this.collisionFlash = 0
+      this.collisionFlash = Math.max(0, this.collisionFlash - delta * 5) // Decay speed
     }
   }
 
@@ -49,11 +48,11 @@ export class CircleBody implements QuadObject, PhysicsBody {
   }
 
   collideBounds(boundRect: Rect): void {
-    const exitting = this.exitingBounds(boundRect)
-    if (exitting !== 'INSIDE') {
+    const exiting = this.exitingBounds(boundRect)
+    if (exiting !== 'INSIDE') {
       this.collisionFlash = 1.0
     }
-    switch (exitting) {
+    switch (exiting) {
       case 'TOP':
         this.position.y = this.radius
         this.velocity.y *= -1

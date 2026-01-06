@@ -10,7 +10,15 @@ function ProjectHeader(props: ProjectHeaderProps): React.ReactElement {
   return (
     <div className={styles.header_container}>
       <div>
-        <div id={styles.title}>{props.title}</div>
+        <a
+          href='https://github.com/Amey-Thakur/QUADTREE-VISUALIZER'
+          target='_blank'
+          rel='noopener noreferrer'
+          id={styles.title}
+          className={styles.author_link}
+        >
+          {props.title}
+        </a>
         <div>Presented as part of the BE Major-Project @ Terna Engineering College</div>
         <div>
           Project Authors:{' '}

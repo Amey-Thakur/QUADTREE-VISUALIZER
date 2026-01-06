@@ -40,8 +40,9 @@
 
   .author_link {
     color: $color4;
-    text-decoration: underline;
+    text-decoration: none;
     transition: opacity 0.2s ease;
+    cursor: pointer;
 
     &:hover {
       opacity: 0.8;

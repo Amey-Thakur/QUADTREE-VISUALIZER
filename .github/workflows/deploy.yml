@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: 'Source Code/quadtree-visualizer'
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Build
         working-directory: 'Source Code/quadtree-visualizer'

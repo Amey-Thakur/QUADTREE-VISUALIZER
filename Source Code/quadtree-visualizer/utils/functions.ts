@@ -9,11 +9,16 @@
  * GitHub: https://github.com/rizvihasan
  *
  * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
  * Date: 2022-01-19
  * License: MIT
  *
- * Utility functions for object manipulation and state management.
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Provides generic utility functions for state updates and immutable object manipulation.
+ * Used primarily to perform type-safe partial updates on state interfaces without mutating references directly.
  */
 
 /**

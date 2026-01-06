@@ -9,12 +9,19 @@
  * GitHub: https://github.com/rizvihasan
  *
  * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
  * Date: 2022-01-19
  * License: MIT
  *
- * Defines the CircleBody class, representing a circular physical entity in the simulation.
- * Implements mechanics for position integration, boundary checking, and elastic collision resolution.
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Defines the `CircleBody` class, which encapsulates the physical properties and behavioral logic
+ * of circular entities within the simulation environment. This class serves as the fundamental
+ * unit for the physics engine, implementing Verlet integration for position updates and
+ * handling elastic collision resolution through impulse-based mechanics. It also manages
+ * boundary constraints to ensure entities remain within the simulation viewport.
  */
 
 import { PhysicsBody, PhysicsEnvironment, compute2DCollision } from './physics'

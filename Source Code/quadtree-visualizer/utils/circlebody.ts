@@ -10,7 +10,7 @@
  *
  * Project: QUADTREE-VISUALIZER
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
- * Year: 2021-2022
+ * Date: 2022-01-19
  * License: MIT
  *
  * Defines the CircleBody class, representing a circular physical entity in the simulation.

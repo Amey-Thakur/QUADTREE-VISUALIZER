@@ -1,0 +1,66 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "QuadTree Visualizer",
+    "description": "A high-performance interactive simulation visualizing the efficiency of the QuadTree data structure in spatial partitioning and collision detection, built with Next.js and HTML5 Canvas.",
+    "identifier": "QUADTREE-VISUALIZER",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "SCSS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://github.com/msatmod",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Hasan",
+            "familyName": "Rizvi",
+            "id": "https://github.com/rizvihasan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateReleased": "2022-04-25",
+    "codeRepository": "https://github.com/Amey-Thakur/QUADTREE-VISUALIZER",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "Node.js 18+",
+        "Next.js 14",
+        "React 18"
+    ],
+    "applicationCategory": "Computer Science / Data Structures",
+    "keywords": [
+        "QuadTree",
+        "Spatial Partitioning",
+        "Collision Detection",
+        "Physics Engine",
+        "Interactive Simulation",
+        "Data Structures",
+        "Next.js",
+        "TypeScript",
+        "HTML5 Canvas"
+    ]
+}

@@ -320,7 +320,7 @@ QUADTREE-VISUALIZER/
 
 An experimental implementation generating QuadTrees from static images.
 
-<img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif" alt="Image QuadTree" width="100%">
+<img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif" alt="Image QuadTree" height="400">
 
 </div>
 

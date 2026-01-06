@@ -1,3 +1,28 @@
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Serves as the global application wrapper for the Next.js project.
+ * Responsible for initializing the Material-UI theme context (`ThemeProvider`),
+ * applying global CSS baselines (`CssBaseline`), and injecting head metadata
+ * (favicon, viewport settings, SEO descriptions) consistent across all views.
+ */
+
 'use client'
 import React from 'react'
 import { createTheme, ThemeProvider } from '@mui/material/styles'

@@ -9,12 +9,17 @@
  * GitHub: https://github.com/rizvihasan
  *
  * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
- * Year: 2021-2022
+ * Date: 2022-01-19
  * License: MIT
  *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
  * Core physics engine implementing 2D elastic collision dynamics.
- * Handles momentum conservation and coefficient of restitution calculations.
+ * Handles momentum conservation and coefficient of restitution calculations to simulate
+ * realistic physical interactions between rigid bodies.
  */
 
 import { Vector2D } from './vector2d'

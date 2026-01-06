@@ -92,6 +92,13 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     this.bodies.forEach((particle: CircleBody) => {
       canvasContext.beginPath()
       canvasContext.arc(particle.position.x, particle.position.y, particle.radius, 0, 2 * Math.PI)
+
+      // Render collision flash
+      if (particle.collisionFlash > 0) {
+        canvasContext.fillStyle = `rgba(255, 255, 255, ${particle.collisionFlash})`
+        canvasContext.fill()
+      }
+
       canvasContext.stroke()
     })
     if (this.dragVector.isDragging) {

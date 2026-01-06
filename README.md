@@ -35,26 +35,25 @@
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
   <table>
-  <tr>
   <td align="center">
   <a href="https://github.com/Amey-Thakur">
   <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
-  <sub><b>Amey Thakur</b></sub><br />
-  <sup>(TU3F1819127)</sup>
+  <b>Amey Thakur</b><br />
+  (TU3F1819127)
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/rizvihasan">
   <img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br />
-  <sub><b>Hasan Rizvi</b></sub><br />
-  <sup>(TU3F1819130)</sup>
+  <b>Hasan Rizvi</b><br />
+  (TU3F1819130)
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/msatmod">
   <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
-  <sub><b>Mega Satish</b></sub><br />
-  <sup>(TU3F1819139)</sup>
+  <b>Mega Satish</b><br />
+  (TU3F1819139)
   </a>
   </td>
 

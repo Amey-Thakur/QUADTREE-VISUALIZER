@@ -128,6 +128,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 
 ### Tech Stack
 - **Framework**: Next.js 14, React 18
+- **Component Library**: Material UI (MUI v5)
 - **Language**: TypeScript
 - **Styling**: SCSS (Modules)
 - **Graphics**: HTML5 Canvas API

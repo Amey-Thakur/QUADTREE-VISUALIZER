@@ -1,3 +1,27 @@
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Serves as the primary entry point and controller for the visualization application.
+ * Orchestrates the interaction between the `SimulationCanvas` (rendering engine) and the `ControlBar` (UI configuration),
+ * managing the top-level React state for simulation parameters such as particle count, radius, and physics settings.
+ */
+
 'use client'
 import React, { Component, createRef, RefObject, ChangeEvent } from 'react'
 import ProjectHeader from '../components/project-header'

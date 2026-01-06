@@ -85,7 +85,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 >
 > - [Published Paper @IJERT](https://ems.ijert.org/download-section_14TVPS67DSYEpSjrSUlGAmuer)
 > - [Research Paper PDF](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
-> - [Plagiarism Report](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) | [Scan Report](Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf)
+> - [Publication Certificate](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf)
 
 ### Core Resources
 

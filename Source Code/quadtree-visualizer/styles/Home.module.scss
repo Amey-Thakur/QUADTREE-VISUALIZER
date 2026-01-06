@@ -3,6 +3,30 @@
 $navPadTop: 10px;
 $tabSize: 60px;
 
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Defines the module-level styles for the Home page (`pages/index.tsx`).
+ * Controls the layout of the primary `simulation_container`, ensuring the visualization
+ * canvas and control bar are correctly positioned and responsive to viewport changes.
+ */
+
 .simulation_container {
   display: flex;
   flex-direction: column;

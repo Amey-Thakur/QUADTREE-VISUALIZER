@@ -384,37 +384,104 @@ Ensure your environment meets the minimum specifications:
 
 <!-- ACADEMIC DOCUMENTATION -->
 ## Academic Documentation
-
 This section archives the formal milestones of the Bachelor of Engineering (B.E.) degree.
 
-### Project Inception (Topic Selection)
-- [Group Formation PDF](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
-- [Project Guide Selection](Major-Project%20Selection/TN04_Project%20Guide%20Selection.pdf)
-- [Approval Message](Major-Project%20Selection/Approval%20Message.png) | [Final Year Project List](Major-Project%20Selection/Final%20Year%20Project.jpg)
+### 1. Project Inception (Topic Selection)
+- **Selection Process**: [Team Building Details](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
+- **Guide Allocation**: [Project Guide Selection](Major-Project%20Selection/TN04_Project%20Guide%20Selection.pdf)
+- **Reference**: [Project Guide Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf)
+- **Formal Approval**:
+  <details>
+    <summary><strong>View Approval Documents</strong></summary>
+    <br>
+    <h4>Approval Message</h4>
+    <img src="Major-Project%20Selection/Approval%20Message.png" width="80%">
+    <br><br>
+    <h4>Final Year Project List</h4>
+    <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
+  </details>
 
-### Semester VII (Major Project I)
-- **Review 1**: [Presentation](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) | [Attendance](Review-1/Review-1_Attendance_Proof.png)
-- **Review 2**: [Presentation](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
-- **Final Review**: [Presentation](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf) | [Report](Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf) | [Attendance](Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg)
+### 2. Semester VII (Major Project I)
+#### Review 1
+- **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
+- **Evaluation Evidence**:
+  <details>
+    <summary><strong>View Evaluation Assets</strong></summary>
+    <br>
+    <h4>Review Panel</h4>
+    <img src="Review-1/Review-1_Panel.jpg" width="80%">
+    <br><br>
+    <h4>Attendance Proof</h4>
+    <img src="Review-1/Review-1_Attendance_Proof.png" width="80%">
+  </details>
 
-### Semester VIII (Major Project II)
-- **Review 3**: [Presentation](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) | [Panel](Review-3/Review-3_Panel.png) | [Schedule](Review-3/Review-3_Schedule.png)
-- **Review 4**: [Presentation](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
-- **Final Review**: [Presentation](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) | [Report](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf)
+#### Review 2
+- **Presentation**: [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) | [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
 
-### Final Defense (25-04-2022)
-- [Final Project Presentation](25-04-2022/Final%20Presentation.pdf)
-- [Presentation Preparation](25-04-2022/Presentation_Preparation.pdf)
-- [Attendance Proof](25-04-2022/2022-04-25%20at%2010.53.18.jpeg)
+#### Final Review (Major Project I)
+- **Presentation**: [PPTX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pptx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
+- **Submission Report**: [Major Project I Report](Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
+- **Attendance**:
+  <details>
+    <summary><strong>View Attendance</strong></summary>
+    <br>
+    <img src="Major-Project-I/Review_Major-Project-I_Attendance_Proof.png" width="80%">
+  </details>
 
-### Submission Reports
-- [Amey Thakur](Submission%20Report/Amey_B-50_Submission_Report.pdf)
-- [Mega Satish](Submission%20Report/Mega_B-58_Submission_Report.pdf)
-- [Hasan Rizvi](Submission%20Report/Hasan_B-51_Submission_Report.pdf)
+### 3. Semester VIII (Major Project II)
+#### Review 3
+- **Presentation**: [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) | [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
+- **Scheduling**:
+  <details>
+    <summary><strong>View Schedule & Panel</strong></summary>
+    <br>
+    <h4>Review Schedule</h4>
+    <img src="Review-3/Review-3_Schedule.png" width="80%">
+    <br><br>
+    <h4>Review Panel</h4>
+    <img src="Review-3/Review-3_Panel.png" width="80%">
+  </details>
 
-### Certificates
-- **Guide**: [Prof. Randeep Kaur Kahlon](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf)
-- **Authors**: [Amey Thakur](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) | [Mega Satish](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf) | [Hasan Rizvi](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf) | [Ajay Davare](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf)
+#### Review 4
+- **Presentation**: [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) | [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
+
+#### Final Review (Major Project II)
+- **Presentation**: [PPTX](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pptx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
+- **Submission Report**: [Major Project II Report (PDF)](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf) | [DOCX](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx)
+
+### 4. Final Defense (25-04-2022)
+- **Presentation**: [PPTX](25-04-2022/Final%20Presentation.pptx) | [PDF](25-04-2022/Final%20Presentation.pdf)
+- **Preparation Notes**: [PDF](25-04-2022/Presentation_Preparation.pdf) | [TXT](25-04-2022/Presentation_Preparation.txt)
+- **Event Gallery**:
+  <details>
+    <summary><strong>View Defense Photos</strong></summary>
+    <br>
+    <div align="center">
+      <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%">
+      <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%">
+    </div>
+  </details>
+
+### 5. Research Publication (IJERT)
+**"QuadTree Visualizer" (Volume 11, Issue 04, April 2022)**
+- **Published Paper**: [IJERTV11IS040156](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
+- **Publication Certificates**:
+  - **Guide (Prof. Randeep Kaur Kahlon)**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf)
+  - **Amey Thakur**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf)
+  - **Mega Satish**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf)
+  - **Hasan Rizvi**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf)
+  - **Ajay Davare**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf)
+- **Compliance Documents**:
+  - [Plagiarism Report](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf)
+  - [Acceptance Letter](Research%20Paper/IJERTV11IS040156_Acceptance.pdf)
+  - [Payment Receipt](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf)
+
+### 6. Submission Reports (Black Book)
+- **Amey Thakur**: [Submission Report (PDF)](Submission%20Report/Amey_B-50_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf)
+- **Hasan Rizvi**: [Submission Report (PDF)](Submission%20Report/Hasan_B-51_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf)
+- **Mega Satish**: [Submission Report (PDF)](Submission%20Report/Mega_B-58_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)
+- **Ajay Davare**: [Final Black Book (PDF)](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf)
+- **Team Compilation**: [Combined Black Book (PDF)](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf)
 
 ---
 

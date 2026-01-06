@@ -1,11 +1,25 @@
 /**
- * Author: Amey Mega Hasan
+ * Author: Amey Thakur
  * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
- * Year: 2021-2022
+ * Date: 2022-01-19
  * License: MIT
  *
- * Defines the Rect class used for axis-aligned bounding box (AABB) geometric calculations.
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Defines fundamental geometric primitives for the simulation engine.
+ * Specifically, the `Rect` class provides an axis-aligned bounding box (AABB) representation,
+ * essential for spatial querying and collision boundary definitions within the QuadTree.
  */
 
 export class Rect {

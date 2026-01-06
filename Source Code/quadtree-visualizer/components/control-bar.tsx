@@ -40,14 +40,16 @@ export default class ControlBar extends Component<ControlBarProps, ControlBarSta
         <div
           className={styles.minimized}
           style={{ transform: `translateX(${this.state.showing ? -100 : 0}%)` }}
-          onClick={this.handleClick}>
+          onClick={this.handleClick}
+        >
           <EditIcon style={{ fontSize: 35 }} />
         </div>
         <div
           className={styles.panel}
-          style={{ transform: `translateX(${this.state.showing ? 0 : -100}%)` }}>
+          style={{ transform: `translateX(${this.state.showing ? 0 : -100}%)` }}
+        >
           <ControlNav hideFunc={this.handleClick} />
-          <div style={{ margin: 'auto', height: 2, width: '90%', backgroundColor: styles.color2 }}></div>
+          <div style={{ margin: 'auto', height: 2, width: '90%', backgroundColor: styles.color2 || '#000000' }} />
           <div id={styles.options}>
             {this.props.children}
           </div>
@@ -58,31 +60,43 @@ export default class ControlBar extends Component<ControlBarProps, ControlBarSta
   }
 }
 
-const ControlNav = (props: { hideFunc: () => void }): React.ReactElement => (
-  <div id={styles.top_control}>
-    <NavigateBeforeIcon style={{ fontSize: 50 }} onClick={props.hideFunc} />
-    <p>SETTINGS</p>
-  </div>
-)
+function ControlNav(props: { hideFunc: () => void }): React.ReactElement {
+  return (
+    <div id={styles.top_control}>
+      <NavigateBeforeIcon style={{ fontSize: 50 }} onClick={props.hideFunc} />
+      <p>SETTINGS</p>
+    </div>
+  )
+}
 
-const UIInfo = (): React.ReactElement => (
-  <div style={{ textAlign: 'center', fontSize: '0.8rem' }}>
-    <i>Click and Drag to Launch a New Body</i>
-  </div>
-)
+function UIInfo(): React.ReactElement {
+  return (
+    <div style={{ textAlign: 'center', fontSize: '0.8rem' }}>
+      <i>Click and Drag to Launch a New Body</i>
+    </div>
+  )
+}
 
 export function SectionTitle(props: { title: string }): React.ReactElement {
   return <div className={styles.section_header}>{props.title.toUpperCase()}</div>
 }
 
-export function DataSlider(props: { value: number, updateFunc: (value: number) => void, label: string }): React.ReactElement {
+export function DataSlider(props: {
+  value: number
+  updateFunc: (value: number) => void
+  label: string
+}): React.ReactElement {
   return (
     <div>
-      <div className={styles.data_title}>Restitution Constant<br /><b>{props.value}</b></div>
+      <div className={styles.data_title}>
+        Restitution Constant<br /><b>{props.value}</b>
+      </div>
       <Slider
         style={{ width: '80%' }}
         value={props.value}
-        onChange={(_, value: number | number[]) => props.updateFunc(typeof value === 'number' ? value : 0)}
+        onChange={(_, value: number | number[]): void => {
+          props.updateFunc(typeof value === 'number' ? value : 0)
+        }}
         step={0.01}
         min={0}
         max={1}
@@ -91,13 +105,19 @@ export function DataSlider(props: { value: number, updateFunc: (value: number) =
   )
 }
 
-export function ActionButton(props: { onClick: () => void, label: string }): React.ReactElement {
+export function ActionButton(props: { onClick: () => void; label: string }): React.ReactElement {
   return (
-    <Button onClick={props.onClick} size="medium">{props.label}</Button>
+    <Button onClick={props.onClick} size="medium">
+      {props.label}
+    </Button>
   )
 }
 
-export function DataConfig<T>(props: { value: T, label: string, updateFunc: (value: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => void }): React.ReactElement {
+export function DataConfig<T>(props: {
+  value: T
+  label: string
+  updateFunc: (value: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => void
+}): React.ReactElement {
   return (
     <form autoComplete="off">
       <TextField
@@ -111,11 +131,18 @@ export function DataConfig<T>(props: { value: T, label: string, updateFunc: (val
   )
 }
 
-export function DataToggle(props: { value: boolean | undefined, label: string, updateFunc: (event: ChangeEvent<HTMLInputElement>, checked: boolean) => void }): React.ReactElement {
+export function DataToggle(props: {
+  value: boolean | undefined
+  label: string
+  updateFunc: (event: ChangeEvent<HTMLInputElement>, checked: boolean) => void
+}): React.ReactElement {
   return (
     <FormControlLabel
       control={
-        <Checkbox checked={props.value === undefined ? true : props.value} onChange={props.updateFunc} />
+        <Checkbox
+          checked={props.value === undefined ? true : props.value}
+          onChange={props.updateFunc}
+        />
       }
       label={props.label}
       style={{ marginLeft: 10, marginRight: 'auto' }}

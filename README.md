@@ -348,37 +348,37 @@ An experimental implementation generating QuadTrees from static images.
 <!-- QUICK START -->
 ## Quick Start
 
-### Prerequisites
-- **Node.js**: Version 14+
-- **npm**: Version 6+
+### 1. Prerequisites
+Ensure your environment meets the minimum specifications:
+- **Node.js**: Version **14** or higher.
+- **npm**: Version **6** or higher.
+- **Browser**: Modern web browser (Chrome/Edge recommended) for HTML5 Canvas.
 
-### Installation & Execution
+> [!WARNING]
+> **Technical Dependencies & Environment**
+>
+> This system relies on **HTML5 Canvas** for high-performance graphical rendering and **Node.js** for the development server. For stable execution and accurate visual output, ensure that dependencies are installed cleanly and the application is run in a standard modern browser environment.
 
+### 2. Setup & Deployment
 1.  **Clone the Repository**:
     ```bash
     git clone https://github.com/Amey-Thakur/QUADTREE-VISUALIZER.git
+    cd QUADTREE-VISUALIZER
     ```
-
-2.  **Navigate to Source**:
+2.  **Install Dependencies**:
+    Navigate to the source directory and install the required packages:
     ```bash
-    cd "QUADTREE-VISUALIZER/Source Code/quadtree-visualizer/"
-    ```
-
-3.  **Install Dependencies**:
-    ```bash
+    cd "Source Code/quadtree-visualizer/"
     npm install
-    # Note: Ensure package.json is present
     ```
 
-4.  **Run Development Server**:
+### 3. Launch Application
+1.  **Start the Development Server**:
     ```bash
     npm run dev
     ```
-
-5.  **Access Application**: Open `http://localhost:3000` in your browser.
-
-> [!TIP]
-> **Performance**: Use a modern browser (Chrome/Edge) with hardware acceleration enabled for the smoothest canvas rendering performance when simulating high particle counts (>500).
+2.  **Access Web Gateway**:
+    -   Navigate to: `http://localhost:3000`
 
 ---
 

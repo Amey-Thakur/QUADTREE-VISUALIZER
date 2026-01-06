@@ -1,7 +1,31 @@
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Defines the specific styles for the `ControlBar` component.
+ * Implements the slide-out mechanism (transitions), parameter grouping, and custom
+ * form control aesthetics (sliders, toggles) to match the project's minimalist theme.
+ */
+
 @import "../styles/Home.module.scss";
 
 .control_bar {
-  > div {
+  >div {
     position: absolute;
     top: $navPadTop;
     left: 0;
@@ -19,8 +43,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    > svg {
+
+    >svg {
       transition: color 0.5s ease;
+
       &:hover {
         color: $color2;
       }
@@ -40,14 +66,17 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      > p {
+
+      >p {
         font-size: 1.25rem;
         font-weight: 600;
         width: 100%;
       }
-      > svg {
+
+      >svg {
         cursor: pointer;
         transition: color 0.5s ease;
+
         &:hover {
           color: $color2;
         }

@@ -3,7 +3,8 @@ const isProduction = process.env.NODE_ENV === 'production'
 const basePath = isProduction ? '/QUADTREE-VISUALIZER' : ''
 
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
+  output: 'export',
   basePath: basePath,
   assetPrefix: basePath,
   images: {
@@ -11,3 +12,5 @@ module.exports = {
   },
   trailingSlash: true,
 }
+
+module.exports = nextConfig

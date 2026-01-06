@@ -1,30 +1,48 @@
-import { createMuiTheme, ThemeProvider } from '@material-ui/core'
+'use client'
+import { createTheme, ThemeProvider } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import '../styles/globals.scss'
 import styles from '../styles/theme.module.scss'
 
-const theme = createMuiTheme({
+const theme = createTheme({
+  typography: {
+    fontFamily: "'Play', sans-serif",
+  },
   palette: {
     primary: {
-      main: styles.color1
+      main: styles.color1 || '#1a1a2e'
     },
     secondary: {
-      main: styles.color1
+      main: styles.color1 || '#1a1a2e'
     },
     text: {
-      primary: styles.color1,
-      secondary: styles.color1
+      primary: styles.color1 || '#1a1a2e',
+      secondary: styles.color1 || '#1a1a2e'
     }
-  }
+  },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          fontFamily: "'Play', sans-serif",
+        },
+      },
+    },
+  },
 })
+
+const basePath = process.env.NODE_ENV === 'production' ? '/QUADTREE-VISUALIZER' : ''
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <Head>
-        <title>Quadtree Visualizer</title>
-        <link rel="icon" href={`${process.env.NODE_ENV === 'production' ? '/QUADTREE-VISUALIZER' : ''}/favicon.ico`} />
+        <title>QuadTree Visualizer</title>
+        <link rel="icon" href={`${basePath}/favicon.ico`} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>

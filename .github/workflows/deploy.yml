@@ -25,13 +25,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install dependencies
         working-directory: 'Source Code/quadtree-visualizer'
-        run: npm install --legacy-peer-deps
+        run: npm install
 
-      - name: Build and Export
+      - name: Build
         working-directory: 'Source Code/quadtree-visualizer'
         run: npm run build
 

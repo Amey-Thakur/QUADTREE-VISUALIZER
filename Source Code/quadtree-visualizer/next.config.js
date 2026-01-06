@@ -1,10 +1,14 @@
 /* eslint-disable no-undef */
-const debug = process.env.NODE_ENV !== 'production'
+const isProduction = process.env.NODE_ENV === 'production'
+const basePath = isProduction ? '/QUADTREE-VISUALIZER' : ''
+
+/** @type {import('next').NextConfig} */
 module.exports = {
-  exportPathMap: function () {
-    return {
-      '/': { page: '/' },
-    }
+  output: 'export',
+  basePath: basePath,
+  assetPrefix: basePath,
+  images: {
+    unoptimized: true,
   },
-  assetPrefix: !debug ? '' : '',
+  trailingSlash: true,
 }

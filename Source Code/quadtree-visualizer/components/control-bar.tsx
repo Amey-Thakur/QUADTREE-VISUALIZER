@@ -1,3 +1,28 @@
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Implements the `ControlBar` UI component, providing interactive controls for real-time
+ * simulation parameter tuning. Features React-based sliders, toggles, and input fields
+ * for modifying physics constraints (Restitution), QuadTree properties (Capacity, Depth),
+ * and simulation inputs (Radius, Count), offering a dynamic user experience.
+ */
+
 'use client'
 import React, { ChangeEvent, Component, ReactNode } from 'react'
 

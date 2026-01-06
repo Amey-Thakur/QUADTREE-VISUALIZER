@@ -9,12 +9,20 @@
  * GitHub: https://github.com/rizvihasan
  *
  * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
- * Year: 2021-2022
+ * Date: 2022-01-19
  * License: MIT
  *
- * Implements the QuadTree spatial partitioning data structure for efficient 2D collision detection.
- * Provides recursive subdivision and object insertion with O(log n) average complexity.
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Implements the `QuadTree` spatial partitioning data structure, a powerful geometric
+ * optimization used to accelerate 2D range queries and collision detection mechanics.
+ * By strictly subdividing the 2D space into four quadrants recursively, this structure
+ * reduces the computational complexity of verifying object interactions from O(N^2)
+ * to approximately O(N log N). This implementation supports dynamic capacity-based
+ * subdivision and efficient recursive retrieval of potential collision candidates.
  */
 
 import { Rect } from './shapes'

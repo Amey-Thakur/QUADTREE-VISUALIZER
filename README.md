@@ -7,7 +7,7 @@
   ![Status](https://img.shields.io/badge/Status-Completed-success)
   [![Frontend](https://img.shields.io/badge/Frontend-Next.js%20%7C%20React%20%7C%20TypeScript-blueviolet)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
   [![Research](https://img.shields.io/badge/Research-IJERT-orange)](https://ems.ijert.org/download-section_14TVPS67DSYEpSjrSUlGAmuer)
-  [![Developed by Amey Thakur, Hasan Rizvi, Mega Satish & Ajay Davare](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%2C%20Mega%20Satish%20%26%20Ajay%20Davare-blue)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
+  [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
 
   A high-performance interactive simulation visualizing the efficiency of the QuadTree data structure in spatial partitioning and collision detection, built with Next.js and HTML5 Canvas.
 

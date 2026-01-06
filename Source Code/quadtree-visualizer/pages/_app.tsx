@@ -9,9 +9,9 @@ import styles from '../styles/theme.module.scss'
 
 const theme = createTheme({
   typography: {
-    fontFamily: "'Play', sans-serif",
+    fontFamily: '\'Play\', sans-serif',
     allVariants: {
-      fontFamily: "'Play', sans-serif",
+      fontFamily: '\'Play\', sans-serif',
     },
   },
   palette: {
@@ -30,38 +30,38 @@ const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: {
         '*': {
-          fontFamily: "'Play', sans-serif !important",
+          fontFamily: '\'Play\', sans-serif !important',
         },
         body: {
-          fontFamily: "'Play', sans-serif",
+          fontFamily: '\'Play\', sans-serif',
         },
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          fontFamily: "'Play', sans-serif",
+          fontFamily: '\'Play\', sans-serif',
         },
       },
     },
     MuiTextField: {
       styleOverrides: {
         root: {
-          fontFamily: "'Play', sans-serif",
+          fontFamily: '\'Play\', sans-serif',
         },
       },
     },
     MuiInputBase: {
       styleOverrides: {
         root: {
-          fontFamily: "'Play', sans-serif",
+          fontFamily: '\'Play\', sans-serif',
         },
       },
     },
     MuiFormControlLabel: {
       styleOverrides: {
         label: {
-          fontFamily: "'Play', sans-serif",
+          fontFamily: '\'Play\', sans-serif',
         },
       },
     },
@@ -76,9 +76,9 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
       <CssBaseline />
       <Head>
         <title>QuadTree Visualizer</title>
-        <link rel="icon" href={`${basePath}/favicon.ico`} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Interactive QuadTree spatial partitioning visualizer with physics simulation" />
+        <link rel='icon' href={`${basePath}/favicon.ico`} />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta name='description' content='Interactive QuadTree spatial partitioning visualizer with physics simulation' />
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>

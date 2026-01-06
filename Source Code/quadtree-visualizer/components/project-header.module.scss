@@ -37,4 +37,22 @@
       line-height: 1.4;
     }
   }
+
+  .author_link {
+    color: $color4;
+    text-decoration: underline;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:visited {
+      color: $color4;
+    }
+
+    &:active {
+      color: $color4;
+    }
+  }
 }

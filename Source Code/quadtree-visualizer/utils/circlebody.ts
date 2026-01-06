@@ -6,6 +6,8 @@ import { Vector2D } from './vector2d'
 type BoundType = 'TOP' | 'LEFT' | 'BOTTOM' | 'RIGHT' | 'INSIDE'
 export class CircleBody implements QuadObject, PhysicsBody {
   mass: number
+  public collisionFlash: number = 0
+
   constructor(
     public position: Vector2D,
     public velocity: Vector2D,
@@ -16,12 +18,20 @@ export class CircleBody implements QuadObject, PhysicsBody {
 
   tick(delta: number): void {
     this.position = this.position.plus(this.velocity.scale(delta))
+    if (this.collisionFlash > 0) {
+      this.collisionFlash -= delta * 5 // Decay speed
+      if (this.collisionFlash < 0) this.collisionFlash = 0
+    }
   }
 
   collide(other: CircleBody): void {
     const collisionVector = this.position.vectorTo(other.position) // from this -> other
     const collisionDistance = this.radius + other.radius
     if (collisionVector.sqrMagnitude < collisionDistance * collisionDistance) {
+      // Trigger flash on collision
+      this.collisionFlash = 1.0
+      other.collisionFlash = 1.0
+
       // remove the touching distance by pushing the pushing body backwards
       const thisToOtherVec = collisionVector.normalized()
       const otherToThisVec = thisToOtherVec.reversed()
@@ -39,7 +49,11 @@ export class CircleBody implements QuadObject, PhysicsBody {
   }
 
   collideBounds(boundRect: Rect): void {
-    switch (this.exitingBounds(boundRect)) {
+    const exitting = this.exitingBounds(boundRect)
+    if (exitting !== 'INSIDE') {
+      this.collisionFlash = 1.0
+    }
+    switch (exitting) {
       case 'TOP':
         this.position.y = this.radius
         this.velocity.y *= -1

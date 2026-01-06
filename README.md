@@ -141,33 +141,49 @@ The application allows users to spawn varying numbers of particles, apply physic
 ```bash
 QUADTREE-VISUALIZER/
 │
-├── docs/                                          # Formal Documentation
-│   └── SPECIFICATION.md                           # Technical Architecture & Spec
+├── .github/                                                      # GitHub Workflows & Metadata
+├── 25-04-2022/                                                   # Historical Project Snapshot
+├── BlackBook/                                                    # Official Engineering Thesis Documents
+│   ├── Certificates/                                             # Student & Guide Certificates
+│   └── ...                                                       # Individual Thesis PDFs
+├── docs/                                                         # Formal Documentation
+│   └── SPECIFICATION.md                                          # Technical Architecture & Spec
+├── Initial Work/                                                 # Early Prototypes & Research
+├── Major-Project Selection/                                      # Topic Selection & Approval Records
+├── Major-Project-I/                                              # Semester VII Project Phase
+├── Major-Project-II/                                             # Semester VIII Project Phase
+├── Mega/                                                         # Archival Attribution Assets
+│   └── Mega.png                                                  # Author Profile Image (Mega Satish)
+├── Reference Papers/                                             # Literature Survey & Bibliography
+├── Research Paper/                                               # Published Research Assets
+│   ├── Certificates/                                             # Publication Certificates (IJERT)
+│   ├── IJERT/                                                    # Journal Correspondence
+│   ├── IJERTV11IS040156_Acceptance.pdf                           # Official Acceptance Letter
+│   ├── IJERTV11IS040156_payment-receipt.pdf                      # Publication Fee Receipt
+│   ├── QuadTree_Visualizer_Plagiarism_Report.pdf                 # Originality Report
+│   └── ...                                                       # Research Paper & Preprint
+├── Review-1/                                                     # First Progress Review Artifacts
+├── Review-2/                                                     # Second Progress Review Artifacts
+├── Review-3/                                                     # Third Progress Review Artifacts
+├── Review-4/                                                     # Final Defense & Verification Artifacts
+├── Source Code/                                                  # Application Source
+│   └── quadtree-visualizer/                                      # Next.js Application Root
+│       ├── components/                                           # React UI Components
+│       ├── pages/                                                # App Routes
+│       ├── styles/                                               # SCSS Theme Files
+│       └── utils/                                                # Core QuadTree Logic & Physics Engine
+├── Source Code Output/                                           # Result Artifacts
+│   └── Outputs.pdf                                               # Complete Output Gallery
+├── Submission Report/                                            # Final Submission Documentation
 │
-├── Mega/                                          # Archival Attribution Assets
-│   └── Mega.png                                   # Author Profile Image (Mega Satish)
-│
-├── Source Code/                                   # Application Source
-│   └── quadtree-visualizer/                       # Next.js Application Root
-│       ├── components/                            # React UI Components
-│       ├── pages/                                 # App Routes
-│       ├── styles/                                # SCSS Theme Files
-│       └── utils/                                 # Core QuadTree Logic & Physics Engine
-│
-├── Source Code Output/                            # Result Artifacts
-│   └── Outputs.pdf                                # Complete Output Gallery
-│   
-├── BlackBook/                                     # Official Thesis Documents
-├── Research Paper/                                # IJERT Publication & Certificates
-├── Review-1/ to Review-4/                         # Academic Review Milestones
-├── Major-Project-I/ & II/                         # Semester-wise Reports
-├── Submission Report/                             # Final Submission Docs
-│
-├── CITATION.cff                                   # Scholarly Citation Metadata
-├── codemeta.json                                  # Software Metadata Manifest
-├── LICENSE                                        # MIT License Terms
-├── README.md                                      # Comprehensive Archival Entrance
-└── SECURITY.md                                    # Vulnerability Exposure Policy
+├── .gitattributes                                                # Git configuration
+├── .gitignore                                                    # Git exclusion rules
+├── BE-Major-Project.jpeg                                         # Project Banner Image
+├── CITATION.cff                                                  # Scholarly Citation Metadata
+├── codemeta.json                                                 # Machine-Readable Project Metadata
+├── LICENSE                                                       # MIT License Terms
+├── README.md                                                     # Comprehensive Archival Entrance
+└── SECURITY.md                                                   # Vulnerability Exposure Policy
 ```
 
 ---

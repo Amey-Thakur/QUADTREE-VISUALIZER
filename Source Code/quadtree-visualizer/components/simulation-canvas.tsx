@@ -1,3 +1,29 @@
+/**
+ * Author: Amey Thakur
+ * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Date: 2022-01-19
+ * License: MIT
+ *
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Implements the `SimulationCanvas` component, which serves as the primary rendering engine
+ * and interaction layer for the project. Utilizes the HTML5 Canvas API within a React lifecycle
+ * to orchestrate the physics simulation loop (via `requestAnimationFrame`). Responsibilities include
+ * managing the `QuadTree` state, rendering rigid bodies, handling user inputs (mouse drag/spawn),
+ * and visualizing internal data structures (quadrant boundaries) for educational demonstration.
+ */
+
 'use client'
 import React, { Component, createRef, RefObject, MouseEvent as ReactMouseEvent } from 'react'
 import styles from './simulation-canvas.module.scss'

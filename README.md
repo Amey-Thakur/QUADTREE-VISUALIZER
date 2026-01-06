@@ -312,9 +312,9 @@ QUADTREE-VISUALIZER/
 
 ---
 
-<div align="center">
-
 ## QuadTree Generation from Images
+
+<div align="center">
 
 An experimental implementation generating QuadTrees from static images.
 

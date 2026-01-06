@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     <ThemeProvider theme={theme}>
       <Head>
         <title>Quadtree Visualizer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${process.env.NODE_ENV === 'production' ? '/QUADTREE-VISUALIZER' : ''}/favicon.ico`} />
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>

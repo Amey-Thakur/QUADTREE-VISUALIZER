@@ -4,7 +4,6 @@ const basePath = isProduction ? '/QUADTREE-VISUALIZER' : ''
 
 /** @type {import('next').NextConfig} */
 module.exports = {
-  output: 'export',
   basePath: basePath,
   assetPrefix: basePath,
   images: {

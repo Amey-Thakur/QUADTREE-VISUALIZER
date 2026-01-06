@@ -26,19 +26,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: 'Source Code/quadtree-visualizer/package-lock.json'
 
       - name: Install dependencies
         working-directory: 'Source Code/quadtree-visualizer'
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
-      - name: Build
+      - name: Build and Export
         working-directory: 'Source Code/quadtree-visualizer'
-        run: npm run export
-
-      - name: Add .nojekyll
-        run: touch "Source Code/quadtree-visualizer/out/.nojekyll"
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

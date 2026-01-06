@@ -1,12 +1,26 @@
 /**
- * Author: Amey Mega Hasan
+ * Author: Amey Thakur
  * GitHub: https://github.com/Amey-Thakur
+ *
+ * Author: Mega Satish
+ * GitHub: https://github.com/msatmod
+ *
+ * Author: Hasan Rizvi
+ * GitHub: https://github.com/rizvihasan
+ *
+ * Project: QUADTREE-VISUALIZER
+ * Group: Phi-CS-73
+ * Batch: 2022
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
- * Year: 2021-2022
+ * Date: 2022-01-19
  * License: MIT
  *
- * Implements a 2D Euclidean vector space with fundamental operations.
- * Provides functional utilities for vector arithmetic, magnitude calculation, and dot products.
+ * Developed as part of the BE Major-Project @ Terna Engineering College.
+ *
+ * Implements a robust 2D Euclidean vector space class (`Vector2D`), providing essential
+ * linear algebra operations required for physics simulation. Includes functional utilities
+ * for vector arithmetic (addition, scaling), magnitude calculation, dot products,
+ * and angle determination, ensuring type-safe and immutable transformations where applicable.
  */
 
 /**

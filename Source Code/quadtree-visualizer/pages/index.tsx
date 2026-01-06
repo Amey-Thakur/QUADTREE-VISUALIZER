@@ -1,3 +1,4 @@
+'use client'
 import { Component, createRef, RefObject } from 'react'
 import ProjectHeader from '../components/project-header'
 import SimulationCanvas, { SimulationCanvasProps } from '../components/simulation-canvas'
@@ -20,7 +21,7 @@ class SimulationFields implements SimulationCanvasProps {
  * Main Page which contains the QuadTree Visualizer and Control Bar
  */
 export default class Home extends Component<unknown, SimulationFields> {
-  private simulationCanvasRef: RefObject<SimulationCanvas> = createRef()
+  private simulationCanvasRef: RefObject<SimulationCanvas | null> = createRef()
   constructor(props: unknown) {
     super(props)
     this.state = new SimulationFields

@@ -1,3 +1,4 @@
+'use client'
 import { Component, createRef, RefObject, MouseEvent } from 'react'
 import styles from './simulation-canvas.module.scss'
 
@@ -17,8 +18,8 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
   private quadTree!: QuadTree
   private canvasBounds!: Rect
   private bodies = new Array<CircleBody>()
-  private canvasRef: RefObject<HTMLCanvasElement> = createRef()
-  private canvasDivRef: RefObject<HTMLDivElement> = createRef()
+  private canvasRef: RefObject<HTMLCanvasElement | null> = createRef()
+  private canvasDivRef: RefObject<HTMLDivElement | null> = createRef()
   constructor(props: SimulationCanvasProps) {
     super(props)
     this.stopLoop = false
@@ -169,7 +170,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
 
       if (this.props.showFPS) {
         context.save()
-        context.font = '25px Arial'
+        context.font = "25px 'Play', sans-serif"
         context.fillStyle = styles.color4
         context.fillText('FPS: ' + fps, 10, 30)
         context.restore()

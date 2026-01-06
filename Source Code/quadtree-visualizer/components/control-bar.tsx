@@ -1,15 +1,25 @@
-import { ChangeEvent, Component } from 'react'
+'use client'
+import { ChangeEvent, Component, ReactNode } from 'react'
 
-import { Button, Checkbox, FormControlLabel, Slider, TextField } from '@material-ui/core'
-import { EditSharp, NavigateBeforeSharp } from '@material-ui/icons'
+import Button from '@mui/material/Button'
+import Checkbox from '@mui/material/Checkbox'
+import FormControlLabel from '@mui/material/FormControlLabel'
+import Slider from '@mui/material/Slider'
+import TextField from '@mui/material/TextField'
+import EditIcon from '@mui/icons-material/Edit'
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore'
 
 import styles from './control-bar.module.scss'
 
+interface ControlBarProps {
+  children?: ReactNode
+}
+
 /**
- * Component for the Navigation Tab and Menu for Controlling Varialbes
+ * Component for the Navigation Tab and Menu for Controlling Variables
  */
-export default class ControlBar extends Component<unknown, { showing: boolean }> {
-  constructor(props: unknown) {
+export default class ControlBar extends Component<ControlBarProps, { showing: boolean }> {
+  constructor(props: ControlBarProps) {
     super(props)
     this.state = { showing: false }
     this.handleClick = this.handleClick.bind(this)
@@ -30,7 +40,7 @@ export default class ControlBar extends Component<unknown, { showing: boolean }>
           className={styles.minimized}
           style={{ transform: `translateX(${this.state.showing ? -100 : 0}%)` }}
           onClick={this.handleClick}>
-          <EditSharp style={{ fontSize: 35 }} />
+          <EditIcon style={{ fontSize: 35 }} />
         </div>
         <div
           className={styles.panel}
@@ -50,7 +60,7 @@ export default class ControlBar extends Component<unknown, { showing: boolean }>
 // Header of control Nav
 const ControlNav = (props: { hideFunc: () => void }): JSX.Element => (
   <div id={styles.top_control}>
-    <NavigateBeforeSharp style={{ fontSize: 50 }} onClick={props.hideFunc} />
+    <NavigateBeforeIcon style={{ fontSize: 50 }} onClick={props.hideFunc} />
     <p>SETTINGS</p>
   </div>
 )
@@ -90,7 +100,7 @@ export function ActionButton(props: { onClick: () => void, label: string }): JSX
 export function DataConfig<T>(props: { value: T, label: string, updateFunc: (value: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => void }): JSX.Element {
   return (
     <form autoComplete="off">
-      <TextField onChange={props.updateFunc} value={props.value} label={props.label} variant="filled" inputMode="numeric" />
+      <TextField onChange={props.updateFunc} value={props.value as string} label={props.label} variant="filled" inputMode="numeric" />
     </form>
   )
 }

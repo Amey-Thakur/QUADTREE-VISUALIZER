@@ -109,9 +109,9 @@ The application allows users to spawn varying numbers of particles, apply physic
 | **Payment Receipt** | Processing fee transaction confirmation | [View PDF](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) |
 
 > [!TIP]
-> **Academic Integrity & Transparency**
+> **Performance Insight & Algorithm Visualization**
 >
-> This repository maintains a complete audit trail of the publication process, including plagiarism checks, acceptance validation, and financial transparency, ensuring the highest standards of academic integrity and reproducibility in engineering research.
+> This project empirically demonstrates the **O(N log N)** efficiency of QuadTree spatial partitioning compared to the traditional **O(N²)** brute-force approach for collision detection. The visualization serves as a practical, interactive tool for understanding how recursive subdivision optimizes computational load in dense particle systems.
 
 ---
 

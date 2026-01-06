@@ -143,38 +143,82 @@ QUADTREE-VISUALIZER/
 │
 ├── .github/                                                      # GitHub Workflows & Metadata
 ├── 25-04-2022/                                                   # Historical Project Snapshot
+│
 ├── BlackBook/                                                    # Official Engineering Thesis Documents
-│   ├── Certificates/                                             # Student & Guide Certificates
-│   └── ...                                                       # Individual Thesis PDFs
+│   ├── BlackBook Cover Pages/                                    # Thesis Cover Designs
+│   ├── Certificates/                                             # Signed Completion Certificates
+│   ├── Draft/                                                    # Thesis Draft Versions
+│   ├── BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf              # Individual Thesis (Ajay Davare)
+│   ├── BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf            # Individual Thesis (Amey Thakur)
+│   ├── BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf               # Individual Thesis (Hasan Rizvi)
+│   ├── BlackBook-Mega_Satish_Modha-TU3F1819139.pdf               # Individual Thesis (Mega Satish)
+│   └── BlackBook-Group-Combined.pdf                              # Combined Major Project Thesis
+│
 ├── docs/                                                         # Formal Documentation
 │   └── SPECIFICATION.md                                          # Technical Architecture & Spec
+│
 ├── Initial Work/                                                 # Early Prototypes & Research
 ├── Major-Project Selection/                                      # Topic Selection & Approval Records
+│
 ├── Major-Project-I/                                              # Semester VII Project Phase
+│   ├── MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf                      # Phase I Report
+│   ├── QuadTree_Visualizer_Major-Project-I_CS-73.pptx            # Phase I Presentation
+│   ├── Review_Major-Project-I_Attendance_Proof.png               # Attendance Record
+│   └── TN04_CS Project Details of Div A_B_C.xlsx                 # Division Details
+│
 ├── Major-Project-II/                                             # Semester VIII Project Phase
+│   ├── MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf                     # Phase II Report
+│   ├── Major-Project Report.pdf                                  # Final Report Draft
+│   └── QuadTree_Visualizer_Major-Project-II_CS-73.pptx           # Phase II Presentation
+│
 ├── Mega/                                                         # Archival Attribution Assets
 │   └── Mega.png                                                  # Author Profile Image (Mega Satish)
+│
 ├── Reference Papers/                                             # Literature Survey & Bibliography
+│
 ├── Research Paper/                                               # Published Research Assets
 │   ├── Certificates/                                             # Publication Certificates (IJERT)
+│   ├── Draft/                                                    # Paper Drafts
 │   ├── IJERT/                                                    # Journal Correspondence
-│   ├── IJERTV11IS040156_Acceptance.pdf                           # Official Acceptance Letter
-│   ├── IJERTV11IS040156_payment-receipt.pdf                      # Publication Fee Receipt
-│   ├── QuadTree_Visualizer_Plagiarism_Report.pdf                 # Originality Report
-│   └── ...                                                       # Research Paper & Preprint
-├── Review-1/                                                     # First Progress Review Artifacts
-├── Review-2/                                                     # Second Progress Review Artifacts
-├── Review-3/                                                     # Third Progress Review Artifacts
-├── Review-4/                                                     # Final Defense & Verification Artifacts
+│   ├── IJERTV11IS040156 - QuadTree Visualizer.pdf                # Published Paper
+│   ├── IJERTV11IS040156_Acceptance.pdf                           # Acceptance Letter
+│   ├── IJERTV11IS040156_payment-receipt.pdf                      # Payment Receipt
+│   ├── QuadTree_Visualizer_Plagiarism_Report.pdf                 # Plagiarism Report
+│   └── QuadTree_Visualizer_Plagiarism_Scan_Report.pdf            # Scan Report
+│
+├── Review-1/                                                     # First Progress Review
+│   ├── QuadTree_Visualizer_Review-1_CS-73.pdf                    # Review 1 Report
+│   ├── QuadTree_Visualizer_Review-1_CS-73.pptx                   # Review 1 Presentation
+│   ├── Review-1_Attendance_Proof.png                             # Attendance Proof
+│   └── Review-1_Panel.jpg                                        # Panel Photo
+│
+├── Review-2/                                                     # Second Progress Review
+│   ├── QuadTree_Visualizer_Review-2_CS-73.pdf                    # Review 2 Report
+│   └── QuadTree_Visualizer_Review-2_CS-73.pptx                   # Review 2 Presentation
+│
+├── Review-3/                                                     # Third Progress Review
+│   ├── QuadTree_Visualizer_Review-3_CS-73.pdf                    # Review 3 Report
+│   ├── QuadTree_Visualizer_Review-3_CS-73.pptx                   # Review 3 Presentation
+│   ├── Review-3_Panel.png                                        # Panel Photo
+│   └── Review-3_Schedule.png                                     # Schedule
+│
+├── Review-4/                                                     # Final Defense Review
+│   ├── QuadTree_Visualizer_Review-4_CS-73.pdf                    # Final Review Report
+│   └── QuadTree_Visualizer_Review-4_CS-73.pptx                   # Final Review Presentation
+│
 ├── Source Code/                                                  # Application Source
 │   └── quadtree-visualizer/                                      # Next.js Application Root
-│       ├── components/                                           # React UI Components
-│       ├── pages/                                                # App Routes
-│       ├── styles/                                               # SCSS Theme Files
-│       └── utils/                                                # Core QuadTree Logic & Physics Engine
+│       ├── components/                                           # React Components
+│       ├── pages/                                                # Next.js Pages
+│       ├── public/                                               # Static Assets
+│       ├── styles/                                               # SCSS Modules
+│       ├── utils/                                                # Physics & QuadTree Logic
+│       └── package.json                                          # Dependencies
+│
 ├── Source Code Output/                                           # Result Artifacts
 │   └── Outputs.pdf                                               # Complete Output Gallery
-├── Submission Report/                                            # Final Submission Documentation
+│
+├── Submission Report/                                            # Final Submission Docs
 │
 ├── .gitattributes                                                # Git configuration
 ├── .gitignore                                                    # Git exclusion rules

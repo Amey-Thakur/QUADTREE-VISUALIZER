@@ -57,13 +57,7 @@
   <sup>(TU3F1819139)</sup>
   </a>
   </td>
-  <td align="center">
-  <a href="https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf">
-  <img src="https://github.com/identicons/ajay.png" width="150px;" alt="Ajay Davare"/><br />
-  <sub><b>Ajay Davare</b></sub><br />
-  <sup>(TU3F1718006)</sup>
-  </a>
-  </td>
+
   </tr>
   </table>
 

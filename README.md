@@ -149,7 +149,18 @@ The application allows users to spawn varying numbers of particles, apply physic
 QUADTREE-VISUALIZER/
 │
 ├── .github/                                                      # GitHub Workflows & Metadata
+│   └── workflows/
+│       └── deploy.yml                                            # CI/CD Deployment Workflow
+│
 ├── 25-04-2022/                                                   # Historical Project Snapshot
+│   ├── 2022-04-25 at 10.53.18.jpeg                               # Defense Day Photo 1
+│   ├── 2022-04-25 at 10.53.19.jpeg                               # Defense Day Photo 2
+│   ├── 2022-04-25_at_10.53.19_Transparent.png                    # Defense Day Photo (Transparent)
+│   ├── Final Presentation.pdf                                    # Final Defense Presentation (PDF)
+│   ├── Final Presentation.pptx                                   # Final Defense Presentation (PPTX)
+│   ├── Gmail - Photos.pdf                                        # Email Correspondence
+│   ├── Presentation_Preparation.pdf                              # Prep Notes (PDF)
+│   └── Presentation_Preparation.txt                              # Prep Notes (TXT)
 │
 ├── BlackBook/                                                    # Official Engineering Thesis Documents
 │   ├── BlackBook Cover Pages/                                    # Thesis Cover Designs
@@ -165,23 +176,57 @@ QUADTREE-VISUALIZER/
 │   └── SPECIFICATION.md                                          # Technical Architecture & Spec
 │
 ├── Initial Work/                                                 # Early Prototypes & Research
+│   ├── Initial PPTs/                                             # Idea Pitch Decks
+│   ├── Phi Education/                                            # Educational Context
+│   ├── Phi Tasks/                                                # Task Assignments
+│   ├── QuadTree Implementation Examples/                         # Reference Implementations
+│   ├── Phi Portal Dashboard.png                                  # UI Mockup - Dashboard
+│   ├── Phi Portal Login.png                                      # UI Mockup - Login
+│   └── Phi Potal Project Plan.png                                # Project Roadmap Visual
+│
 ├── Major-Project Selection/                                      # Topic Selection & Approval Records
+│   ├── BE STUDENTS LIST SH21/                                    # Student Batch List
+│   ├── Approval Message.png                                      # Guide Approval Proof
+│   ├── B.E. Major Project Team Building Details_FH2021.pdf       # Team Formation Doc
+│   ├── BE Major Project Details of Div A_B_C_AY21_22_ Final.xlsx # Division Details
+│   ├── BE STUDENTS LIST SH21.zip                                 # Student List Archive
+│   ├── EPIC TN04_Master_BTechProjectList_TitlesForSelection.xlsx # Title Selection List
+│   ├── Final Year Project.jpg                                    # Project Concept Art
+│   ├── PHI-CS-73.jpeg                                            # Group ID Badge
+│   ├── Project Guide Area of specialization 2021 - 2022.pdf      # Guide Domain List
+│   ├── Project Guide Area of specialization 2021 - 2022.xlsx     # Guide Domain Data
+│   ├── Studentcopy_TN04_BE_SH2021_SEM VII_PROJECT REVIEW.xlsx    # Review Details
+│   └── TN04_Project Guide Selection.pdf                          # Allocation Letter
 │
 ├── Major-Project-I/                                              # Semester VII Project Phase
 │   ├── MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf                      # Phase I Report
-│   ├── QuadTree_Visualizer_Major-Project-I_CS-73.pptx            # Phase I Presentation
-│   ├── Review_Major-Project-I_Attendance_Proof.png               # Attendance Record
-│   └── TN04_CS Project Details of Div A_B_C.xlsx                 # Division Details
+│   ├── MAJOR_PROJECT_BE-COMPS_B-50,51,58.docx                    # Draft Report
+│   ├── Major Project Attendance [25-10-2021].jpeg                # Attendance Record
+│   ├── QuadTree_Visualizer_Major-Project-I_CS-73.pdf             # Phase I Presentation (PDF)
+│   ├── QuadTree_Visualizer_Major-Project-I_CS-73.pptx            # Phase I Presentation (PPTX)
+│   ├── Review_Major-Project-I_Attendance_Proof.png               # Review Attendance
+│   ├── Studentcopy_TN04_BE_SH2021 _SEM VII_PROJECT REVIEW.xlsx   # Grading Sheet
+│   └── TN04_CS Project Details of Div A_B_C Final 27th Aug.xlsx  # Division Allocations
 │
 ├── Major-Project-II/                                             # Semester VIII Project Phase
-│   ├── MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf                     # Phase II Report
+│   ├── MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx                    # Phase II Report (Docx)
+│   ├── MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf                     # Phase II Report (PDF)
 │   ├── Major-Project Report.pdf                                  # Final Report Draft
-│   └── QuadTree_Visualizer_Major-Project-II_CS-73.pptx           # Phase II Presentation
+│   ├── QuadTree_Visualizer_Major-Project-II_CS-73.pdf            # Phase II Presentation (PDF)
+│   └── QuadTree_Visualizer_Major-Project-II_CS-73.pptx           # Phase II Presentation (PPTX)
 │
 ├── Mega/                                                         # Archival Attribution Assets
 │   └── Mega.png                                                  # Author Profile Image (Mega Satish)
 │
 ├── Reference Papers/                                             # Literature Survey & Bibliography
+│   ├── A Quadtree-based Hierarchical Clustering Method.pdf       # Reference Paper
+│   ├── An Effective Way to Represent Quadtrees.pdf               # Reference Paper
+│   ├── Efficient Quadtree Coding of Images and Video.pdf         # Reference Paper
+│   ├── Energetics of a bouncing drop.pdf                         # Physics Reference
+│   ├── Kinetic Compressed Quadtrees in the Black-Box Model.pdf   # Algorithm Reference
+│   ├── Nodejs - Using JavaScript to Build...pdf                  # Tech Stack Reference
+│   ├── Optimal Quadtree Construction Algorithms.pdf              # Algorithm Reference
+│   └── Quad-Tree Motion Modelling with Leaf Merging.pdf          # Algorithm Reference
 │
 ├── Research Paper/                                               # Published Research Assets
 │   ├── Certificates/                                             # Publication Certificates (IJERT)
@@ -204,10 +249,11 @@ QUADTREE-VISUALIZER/
 │   └── QuadTree_Visualizer_Review-2_CS-73.pptx                   # Review 2 Presentation
 │
 ├── Review-3/                                                     # Third Progress Review
+│   ├── BE Major Project Review3 Student Schedule FH22.xlsx       # Schedule Data
 │   ├── QuadTree_Visualizer_Review-3_CS-73.pdf                    # Review 3 Report
 │   ├── QuadTree_Visualizer_Review-3_CS-73.pptx                   # Review 3 Presentation
 │   ├── Review-3_Panel.png                                        # Panel Photo
-│   └── Review-3_Schedule.png                                     # Schedule
+│   └── Review-3_Schedule.png                                     # Schedule Image
 │
 ├── Review-4/                                                     # Final Defense Review
 │   ├── QuadTree_Visualizer_Review-4_CS-73.pdf                    # Final Review Report
@@ -215,17 +261,20 @@ QUADTREE-VISUALIZER/
 │
 ├── Source Code/                                                  # Application Source
 │   └── quadtree-visualizer/                                      # Next.js Application Root
-│       ├── components/                                           # React Components
-│       ├── pages/                                                # Next.js Pages
+│       ├── components/                                           # React UI Components
+│       ├── pages/                                                # App Routes
 │       ├── public/                                               # Static Assets
-│       ├── styles/                                               # SCSS Modules
-│       ├── utils/                                                # Physics & QuadTree Logic
+│       ├── styles/                                               # SCSS Theme Files
+│       ├── utils/                                                # Core QuadTree Logic & Physics Engine
 │       └── package.json                                          # Dependencies
 │
 ├── Source Code Output/                                           # Result Artifacts
 │   └── Outputs.pdf                                               # Complete Output Gallery
 │
 ├── Submission Report/                                            # Final Submission Docs
+│   ├── Amey_B-50_Submission_Report.pdf                           # Submission Receipt (Amey)
+│   ├── Hasan_B-51_Submission_Report.pdf                          # Submission Receipt (Hasan)
+│   └── Mega_B-58_Submission_Report.pdf                           # Submission Receipt (Mega)
 │
 ├── .gitattributes                                                # Git configuration
 ├── .gitignore                                                    # Git exclusion rules

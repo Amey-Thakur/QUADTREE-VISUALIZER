@@ -1,3 +1,14 @@
+/**
+ * Author: Amey Mega Hasan
+ * GitHub: https://github.com/Amey-Thakur
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Year: 2021-2022
+ * License: MIT
+ *
+ * Defines the CircleBody class, representing a circular physical entity in the simulation.
+ * Implements mechanics for position integration, boundary checking, and elastic collision resolution.
+ */
+
 import { PhysicsBody, PhysicsEnvironment, compute2DCollision } from './physics'
 import { QuadObject } from './quadtree'
 import { Rect } from './shapes'

@@ -1,4 +1,15 @@
 /**
+ * Author: Amey Mega Hasan
+ * GitHub: https://github.com/Amey-Thakur
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Year: 2021-2022
+ * License: MIT
+ *
+ * Implements a 2D Euclidean vector space with fundamental operations.
+ * Provides functional utilities for vector arithmetic, magnitude calculation, and dot products.
+ */
+
+/**
  * 2D Vector representation with functional utilities,
  * majority physics related
  */

@@ -1,3 +1,14 @@
+/**
+ * Author: Amey Mega Hasan
+ * GitHub: https://github.com/Amey-Thakur
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Year: 2021-2022
+ * License: MIT
+ *
+ * Implements the QuadTree spatial partitioning data structure for efficient 2D collision detection.
+ * Provides recursive subdivision and object insertion with O(log n) average complexity.
+ */
+
 import { Rect } from './shapes'
 
 /**

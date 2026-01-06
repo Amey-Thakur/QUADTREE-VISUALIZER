@@ -1,3 +1,14 @@
+/**
+ * Author: Amey Mega Hasan
+ * GitHub: https://github.com/Amey-Thakur
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Year: 2021-2022
+ * License: MIT
+ *
+ * Core physics engine implementing 2D elastic collision dynamics.
+ * Handles momentum conservation and coefficient of restitution calculations.
+ */
+
 import { Vector2D } from './vector2d'
 
 /**

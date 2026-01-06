@@ -1,6 +1,6 @@
 /**
  * Author: Amey Mega Hasan
- * GitHub: https://github.com/Amey-Thakur
+ * GitHub: https://github.com/Amey-Thakur & https://github.com/msatmod & https://github.com/rizvihasan
  * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
  * Year: 2021-2022
  * License: MIT

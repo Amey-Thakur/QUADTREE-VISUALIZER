@@ -27,9 +27,13 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Remove old lock file
+        working-directory: 'Source Code/quadtree-visualizer'
+        run: rm -f package-lock.json
+
       - name: Install dependencies
         working-directory: 'Source Code/quadtree-visualizer'
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build
         working-directory: 'Source Code/quadtree-visualizer'

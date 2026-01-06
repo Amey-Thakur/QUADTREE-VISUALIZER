@@ -1,5 +1,10 @@
 @import "./theme.module.scss";
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+  font-family: 'Play', sans-serif !important;
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -7,10 +12,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Play', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 main {
   height: 100vh;
+  font-family: 'Play', sans-serif;
 }
 
 a {
@@ -18,6 +26,6 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+button, input, textarea, select {
+  font-family: 'Play', sans-serif !important;
 }

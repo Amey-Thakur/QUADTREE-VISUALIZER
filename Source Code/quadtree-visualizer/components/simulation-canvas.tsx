@@ -1,5 +1,5 @@
 'use client'
-import React, { Component, createRef, RefObject, MouseEvent } from 'react'
+import React, { Component, createRef, RefObject, MouseEvent as ReactMouseEvent } from 'react'
 import styles from './simulation-canvas.module.scss'
 
 import { QuadNode, QuadTree } from '../utils/quadtree'
@@ -24,10 +24,10 @@ interface SimulationCanvasState {
 export default class SimulationCanvas extends Component<SimulationCanvasProps, SimulationCanvasState> {
   private timestamp = time()
   private dragVector = { start: new Vector2D(), end: new Vector2D(), isDragging: false }
-  private stopLoop: boolean = false
+  private stopLoop = false
   private quadTree!: QuadTree
   private canvasBounds!: Rect
-  private bodies = new Array<CircleBody>()
+  private bodies: CircleBody[] = []
   private canvasRef: RefObject<HTMLCanvasElement> = createRef<HTMLCanvasElement>()
   private canvasDivRef: RefObject<HTMLDivElement> = createRef<HTMLDivElement>()
 
@@ -48,7 +48,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
   }
 
   public clearBodies(): void {
-    this.bodies = new Array<CircleBody>()
+    this.bodies = []
     this.quadTree.quadObjects = this.bodies
   }
 
@@ -82,9 +82,9 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
   }
 
   renderSimulation(canvasContext: CanvasRenderingContext2D): void {
-    canvasContext.fillStyle = styles.color1
+    canvasContext.fillStyle = styles.color1 || '#000000'
     canvasContext.fillRect(0, 0, this.canvasBounds.w, this.canvasBounds.h)
-    canvasContext.strokeStyle = styles.color4
+    canvasContext.strokeStyle = styles.color4 || '#ffffff'
     this.bodies.forEach((particle: CircleBody) => {
       canvasContext.beginPath()
       canvasContext.arc(particle.position.x, particle.position.y, particle.radius, 0, 2 * Math.PI)
@@ -102,7 +102,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
       quad.leaves?.forEach((leaf: QuadNode) => showQuadTrees(leaf))
     }
     if (this.props.showQuads) {
-      canvasContext.strokeStyle = styles.color3
+      canvasContext.strokeStyle = styles.color3 || '#ffffff'
       showQuadTrees(this.quadTree.quadRoot)
     }
   }
@@ -116,9 +116,11 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
   quadTreeProcedure(): (quadNode: QuadNode) => void {
     return function processCollisions(quadNode: QuadNode): void {
       const collisionObject = quadNode.quadObjects as CircleBody[]
-      for (let i = 0; i < collisionObject.length; i++)
-        for (let j = i + 1; j < collisionObject.length; j++)
+      for (let i = 0; i < collisionObject.length; i++) {
+        for (let j = i + 1; j < collisionObject.length; j++) {
           collisionObject[i].collide(collisionObject[j])
+        }
+      }
 
       const processLeafCollisions = (leaves: QuadNode[] | null): void => {
         leaves?.forEach((leaf: QuadNode) => {
@@ -154,7 +156,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
       if (this.props.showFPS) {
         context.save()
         context.font = "25px 'Play', sans-serif"
-        context.fillStyle = styles.color4
+        context.fillStyle = styles.color4 || '#ffffff'
         context.fillText('FPS: ' + fps, 10, 30)
         context.restore()
       }
@@ -163,7 +165,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     requestAnimationFrame(this.renderLoop)
   }
 
-  mouseDown(e: MouseEvent<HTMLCanvasElement>): void {
+  mouseDown(e: ReactMouseEvent<HTMLCanvasElement>): void {
     const canvas = this.canvasRef.current
     if (canvas) {
       this.dragVector.start = this.dragVector.end = new Vector2D(
@@ -174,7 +176,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     }
   }
 
-  mouseDrag(e: MouseEvent<HTMLCanvasElement>): void {
+  mouseDrag(e: ReactMouseEvent<HTMLCanvasElement>): void {
     const canvas = this.canvasRef.current
     if (this.dragVector.isDragging && canvas) {
       this.dragVector.end = new Vector2D(

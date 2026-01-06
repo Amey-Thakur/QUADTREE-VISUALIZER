@@ -67,7 +67,7 @@
   </tr>
   </table>
 
-  *Project Guide: **Prof. Randeep Kaur Kahlon** (Area of Specialization: [View PDF](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf))*
+  *Project Guide: **Prof. Randeep Kaur Kahlon** (Area of Specialization: [View PDF](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022%20-%20single%20page.pdf))*
 
 </div>
 

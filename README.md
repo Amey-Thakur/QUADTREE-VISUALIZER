@@ -298,21 +298,17 @@ QUADTREE-VISUALIZER/
 <!-- RESULTS -->
 ## Results Gallery
 
-<p align="center">
-  <img src="Source%20Code%20Output/Homepage.png" width="100%" alt="Homepage" />
-  <br>
-  <br>
-  <img src="Source%20Code%20Output/Control%20Panel.png" width="100%" alt="Control Panel" />
-  <br>
-  <br>
-  <img src="Source%20Code%20Output/Spawn%20Bodies.png" width="100%" alt="Spawn Bodies" />
-  <br>
-  <br>
-  <img src="Source%20Code%20Output/Random%20%26%20Spawn%20Bodies.png" width="100%" alt="Random Bodies" />
-  <br>
-  <br>
-  <img src="Source%20Code%20Output/Clear%20QuadTree.png" width="100%" alt="Clear QuadTree" />
-</p>
+<div align="center">
+
+![Homepage](Source%20Code%20Output/Homepage.png)
+
+![Control Panel](Source%20Code%20Output/Control%20Panel.png)
+
+![Spawn Bodies](Source%20Code%20Output/Spawn%20Bodies.png)
+
+![Random Bodies](Source%20Code%20Output/Random%20%26%20Spawn%20Bodies.png)
+
+![Clear QuadTree](Source%20Code%20Output/Clear%20QuadTree.png)
 
 ### QuadTree Generation from Images
 An experimental implementation generating QuadTrees from static images.

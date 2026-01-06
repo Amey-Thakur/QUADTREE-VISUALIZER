@@ -320,7 +320,7 @@ QUADTREE-VISUALIZER/
 
 An experimental implementation generating QuadTrees from static images.
 
-[Kaggle Notebook](https://www.kaggle.com/code/ameythakur20/quadtree) | [Kaggle Dataset](https://www.kaggle.com/datasets/ameythakur20/images)
+[Kaggle Notebook](https://www.kaggle.com/code/ameythakur20/quadtree) · [Kaggle Dataset](https://www.kaggle.com/datasets/ameythakur20/images)
 
 <img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif" alt="Image QuadTree" height="400">
 
@@ -329,7 +329,7 @@ An experimental implementation generating QuadTrees from static images.
 ### Additional Resources
 
 | # | Name | Type | Link |
-| :-: | :--- | :--- | :--- |
+| :-: | :--- | :--- | :-: |
 | 1 | **QuadTree Notebook 1** | Jupyter Notebook | [View File](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb) |
 | 2 | **QuadTree Notebook 2** | Jupyter Notebook | [View File](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_2.ipynb) |
 | 3 | **Kaggle Notebook** | External Link | [View Notebook](https://www.kaggle.com/code/ameythakur20/quadtree) |

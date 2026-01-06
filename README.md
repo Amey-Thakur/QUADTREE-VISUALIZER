@@ -22,7 +22,7 @@
 
 #
 
-### BlackBooks
+### BlackBook
 
   | **[MAJOR-PROJECT](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf)** |
   | :-------------: | 
@@ -61,9 +61,9 @@
 
 ### Source Code
 
- - [QuadTree-Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Source_Code/quadtree-visualizer)
+ - [QuadTree-Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/tree/main/Source%20Code/quadtree-visualizer)
 
- - [Project Implementation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code/quadtree-visualizer.zip)
+ - [Project Implementation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code/quadtree-visualizer.zip)
 
 
 #### Using npm
@@ -79,7 +79,7 @@ git clone https://github.com/Amey-Thakur/QUADTREE-VISUALIZER.git
 2. Change the directory
 
 ``` bash
-cd QUADTREE-VISUALIZER/Source_Code/quadtree-visualizer/
+cd "QUADTREE-VISUALIZER/Source Code/quadtree-visualizer/"
 ```
 
 3. Install the dependencies
@@ -96,21 +96,21 @@ npm run dev
 
 #
 
-   - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Outputs.pdf)
+   - [Outputs](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/Outputs.pdf)
 
-      - [Homepage](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Homepage.png)
+      - [Homepage](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/Homepage.png)
   
-      - [Clear QuadTree](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Clear%20QuadTree.png)
+      - [Clear QuadTree](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/Clear%20QuadTree.png)
    
-      - [Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Spawn%20Bodies.png)
+      - [Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/Spawn%20Bodies.png)
    
-      - [(a) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/(a)%20Random%20Bodies.png)
+      - [(a) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/(a)%20Random%20Bodies.png)
 
-      - [(b) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/(b)%20Random%20Bodies.png)
+      - [(b) Random Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/(b)%20Random%20Bodies.png)
    
-      - [Random & Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Random%20%26%20Spawn%20Bodies.png)
+      - [Random & Spawn Bodies](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/Random%20%26%20Spawn%20Bodies.png)
    
-      - [Control Panel](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source_Code_Output/Control%20Panel.png)
+      - [Control Panel](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Source%20Code%20Output/Control%20Panel.png)
 
 ---
 
@@ -173,11 +173,11 @@ npm run dev
 
 ## Submission Report
 
- - [Amey Thakur](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Amey_B-50_Submission_Report.pdf)
+ - [Amey Thakur](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission%20Report/Amey_B-50_Submission_Report.pdf)
  
- - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Mega_B-58_Submission_Report.pdf)
+ - [Mega Satish](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission%20Report/Mega_B-58_Submission_Report.pdf)
  
- - [Hasan Rizvi](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission_Report/Hasan_B-51_Submission_Report.pdf)
+ - [Hasan Rizvi](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Submission%20Report/Hasan_B-51_Submission_Report.pdf)
 
 ---
 
@@ -204,15 +204,15 @@ npm run dev
 
 ## Major-Project Selection
 
- - [Project Guide Area of Specialization](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.xlsx)
+ - [Project Guide Area of Specialization](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.xlsx)
  
- - [Group Formation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
+ - [Group Formation](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
 
- - [Approval Message](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Approval%20Message.png)
+ - [Approval Message](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project%20Selection/Approval%20Message.png)
 
- - [Project Guide Selection](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/TN04_Project%20Guide%20Selection.pdf)
+ - [Project Guide Selection](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project%20Selection/TN04_Project%20Guide%20Selection.pdf)
 
- - [Final Year Project](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project_Selection/Final%20Year%20Project.jpg)
+ - [Final Year Project](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/blob/main/Major-Project%20Selection/Final%20Year%20Project.jpg)
 
 
 ### 

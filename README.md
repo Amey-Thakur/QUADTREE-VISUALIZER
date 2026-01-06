@@ -310,17 +310,7 @@ QUADTREE-VISUALIZER/
 
 ![Clear QuadTree](Source%20Code%20Output/Clear%20QuadTree.png)
 
-<div align="center">
 
-### QuadTree Generation from Images
-
-An experimental implementation generating QuadTrees from static images.
-
-[View Jupyter Notebook 1](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb) | [Kaggle Dataset](https://www.kaggle.com/ameythakur20/quadtree)
-
-<img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif" alt="Image QuadTree" height="300">
-
-</div>
 
 ---
 

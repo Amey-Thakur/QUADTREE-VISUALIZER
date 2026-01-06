@@ -47,6 +47,14 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     )
   }
 
+  public cornerPointWithSpread(radius: number = this.props.radius, spread: number = 50): Vector2D {
+    // Spawn from top-left corner with some random spread
+    return new Vector2D(
+      radius + Math.random() * spread,
+      radius + Math.random() * spread
+    )
+  }
+
   public clearBodies(): void {
     this.bodies = []
     this.quadTree.quadObjects = this.bodies

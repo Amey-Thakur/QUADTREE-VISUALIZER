@@ -34,9 +34,26 @@ export default class Home extends Component<object, HomeState> {
 
   componentDidMount(): void {
     const radius = Math.ceil(Math.min(window.innerWidth / 200, window.innerHeight / 200))
-    this.setState({ radius: radius }, this.spawnRandomBodies)
+    this.setState({ radius: radius }, () => this.spawnFromCorner())
   }
 
+  // Spawn bodies from corner on initial load - they spread out naturally
+  spawnFromCorner(count: number = this.state.count, radius: number = this.state.radius): void {
+    const canvas = this.simulationCanvasRef.current
+    if (canvas) {
+      const speed = 300
+      for (let i = 0; i < count; i++) {
+        // Spawn from corner with outward velocity
+        canvas.addBody(
+          canvas.cornerPointWithSpread(radius, 60),
+          new Vector2D(Math.random() * speed, Math.random() * speed), // Positive velocities = move outward
+          radius
+        )
+      }
+    }
+  }
+
+  // Spawn bodies randomly (used by Spawn Bodies button)
   spawnRandomBodies(count: number = this.state.count, radius: number = this.state.radius): void {
     const canvas = this.simulationCanvasRef.current
     if (canvas) {

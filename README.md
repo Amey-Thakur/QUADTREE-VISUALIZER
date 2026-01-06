@@ -310,6 +310,8 @@ QUADTREE-VISUALIZER/
 
 ![Clear QuadTree](Source%20Code%20Output/Clear%20QuadTree.png)
 
+</div>
+
 ---
 
 ## QuadTree Generation from Images

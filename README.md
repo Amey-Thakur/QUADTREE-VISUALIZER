@@ -102,6 +102,9 @@ The application allows users to spawn varying numbers of particles, apply physic
 <br>
 
 <p align="center">
+  <strong>Defense Day Photos (25-04-2022)</strong>
+  <br>
+  <br>
   <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="100%" />
   <br>
   <br>

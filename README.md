@@ -81,8 +81,9 @@ The application allows users to spawn varying numbers of particles, apply physic
 > [!IMPORTANT]
 > **Research Impact**
 >
-> This project was published in the **International Journal of Engineering Research & Technology (IJERT)** (Volume 11, Issue 04).
+> This project was published as a research paper in the **International Journal of Engineering Research & Technology (IJERT)** (Volume 11, Issue 04) and is also available as a preprint on **viXra**. The project received an official **Publication Certificate** for its research contribution to engineering education.
 >
+> - [Preprint @viXra](https://vixra.org/abs/2204.0168)
 > - [Published Paper @IJERT](https://ems.ijert.org/download-section_14TVPS67DSYEpSjrSUlGAmuer)
 > - [Research Paper PDF](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
 > - [Publication Certificate](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf)

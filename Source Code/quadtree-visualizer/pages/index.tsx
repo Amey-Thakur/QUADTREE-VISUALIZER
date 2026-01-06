@@ -1,5 +1,5 @@
 'use client'
-import { Component, createRef, RefObject, ChangeEvent } from 'react'
+import React, { Component, createRef, RefObject, ChangeEvent } from 'react'
 import ProjectHeader from '../components/project-header'
 import SimulationCanvas, { SimulationCanvasProps } from '../components/simulation-canvas'
 import ControlBar, { ActionButton, DataConfig, DataSlider, DataToggle, SectionTitle } from '../components/control-bar'
@@ -16,10 +16,10 @@ interface HomeState extends SimulationCanvasProps {
 /**
  * Main Page which contains the QuadTree Visualizer and Control Bar
  */
-export default class Home extends Component<Record<string, never>, HomeState> {
+export default class Home extends Component<object, HomeState> {
   private simulationCanvasRef: RefObject<SimulationCanvas> = createRef<SimulationCanvas>()
 
-  constructor(props: Record<string, never>) {
+  constructor(props: object) {
     super(props)
     this.state = {
       radius: 5,
@@ -36,10 +36,6 @@ export default class Home extends Component<Record<string, never>, HomeState> {
     this.setState({ radius: radius }, this.spawnRandomBodies)
   }
 
-  /**
-   * Spawn a number of Bodies with random velocity
-   * based on current simulation variables
-   */
   spawnRandomBodies(count: number = this.state.count, radius: number = this.state.radius): void {
     const canvas = this.simulationCanvasRef.current
     if (canvas) {
@@ -48,13 +44,13 @@ export default class Home extends Component<Record<string, never>, HomeState> {
         canvas.addBody(
           canvas.randomPointInBounds(radius),
           new Vector2D((Math.random() - 0.5) * speed, (Math.random() - 0.5) * speed),
-          radius,
+          radius
         )
       }
     }
   }
 
-  render(): JSX.Element {
+  render(): React.ReactElement {
     return (
       <main>
         <div className={styles.simulation_container}>
@@ -109,7 +105,7 @@ export default class Home extends Component<Record<string, never>, HomeState> {
               }}
             />
             <ActionButton label="Spawn Bodies" onClick={(): void => this.spawnRandomBodies()} />
-            <ActionButton label="Clear Bodies" onClick={(): void => this.simulationCanvasRef.current?.clearBodies()} />
+            <ActionButton label="Clear Bodies" onClick={(): void => { this.simulationCanvasRef.current?.clearBodies() }} />
             <ActionButton label="Random Body" onClick={(): void => this.spawnRandomBodies(1, 20 + Math.random() * 20)} />
             <DataToggle
               label="Show FPS"

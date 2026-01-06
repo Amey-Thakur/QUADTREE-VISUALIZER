@@ -1,5 +1,5 @@
 'use client'
-import { Component, createRef, RefObject, MouseEvent } from 'react'
+import React, { Component, createRef, RefObject, MouseEvent } from 'react'
 import styles from './simulation-canvas.module.scss'
 
 import { QuadNode, QuadTree } from '../utils/quadtree'
@@ -40,9 +40,6 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     this.mouseDrag = this.mouseDrag.bind(this)
   }
 
-  /**
-   * Generates a random point on the canvas where a body can spawn
-   */
   public randomPointInBounds(radius: number = this.props.radius): Vector2D {
     return new Vector2D(
       radius + (this.canvasBounds.w - radius) * Math.random(),
@@ -50,17 +47,11 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     )
   }
 
-  /**
-   * Clear all bodies from the simulation
-   */
   public clearBodies(): void {
     this.bodies = new Array<CircleBody>()
     this.quadTree.quadObjects = this.bodies
   }
 
-  /**
-   * Spawn a body into the simulation
-   */
   public addBody(position: Vector2D, velocity: Vector2D, radius: number): void {
     this.quadTree.insert(new CircleBody(position, velocity, radius, this.props.physicsEnvironment))
   }
@@ -75,9 +66,6 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     this.renderLoop()
   }
 
-  /**
-   * Retrieves Bounds of the Canvas in order to initialize QuadTree Bounds
-   */
   configureBounds(): void {
     const canvasDiv = this.canvasDivRef.current
     const canvas = this.canvasRef.current
@@ -93,7 +81,6 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     }
   }
 
-  // Update Graphics
   renderSimulation(canvasContext: CanvasRenderingContext2D): void {
     canvasContext.fillStyle = styles.color1
     canvasContext.fillRect(0, 0, this.canvasBounds.w, this.canvasBounds.h)
@@ -120,16 +107,12 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     }
   }
 
-  // Update Physics
   updateSimulation(delta: number): void {
     this.bodies.forEach((particle: CircleBody) => particle.tick(delta))
     this.quadTree.process(this.quadTreeProcedure())
     this.bodies.forEach((particle: CircleBody) => particle.collideBounds(this.canvasBounds))
   }
 
-  /**
-   * The procedure for each node on a QuadTree after insertion is finished
-   */
   quadTreeProcedure(): (quadNode: QuadNode) => void {
     return function processCollisions(quadNode: QuadNode): void {
       const collisionObject = quadNode.quadObjects as CircleBody[]
@@ -153,7 +136,6 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     }
   }
 
-  // Logic Loop
   renderLoop(): void {
     if (this.stopLoop) return
 
@@ -207,7 +189,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
     this.dragVector.isDragging = false
   }
 
-  render(): JSX.Element {
+  render(): React.ReactElement {
     return (
       <div className={styles.canvas_container}>
         <div ref={this.canvasDivRef} className={styles.canvas_wrapper}>

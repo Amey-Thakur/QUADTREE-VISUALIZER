@@ -1,4 +1,5 @@
 'use client'
+import React from 'react'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import { AppProps } from 'next/app'
@@ -35,7 +36,7 @@ const theme = createTheme({
 
 const basePath = process.env.NODE_ENV === 'production' ? '/QUADTREE-VISUALIZER' : ''
 
-function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

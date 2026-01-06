@@ -1,5 +1,5 @@
 'use client'
-import { Component, createRef, RefObject } from 'react'
+import { Component, createRef, RefObject, ChangeEvent } from 'react'
 import ProjectHeader from '../components/project-header'
 import SimulationCanvas, { SimulationCanvasProps } from '../components/simulation-canvas'
 import ControlBar, { ActionButton, DataConfig, DataSlider, DataToggle, SectionTitle } from '../components/control-bar'
@@ -9,29 +9,30 @@ import { Vector2D } from '../utils/vector2d'
 import { updateWith } from '../utils/functions'
 import styles from '../styles/Home.module.scss'
 
-class SimulationFields implements SimulationCanvasProps {
-  radius = 5
-  count = 200
-  showFPS = true
-  showQuads = true
-  physicsEnvironment = new PhysicsEnvironment
+interface HomeState extends SimulationCanvasProps {
+  count: number
 }
 
 /**
  * Main Page which contains the QuadTree Visualizer and Control Bar
  */
-export default class Home extends Component<unknown, SimulationFields> {
-  private simulationCanvasRef: RefObject<SimulationCanvas | null> = createRef()
-  constructor(props: unknown) {
+export default class Home extends Component<Record<string, never>, HomeState> {
+  private simulationCanvasRef: RefObject<SimulationCanvas> = createRef<SimulationCanvas>()
+
+  constructor(props: Record<string, never>) {
     super(props)
-    this.state = new SimulationFields
+    this.state = {
+      radius: 5,
+      count: 200,
+      showFPS: true,
+      showQuads: true,
+      physicsEnvironment: new PhysicsEnvironment()
+    }
     this.spawnRandomBodies = this.spawnRandomBodies.bind(this)
   }
 
   componentDidMount(): void {
-    // calculate a radius that is relatively the same ratio for all windows
     const radius = Math.ceil(Math.min(window.innerWidth / 200, window.innerHeight / 200))
-    // set initial variables
     this.setState({ radius: radius }, this.spawnRandomBodies)
   }
 
@@ -40,14 +41,16 @@ export default class Home extends Component<unknown, SimulationFields> {
    * based on current simulation variables
    */
   spawnRandomBodies(count: number = this.state.count, radius: number = this.state.radius): void {
-    if (this.simulationCanvasRef.current) {
+    const canvas = this.simulationCanvasRef.current
+    if (canvas) {
       const speed = 300
-      for (let i = 0; i < count; i++)
-        this.simulationCanvasRef.current.addBody(
-          this.simulationCanvasRef.current.randomPointInBounds(radius),
+      for (let i = 0; i < count; i++) {
+        canvas.addBody(
+          canvas.randomPointInBounds(radius),
           new Vector2D((Math.random() - 0.5) * speed, (Math.random() - 0.5) * speed),
           radius,
         )
+      }
     }
   }
 
@@ -56,38 +59,68 @@ export default class Home extends Component<unknown, SimulationFields> {
       <main>
         <div className={styles.simulation_container}>
           <ProjectHeader title="QuadTree Visualizer" year="2022" />
-          <SimulationCanvas ref={this.simulationCanvasRef}
+          <SimulationCanvas
+            ref={this.simulationCanvasRef}
             showFPS={this.state.showFPS}
             showQuads={this.state.showQuads}
             physicsEnvironment={this.state.physicsEnvironment}
-            radius={this.state.radius} />
+            radius={this.state.radius}
+          />
           <ControlBar>
             <SectionTitle title="Collision Speed" />
-            <DataSlider label="Restitution Coefficient (e)" value={this.state.physicsEnvironment.coefficientOfRestitution}
-              updateFunc={(value: number) => {
+            <DataSlider
+              label="Restitution Coefficient (e)"
+              value={this.state.physicsEnvironment.coefficientOfRestitution}
+              updateFunc={(value: number): void => {
                 updateWith(this.state.physicsEnvironment, { coefficientOfRestitution: value })
                 this.setState({ physicsEnvironment: this.state.physicsEnvironment })
-              }} />
+              }}
+            />
             <SectionTitle title="QuadTree" />
-            <DataConfig label="Node Capacity" value={QuadTree.capacity}
-              updateFunc={(value) => { updateWith(QuadTree, { capacity: +value.target.value }); this.forceUpdate() }} />
-            <DataConfig label="Maxmimum Tree Depth" value={QuadTree.maxDepth}
-              updateFunc={(value) => { updateWith(QuadTree, { maxDepth: +value.target.value }); this.forceUpdate() }} />
+            <DataConfig
+              label="Node Capacity"
+              value={QuadTree.capacity}
+              updateFunc={(e: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>): void => {
+                updateWith(QuadTree, { capacity: +e.target.value })
+                this.forceUpdate()
+              }}
+            />
+            <DataConfig
+              label="Maximum Tree Depth"
+              value={QuadTree.maxDepth}
+              updateFunc={(e: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>): void => {
+                updateWith(QuadTree, { maxDepth: +e.target.value })
+                this.forceUpdate()
+              }}
+            />
             <SectionTitle title="Simulation" />
-            <DataConfig label="Radius" value={this.state.radius}
-              updateFunc={(value) => this.setState({ radius: +value.target.value })} />
-            <DataConfig label="Spawn Count" value={this.state.count}
-              updateFunc={(value) => this.setState({ count: +value.target.value })} />
-            <ActionButton label="Spawn Bodies"
-              onClick={() => this.spawnRandomBodies()} />
-            <ActionButton label="Clear Bodies"
-              onClick={() => this.simulationCanvasRef.current?.clearBodies()} />
-            <ActionButton label="Random Body"
-              onClick={() => this.spawnRandomBodies(1, 20 + Math.random() * 20)} />
-            <DataToggle label="Show FPS" value={this.state.showFPS}
-              updateFunc={(_, checked) => this.setState({ showFPS: checked })} />
-            <DataToggle label="Show Quads" value={this.state.showQuads}
-              updateFunc={(_, checked) => this.setState({ showQuads: checked })} />
+            <DataConfig
+              label="Radius"
+              value={this.state.radius}
+              updateFunc={(e: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>): void => {
+                this.setState({ radius: +e.target.value })
+              }}
+            />
+            <DataConfig
+              label="Spawn Count"
+              value={this.state.count}
+              updateFunc={(e: ChangeEvent<HTMLTextAreaElement | HTMLInputElement>): void => {
+                this.setState({ count: +e.target.value })
+              }}
+            />
+            <ActionButton label="Spawn Bodies" onClick={(): void => this.spawnRandomBodies()} />
+            <ActionButton label="Clear Bodies" onClick={(): void => this.simulationCanvasRef.current?.clearBodies()} />
+            <ActionButton label="Random Body" onClick={(): void => this.spawnRandomBodies(1, 20 + Math.random() * 20)} />
+            <DataToggle
+              label="Show FPS"
+              value={this.state.showFPS}
+              updateFunc={(_, checked): void => this.setState({ showFPS: checked })}
+            />
+            <DataToggle
+              label="Show Quads"
+              value={this.state.showQuads}
+              updateFunc={(_, checked): void => this.setState({ showQuads: checked })}
+            />
           </ControlBar>
         </div>
       </main>

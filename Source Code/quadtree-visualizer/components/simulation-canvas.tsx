@@ -8,22 +8,32 @@ import { CircleBody } from '../utils/circlebody'
 import { Vector2D } from '../utils/vector2d'
 import { PhysicsEnvironment } from '../utils/physics'
 
-const time = () => new Date().getTime()
+const time = (): number => new Date().getTime()
 
-export interface SimulationCanvasProps { radius: number, showFPS: boolean, showQuads: boolean, physicsEnvironment: PhysicsEnvironment }
-export default class SimulationCanvas extends Component<SimulationCanvasProps> {
+export interface SimulationCanvasProps {
+  radius: number
+  showFPS: boolean
+  showQuads: boolean
+  physicsEnvironment: PhysicsEnvironment
+}
+
+interface SimulationCanvasState {
+  initialized: boolean
+}
+
+export default class SimulationCanvas extends Component<SimulationCanvasProps, SimulationCanvasState> {
   private timestamp = time()
-  private dragVector = { start: new Vector2D, end: new Vector2D, isDragging: false }
-  private stopLoop: boolean
+  private dragVector = { start: new Vector2D(), end: new Vector2D(), isDragging: false }
+  private stopLoop: boolean = false
   private quadTree!: QuadTree
   private canvasBounds!: Rect
   private bodies = new Array<CircleBody>()
-  private canvasRef: RefObject<HTMLCanvasElement | null> = createRef()
-  private canvasDivRef: RefObject<HTMLDivElement | null> = createRef()
+  private canvasRef: RefObject<HTMLCanvasElement> = createRef<HTMLCanvasElement>()
+  private canvasDivRef: RefObject<HTMLDivElement> = createRef<HTMLDivElement>()
+
   constructor(props: SimulationCanvasProps) {
     super(props)
-    this.stopLoop = false
-    // bind for context in animation callback
+    this.state = { initialized: false }
     this.renderLoop = this.renderLoop.bind(this)
     this.mouseDown = this.mouseDown.bind(this)
     this.mouseUp = this.mouseUp.bind(this)
@@ -60,7 +70,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
   }
 
   componentDidMount(): void {
-    window.onresize = () => this.configureBounds()
+    window.onresize = (): void => this.configureBounds()
     this.configureBounds()
     this.renderLoop()
   }
@@ -69,16 +79,16 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
    * Retrieves Bounds of the Canvas in order to initialize QuadTree Bounds
    */
   configureBounds(): void {
-    if (this.canvasDivRef?.current) {
-      if (this.canvasRef.current) {
-        const context = this.canvasRef.current.getContext('2d')
-        if (context) {
-          const dimensions = Math.min(this.canvasDivRef.current.clientWidth, this.canvasDivRef.current.clientHeight)
-          context.canvas.width = dimensions
-          context.canvas.height = dimensions
-          this.canvasBounds = new Rect(0, 0, this.canvasRef.current?.width, this.canvasRef.current?.height)
-          this.quadTree = new QuadTree(this.canvasBounds, this.bodies)
-        }
+    const canvasDiv = this.canvasDivRef.current
+    const canvas = this.canvasRef.current
+    if (canvasDiv && canvas) {
+      const context = canvas.getContext('2d')
+      if (context) {
+        const dimensions = Math.min(canvasDiv.clientWidth, canvasDiv.clientHeight)
+        context.canvas.width = dimensions
+        context.canvas.height = dimensions
+        this.canvasBounds = new Rect(0, 0, canvas.width, canvas.height)
+        this.quadTree = new QuadTree(this.canvasBounds, this.bodies)
       }
     }
   }
@@ -100,8 +110,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
       canvasContext.stroke()
     }
 
-
-    function showQuadTrees(quad: QuadNode) {
+    const showQuadTrees = (quad: QuadNode): void => {
       canvasContext.strokeRect(quad.bounds.x, quad.bounds.y, quad.bounds.w, quad.bounds.h)
       quad.leaves?.forEach((leaf: QuadNode) => showQuadTrees(leaf))
     }
@@ -121,16 +130,13 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
   /**
    * The procedure for each node on a QuadTree after insertion is finished
    */
-  quadTreeProcedure(): ((quadNode: QuadNode) => void) {
-    // currently does collisions
-    return function processCollisions(quadNode: QuadNode) {
+  quadTreeProcedure(): (quadNode: QuadNode) => void {
+    return function processCollisions(quadNode: QuadNode): void {
       const collisionObject = quadNode.quadObjects as CircleBody[]
-      // process current level collisions
       for (let i = 0; i < collisionObject.length; i++)
         for (let j = i + 1; j < collisionObject.length; j++)
           collisionObject[i].collide(collisionObject[j])
 
-      // process rescursive collisions
       const processLeafCollisions = (leaves: QuadNode[] | null): void => {
         leaves?.forEach((leaf: QuadNode) => {
           collisionObject.forEach((object: CircleBody) => {
@@ -139,22 +145,17 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
               object.collide(leafObject)
             )
           })
-          // recurse
           processLeafCollisions(leaf.leaves)
         })
       }
-      // call on current leaves
       processLeafCollisions(quadNode.leaves)
-
-      // recurse on following quad nodes
       quadNode.leaves?.forEach((leaf: QuadNode) => processCollisions(leaf))
     }
   }
 
   // Logic Loop
   renderLoop(): void {
-    if (this.stopLoop)
-      return
+    if (this.stopLoop) return
 
     const newtime = time()
     const fps = Math.round(1000 / (newtime - this.timestamp))
@@ -177,20 +178,28 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
       }
     }
 
-    // request another frame to tick
     requestAnimationFrame(this.renderLoop)
   }
 
-  mouseDown(e: MouseEvent): void {
-    if (this.canvasRef.current) {
-      this.dragVector.start = this.dragVector.end = new Vector2D(e.clientX - this.canvasRef.current?.offsetLeft, e.clientY - this.canvasRef.current?.offsetTop)
+  mouseDown(e: MouseEvent<HTMLCanvasElement>): void {
+    const canvas = this.canvasRef.current
+    if (canvas) {
+      this.dragVector.start = this.dragVector.end = new Vector2D(
+        e.clientX - canvas.offsetLeft,
+        e.clientY - canvas.offsetTop
+      )
       this.dragVector.isDragging = true
     }
   }
 
-  mouseDrag(e: MouseEvent): void {
-    if (this.dragVector.isDragging && this.canvasRef.current)
-      this.dragVector.end = new Vector2D(e.clientX - this.canvasRef.current?.offsetLeft, e.clientY - this.canvasRef.current?.offsetTop)
+  mouseDrag(e: MouseEvent<HTMLCanvasElement>): void {
+    const canvas = this.canvasRef.current
+    if (this.dragVector.isDragging && canvas) {
+      this.dragVector.end = new Vector2D(
+        e.clientX - canvas.offsetLeft,
+        e.clientY - canvas.offsetTop
+      )
+    }
   }
 
   mouseUp(): void {
@@ -202,7 +211,12 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps> {
     return (
       <div className={styles.canvas_container}>
         <div ref={this.canvasDivRef} className={styles.canvas_wrapper}>
-          <canvas ref={this.canvasRef} onMouseDown={this.mouseDown} onMouseUp={this.mouseUp} onMouseMove={this.mouseDrag} />
+          <canvas
+            ref={this.canvasRef}
+            onMouseDown={this.mouseDown}
+            onMouseUp={this.mouseUp}
+            onMouseMove={this.mouseDrag}
+          />
         </div>
       </div>
     )

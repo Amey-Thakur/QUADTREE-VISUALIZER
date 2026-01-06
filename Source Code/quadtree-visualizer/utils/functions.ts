@@ -1,4 +1,14 @@
 /**
+ * Author: Amey Mega Hasan
+ * GitHub: https://github.com/Amey-Thakur
+ * Repo: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+ * Year: 2021-2022
+ * License: MIT
+ *
+ * Utility functions for object manipulation and state management.
+ */
+
+/**
  * Updates an object with a partial object [source] containing any variable on the target
  * @param target object to update
  * @param source values to update

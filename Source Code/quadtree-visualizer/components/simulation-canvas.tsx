@@ -155,7 +155,7 @@ export default class SimulationCanvas extends Component<SimulationCanvasProps, S
 
       if (this.props.showFPS) {
         context.save()
-        context.font = "25px 'Play', sans-serif"
+        context.font = '25px \'Play\', sans-serif'
         context.fillStyle = styles.color4 || '#ffffff'
         context.fillText('FPS: ' + fps, 10, 30)
         context.restore()

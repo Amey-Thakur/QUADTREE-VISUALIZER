@@ -664,7 +664,7 @@ Special thanks to **Prof. Randeep Kaur Kahlon** for her mentorship and guidance 
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &middot; [Overview](#overview) &middot; [Features](#features) &middot; [Structure](#project-structure) &middot; [Results](#results-gallery) &middot; [Quick Start](#quick-start) &middot; [Academic Record](#academic-documentation) &middot; [Milestones](#milestones) &middot; [References](#references) &middot; [Usage](#usage) &middot; [License](#license) &middot; [About](#about)
+  [Authors](#authors) &middot; [Overview](#overview) &middot; [Features](#features) &middot; [Structure](#project-structure) &middot; [Results](#results-gallery) &middot; [Quick Start](#quick-start) &middot; [Academic Record](#academic-documentation) &middot; [Milestones](#educational-milestones) &middot; [References](#literature-survey) &middot; [Usage Guidelines](#usage-guidelines) &middot; [License](#license) &middot; [About This Repository](#about-this-repository) &middot; [Acknowledgments](#acknowledgments)
 
   <br>
 

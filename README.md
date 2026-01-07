@@ -542,7 +542,7 @@ Initial training and milestones completed under the Phi Education track "Introdu
 ### Task 7 - 10: [View Descriptions](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/)
 
 ### Presentation
-- **Presentation**: [PPTX](Initial%20Work/QuadTree_Implementation_Presentation.pptx) | [PDF](Initial%20Work/QuadTree_Implementation_Presentation.pdf) (Placeholder)
+- **Presentation**: [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf)
 
 ### Milestones
 - [x] [Milestone 1](Initial%20Work/Phi%20Education/Milestone%201%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1)

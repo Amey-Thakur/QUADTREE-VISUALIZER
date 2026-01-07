@@ -515,7 +515,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 <!-- EDUCATIONAL MILESTONES -->
 ## Educational Milestones (Phi Education)
-**Mentored by**: Phi Education | **Students**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
+**Mentored by**: Phi Education | **Students**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod), [Hasan Rizvi](https://github.com/rizvihasan)
 
 Initial training and milestones completed under the Phi Education track "Introduction to C Programming".
 

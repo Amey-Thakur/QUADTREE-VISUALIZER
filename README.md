@@ -644,7 +644,7 @@ This repository serves as a permanent technical record for **QuadTree Visualizer
 
 ### Acknowledgments
 
-Grateful acknowledgment to **[Hasan Rizvi](https://github.com/rizvihasan)** and **[Mega Satish](https://github.com/msatmod)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
+Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Hasan Rizvi](https://github.com/rizvihasan)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
 
 Special thanks to **Prof. Randeep Kaur Kahlon** for her mentorship and guidance as the project mentor throughout the research and development phases of this engineering thesis.
 

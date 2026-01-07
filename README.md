@@ -38,23 +38,32 @@
   <table>
   <td align="center">
   <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
+  <img src="https://github.com/Amey-Thakur.png" width="180px;" alt="Amey Thakur"/><br />
   <b>Amey Thakur</b><br />
   (TU3F1819127)
+  </a><br /><br />
+  <a href="https://orcid.org/0000-0001-5644-1575">
+  <img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-brightgreen" alt="ORCID"/>
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/rizvihasan">
-  <img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br />
+  <img src="https://github.com/rizvihasan.png" width="180px;" alt="Hasan Rizvi"/><br />
   <b>Hasan Rizvi</b><br />
   (TU3F1819130)
+  </a><br /><br />
+  <a href="https://github.com/rizvihasan">
+  <img src="https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github" alt="GitHub"/>
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
+  <img src="Mega/Mega.png" width="180px;" alt="Mega Satish"/><br />
   <b>Mega Satish</b><br />
   (TU3F1819139)
+  </a><br /><br />
+  <a href="https://orcid.org/0000-0002-1844-9557">
+  <img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-brightgreen" alt="ORCID"/>
   </a>
   </td>
 
@@ -651,7 +660,7 @@ Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 
 This repository serves as a permanent technical record for **QuadTree Visualizer**, developed as the **8th Semester Major Project**. It highlights the practical application of hierarchical data structures in spatial algorithm optimization and the deployment of high-performance interactive simulations via modern web interfaces.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
+**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur) · [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 <a name="acknowledgments"></a>

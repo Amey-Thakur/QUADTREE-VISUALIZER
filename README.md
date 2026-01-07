@@ -608,13 +608,13 @@ The development of the **QuadTree Visualizer** was informed by a comprehensive r
 This repository is openly shared to support learning and knowledge exchange across the academic community.
 
 **For Students**  
-Use this development record as a reference for understanding spatial partitioning, QuadTree data structures, and the implementation of O(N log N) collision detection algorithms. The pedagogical artifacts, ranging from early C-based prototypes to the final interactive Next.js simulation, are documented to support deep technical exploration of computational geometry and scholarly documentation standards.
+Use this major project as a reference for understanding spatial partitioning, QuadTree data structures, and the implementation of recursive subdivision algorithms. The research assets and production scripts are documented to support self-paced learning and exploration of computational geometry.
 
 **For Educators**  
-This repository serves as a comprehensive case study for engineering thesis documentation and spatial algorithm visualization. It may be utilized as a formal reference or supplementary teaching resource for Major Project modules (**CSP705** and **CSP805**) within the Computer Engineering curriculum.
+This project may serve as a practical example or supplementary teaching resource for Computer Engineering curriculum or Major Project modules (`CSP705` and `CSP805`). Attribution is appreciated when utilizing content.
 
 **For Researchers**  
-The published research paper and engineering thesis provide empirical evidence and theoretical analysis regarding the efficiency of hierarchical data structures in reducing computational complexity for dense particle systems and spatial querying.
+The published paper and preprint provide insights into spatial partitioning logic, high-performance recursive algorithms, and the reduction of computational complexity in dynamic spatial environments.
 
 ---
 

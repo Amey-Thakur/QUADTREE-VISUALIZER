@@ -525,6 +525,7 @@ Initial training and milestones completed under the Phi Education track "Introdu
 
 ### Task 2: [Understand Design Patterns in C](Initial%20Work/Phi%20Tasks/Task%202)
 - **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%202/Task%2002.png)
+- **Doubts**: [View Doubts](Initial%20Work/Phi%20Tasks/Task%202/Doubts.pdf)
 - **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%202/PHI%20CS%2073%20-%20Task%202%20%5BSUBMISSION%20-%2015%5D%20APPROVED.png)
 
 ### Task 3: [Learn how to use TinyXml](Initial%20Work/Phi%20Tasks/Task%203)

@@ -548,8 +548,8 @@ Initial training and milestones completed under the Phi Education track "Introdu
 
 The following table summarizes the foundational training milestones completed under the **Phi Education** track. All source code artifacts have been updated to adhere to scholarly documentation standards, featuring modern `int main()` structures, standardized headers, and comprehensive inline commentary.
 
-| Milestone | Academic Evaluation | Knowledge Module | Technical Focus & Key Artifacts |
-| :--- | :---: | :--- | :--- |
+| Milestone | Academic Evaluation | Knowledge Module | <div align="center">Technical Focus & Key Artifacts</div> |
+| :---: | :---: | :---: | :--- |
 | **Milestone**<br>**01** | [Certificate](Initial%20Work/Phi%20Education/Milestone%201%20Completed.png) | [Milestone_1](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1) | Basic Geometry & Unit Conversions (`Area of Circle/Rectangle`, `Temp/Weight Conversion`) |
 | **Milestone**<br>**02** | [Certificate](Initial%20Work/Phi%20Education/Milestone%202%20Completed.png) | [Milestone_2](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2) | Mathematical Logic & Finance ADTs (`Factorial`, `Prime Check`, `GCD/LCM`, `Compound Interest`) |
 | **Milestone**<br>**03** | [Certificate](Initial%20Work/Phi%20Education/Milestone%203%20Completed.png) | [Milestone_3](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3) | Fundamental Array Operations (`arraysearch.C`, `arraysort.C`) |

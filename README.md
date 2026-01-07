@@ -406,12 +406,13 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 - **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
 - **Evaluation Evidence**:
   <details>
-    <summary><strong>View Evaluation Assets</strong></summary>
+    <summary><strong>View Review Panel</strong></summary>
     <br>
-    <h4>Review Panel</h4>
     <img src="Review-1/Review-1_Panel.jpg" width="80%">
-    <br><br>
-    <h4>Attendance Proof</h4>
+  </details>
+  <details>
+    <summary><strong>View Attendance Proof</strong></summary>
+    <br>
     <img src="Review-1/Review-1_Attendance_Proof.png" width="80%">
   </details>
 

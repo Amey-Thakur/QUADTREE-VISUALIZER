@@ -605,7 +605,7 @@ The development of the **QuadTree Visualizer** was informed by a comprehensive r
      ========================================================================================= -->
 ## Usage Guidelines
 
-This repository is maintained as a scholarly archival record to support learning and knowledge exchange across the academic community.
+This repository is openly shared to support learning and knowledge exchange across the academic community.
 
 **For Students**  
 Use this development record as a reference for understanding spatial partitioning, QuadTree data structures, and the implementation of O(N log N) collision detection algorithms. The pedagogical artifacts, ranging from early C-based prototypes to the final interactive Next.js simulation, are documented to support deep technical exploration of computational geometry and scholarly documentation standards.

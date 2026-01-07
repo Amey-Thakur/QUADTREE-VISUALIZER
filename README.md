@@ -564,24 +564,39 @@ This section provides a formal archival record of the foundational training curr
 | **Milestones**<br>**13** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png) | [Milestone_13](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13) | Iterative Data Structure Reversal (`reverselinklist.C`) |
 | **Milestones**<br>**14** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png) | [Milestone_14](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14) | Complex List Merging & Optimization Assessment (`14.c`) |
 
-### Prototypes
-- [QuadTree Collision Visualizer](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)
-- [QuadTree Library](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Library)
-- [QuadTree Visualizer (Prototype)](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Visualizer)
+### Technical Prototypes & Early Research Implementations
+
+Before the final Next.js implementation, several iterative prototypes were developed to evaluate various spatial partitioning logic and collision detection algorithms. These artifacts represent the technical evolution of the project.
+
+| Phase | Research Artifact | Technical Objective & Focus |
+| :---: | :--- | :--- |
+| **P-01** | [QuadTree Collision Visualizer](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer) | Initial feasibility study comparing O(N²) vs O(N log N) spatial logic. |
+| **P-02** | [QuadTree Library](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Library) | Decoupling of the QuadTree engine into a reusable, modular C-based library. |
+| **P-03** | [QuadTree Visualizer (Prototype)](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Visualizer) | Early-stage integration of graphical visualization with the recursive partitioning engine. |
 
 ---
 
 <!-- REFERENCES -->
-## References
+## Literature Survey & Bibliography
 
- - [A Quadtree-based Hierarchical Clustering Method for Visualizing Large Point Dataset](Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method%20for%20Visualizing%20Large%20Point%20Dataset.pdf)
- - [An Effective Way to Represent Quadtrees](Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf)
- - [Efficient Quadtree Coding of Images and Video](Reference%20Papers/Efficient%20Quadtree%20Coding%20of%20Images%20and%20Video.pdf)
- - [Energetics of a bouncing drop - Coefficient of restitution, bubble entrapment, and escape](Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf)
- - [Kinetic Compressed Quadtrees in the Black-Box Model with Applications to Collision Detection for Low-Density Scenes](Reference%20Papers/Kinetic%20Compressed%20Quadtrees%20in%20the%20Black-Box%20Model%20with%20Applications%20to%20Collision%20Detection%20for%20Low-Density%20Scenes.pdf)
- - [Nodejs - Using JavaScript to Build High-Performance Network Programs](Reference%20Papers/Nodejs%20-%20Using%20JavaScript%20to%20Build%20High-Performance%20Network%20Programs.pdf)
- - [Optimal Quadtree Construction Algorithms](Reference%20Papers/Optimal%20Quadtree%20Construction%20Algorithms.pdf)
- - [Quad-Tree Motion Modelling with Leaf Merging](Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf)
+The development of the **QuadTree Visualizer** was informed by a comprehensive review of established research in computational geometry, spatial data structures, and high-performance rendering. The following bibliography constitutes the primary theoretical foundation for this project:
+
+1. **A Quadtree-based Hierarchical Clustering Method** | [View PDF](Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method%20for%20Visualizing%20Large%20Point%20Dataset.pdf)  
+   *Focus: Optimization of large-scale spatial datasets.*
+2. **An Effective Way to Represent Quadtrees** | [View PDF](Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf)  
+   *Focus: Theoretical memory and structure efficiency.*
+3. **Efficient Quadtree Coding of Images and Video** | [View PDF](Reference%20Papers/Efficient%20Quadtree-Coding%20of%20Images%20and%20Video.pdf)  
+   *Focus: Application of QuadTrees in signal processing.*
+4. **Energetics of a Bouncing Drop** | [View PDF](Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf)  
+   *Focus: Physics modeling and collision energetics.*
+5. **Kinetic Compressed Quadtrees in the Black-Box Model** | [View PDF](Reference%20Papers/Kinetic%20Compressed%20Quadtrees%20in%20the%20Black-Box%20Model%20with%20Applications%20to%20Collision%20Detection%20for%20Low-Density%20Scenes.pdf)  
+   *Focus: Advanced collision detection for dynamic systems.*
+6. **Nodejs - High-Performance Network Programs** | [View PDF](Reference%20Papers/Nodejs%20-%20Using%20JavaScript%20to%20Build%20High-Performance%20Network%20Programs.pdf)  
+   *Focus: Environment performance and real-time execution.*
+7. **Optimal Quadtree Construction Algorithms** | [View PDF](Reference%20Papers/Optimal%20Quadtree%20Construction%20Algorithms.pdf)  
+   *Focus: Recursive algorithm optimization.*
+8. **Quad-Tree Motion Modelling with Leaf Merging** | [View PDF](Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf)  
+   *Focus: Dynamic node management and leaf consolidation.*
 
 ---
 

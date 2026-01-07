@@ -521,7 +521,7 @@ Initial training and milestones completed under the Phi Education track "Introdu
 
 ### Task 1: [Understand Object Oriented Programming in C](Initial%20Work/Phi%20Tasks/Task%201)
 - **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%201/Task%2001.png)
-- **Doubts & Discussion**: [View Doubt](Initial%20Work/Phi%20Tasks/Task%201/Doubts-Response.png)
+- **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%201/PHI%20CS%2073%20-%20Task%201%20%5BSUBMISSION%20-%203%5D%20APPROVED.png)
 
 ### Task 2: [Understand Design Patterns in C](Initial%20Work/Phi%20Tasks/Task%202)
 - **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%202/Task%2002.png)

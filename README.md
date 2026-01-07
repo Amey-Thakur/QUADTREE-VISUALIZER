@@ -544,21 +544,26 @@ Initial training and milestones completed under the Phi Education track "Introdu
 ### Presentation
 - **Presentation**: [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf)
 
-### Milestones
-- [x] [Milestone 1](Initial%20Work/Phi%20Education/Milestone%201%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1)
-- [x] [Milestone 2](Initial%20Work/Phi%20Education/Milestone%202%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2)
-- [x] [Milestone 3](Initial%20Work/Phi%20Education/Milestone%203%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3)
-- [x] [Milestone 4](Initial%20Work/Phi%20Education/Milestone%204%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_4)
-- [x] [Milestone 5](Initial%20Work/Phi%20Education/Milestone%205%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_5)
-- [x] [Milestone 6](Initial%20Work/Phi%20Education/Milestone%206%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_6)
-- [x] [Milestone 7](Initial%20Work/Phi%20Education/Milestone%207%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_7)
-- [x] [Milestone 8](Initial%20Work/Phi%20Education/Milestone%208%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_8)
-- [x] [Milestone 9](Initial%20Work/Phi%20Education/Milestone%209%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9)
-- [x] [Milestone 10](Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10)
-- [x] [Milestone 11](Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11)
-- [x] [Milestone 12](Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12)
-- [x] [Milestone 13](Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13)
-- [x] [Milestone 14](Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png) | [Folder](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14)
+### Academic Milestones (Introduction to C Programming)
+
+The following table summarizes the foundational training milestones completed under the **Phi Education** track. All source code artifacts have been updated to adhere to scholarly documentation standards, featuring modern `int main()` structures, standardized headers, and comprehensive inline commentary.
+
+| Milestone | Academic Evaluation | Knowledge Module | Technical Focus & Key Artifacts |
+| :--- | :---: | :--- | :--- |
+| **Milestone 1** | [Certificate](Initial%20Work/Phi%20Education/Milestone%201%20Completed.png) | [Milestone_1](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1) | Basic Geometry & Unit Conversions (`Area of Circle/Rectangle`, `Temp/Weight Conversion`) |
+| **Milestone 2** | [Certificate](Initial%20Work/Phi%20Education/Milestone%202%20Completed.png) | [Milestone_2](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2) | Mathematical Logic & Finance ADTs (`Factorial`, `Prime Check`, `GCD/LCM`, `Compound Interest`) |
+| **Milestone 3** | [Certificate](Initial%20Work/Phi%20Education/Milestone%203%20Completed.png) | [Milestone_3](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3) | Fundamental Array Operations (`arraysearch.C`, `arraysort.C`) |
+| **Milestone 4** | [Certificate](Initial%20Work/Phi%20Education/Milestone%204%20Completed.png) | [Milestone_4](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_4) | Advanced Array Manipulations (`ARRAYOP.C`) |
+| **Milestone 5** | [Certificate](Initial%20Work/Phi%20Education/Milestone%205%20Completed.png) | [Milestone_5](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_5) | String Library Implementation (`strcompare.C`, `strcopy.C`, `strlength.C`, `strfindsubstring.C`) |
+| **Milestone 6** | [Certificate](Initial%20Work/Phi%20Education/Milestone%206%20Completed.png) | [Milestone_6](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_6) | Consolidated String Utility Engine (`STR.C`) |
+| **Milestone 7** | [Certificate](Initial%20Work/Phi%20Education/Milestone%207%20Completed.png) | [Milestone_7](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_7) | Complex String Analysis Algorithms (`stringoperation.C`) |
+| **Milestone 8** | [Certificate](Initial%20Work/Phi%20Education/Milestone%208%20Completed.png) | [Milestone_8](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_8) | Polymorphic Sorting Concepts (`sortdatatype.C`) |
+| **Milestone 9** | [Certificate](Initial%20Work/Phi%20Education/Milestone%209%20Completed.png) | [Milestone_9](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9) | Linked List Data Structures (`Reverse`, `Merge Sort`, `Recursive Reverse`, `Pop/Push Operations`) |
+| **Milestone 10** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png) | [Milestone_10](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10) | Dictionary ADT Implementation (`dictionary.C`) |
+| **Milestone 11** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png) | [Milestone_11](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11) | Sequential File Processing & Tokenization (`FILEREAD.C`) |
+| **Milestone 12** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png) | [Milestone_12](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12) | Persistent Data Storage Mechanisms (`arrayfile.C`, `dictonary.C`) |
+| **Milestone 13** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png) | [Milestone_13](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13) | Iterative Data Structure Reversal (`reverselinklist.C`) |
+| **Milestone 14** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png) | [Milestone_14](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14) | Complex List Merging & Optimization Assessment (`14.c`) |
 
 ### Prototypes
 - [QuadTree Collision Visualizer](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer)

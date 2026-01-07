@@ -545,8 +545,7 @@ Initial training and milestones completed under the Phi Education track "Introdu
 - **Presentation**: [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf)
 
 ### Academic Milestones (Introduction to C Programming)
-
-The following table summarizes the foundational training milestones completed under the **Phi Education** track. All source code artifacts have been updated to adhere to scholarly documentation standards, featuring modern `int main()` structures, standardized headers, and comprehensive inline commentary.
+This section provides a formal archival record of the foundational training curriculum completed at **Phi Education**. These milestones document the chronological progression of technical proficiency in C-based systems programming and data structure implementation, serving as the pedagogical foundation for the advanced algorithms utilized in this project.
 
 | Milestones | Academic Evaluation | Knowledge Module | <div align="center">Technical Focus & Key Artifacts</div> |
 | :---: | :---: | :---: | :--- |

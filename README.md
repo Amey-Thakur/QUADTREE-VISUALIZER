@@ -392,12 +392,13 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 - **Reference**: [Project Guide Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf)
 - **Formal Approval**:
   <details>
-    <summary><strong>View Approval Documents</strong></summary>
+    <summary><strong>View Approval Message</strong></summary>
     <br>
-    <h4>Approval Message</h4>
     <img src="Major-Project%20Selection/Approval%20Message.png" width="80%">
-    <br><br>
-    <h4>Final Year Project List</h4>
+  </details>
+  <details>
+    <summary><strong>View Project List</strong></summary>
+    <br>
     <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
   </details>
 

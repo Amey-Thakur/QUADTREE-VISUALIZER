@@ -418,7 +418,9 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 #### Review 2
 - **Presentation**: [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) | [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
 
-#### Final Review (Major Project I) [October 25, 2021]
+#### Final Review (Major Project I)
+- **Date**: October 25, 2021
+- **Time**: 12:29 PM | **Meet Code**: `vqt-diqt-edq`
 - **Presentation**: [PPTX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pptx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
 - **Submission Report**: [Major Project I Report](Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
 - **Attendance**:

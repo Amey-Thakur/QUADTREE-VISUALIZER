@@ -664,7 +664,7 @@ Special thanks to **Prof. Randeep Kaur Kahlon** for her mentorship and guidance 
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &nbsp;·&nbsp;  civic[Overview](#overview) &nbsp;·&nbsp;  civic[Features](#features) &nbsp;·&nbsp;  civic[Structure](#project-structure) &nbsp;·&nbsp;  civic[Results](#results-gallery) &nbsp;·&nbsp;  civic[Quick Start](#quick-start) &nbsp;·&nbsp;  civic[Academic Record](#academic-documentation) &nbsp;·&nbsp;  civic[Milestones](#educational-milestones) &nbsp;·&nbsp;  civic[References](#literature-survey) &nbsp;·&nbsp;  civic[Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp;  civic[License](#license) &nbsp;·&nbsp;  civic[About This Repository](#about-this-repository) &nbsp;·&nbsp;  civic[Acknowledgments](#acknowledgments)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Academic Record](#academic-documentation) &nbsp;·&nbsp; [Milestones](#educational-milestones) &nbsp;·&nbsp; [References](#literature-survey) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About This Repository](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 

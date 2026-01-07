@@ -405,7 +405,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
     <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
   </details>
 
-### 2. Semester VII (Major Project I)
+### 2. Semester VII (Major Project - I | CSP705)
 #### Review 1
 - **Time**: 2:48 PM | **Meeting**: BE project review I
 - **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
@@ -434,7 +434,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
     <img src="Review-2/Review-2_Attendance_Proof.png" width="80%">
   </details>
 
-#### Final Review (Major Project I)
+#### Final Review (Major Project - I | CSP705)
 - **Date**: October 25, 2021
 - **Time**: 12:29 PM
 - **Meet Code**: `vqt-diqt-edq`
@@ -448,7 +448,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
     <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="80%">
   </details>
 
-### 3. Semester VIII (Major Project II)
+### 3. Semester VIII (Major Project - II | CSP805)
 #### Review 3
 - **Presentation**: [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) | [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
 - **Scheduling**:
@@ -476,7 +476,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
     <img src="Review-4/Review-4_Panel.png" width="80%">
   </details>
 
-#### Major Project II (Report)
+#### Major Project - II | CSP805 (Report)
 - **Report**: [DOCX](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
 
 ### 4. Final Defense (25-04-2022)
@@ -597,6 +597,23 @@ The development of the **QuadTree Visualizer** was informed by a comprehensive r
    *Focus: Recursive algorithm optimization.*
 8. **Quad-Tree Motion Modelling with Leaf Merging** | [View PDF](Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf)  
    *Focus: Dynamic node management and leaf consolidation.*
+
+---
+
+<!-- USAGE GUIDELINES -->
+## Usage Guidelines
+
+This repository is maintained as a scholarly archival record. Adherence to the following guidelines ensures the integrity of the technical and academic artifacts.
+
+### For Educators
+-   **Archival Integrity**: Utilize this repository as a comprehensive case study for spatial data structure optimization and academic archiving standards in Computer Engineering.
+-   **Reference Implementation**: The `quadtree-visualizer` source code provides a production-grade reference for O(N log N) collision detection algorithms and recursive subdivision.
+-   **Academic Record**: The linked engineering thesis documents (Black Books) provide exhaustive theoretical background for Semester-wise evaluations and defense preparation.
+
+### For Students
+-   **Pedagogical Resource**: Study the technical transformation from foundational C-based prototypes (located in `Initial Work`) to the final high-performance Next.js implementation.
+-   **Simulation Parameters**: Experiment with particle density, node capacity, and boundary conditions to observe the computational performance limits of QuadTrees.
+-   **Documentation Standards**: Observe the integration of dDoxygen-style scholarly headers and structured inline documentation as a benchmark for professional project submissions.
 
 ---
 

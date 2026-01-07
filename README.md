@@ -383,12 +383,11 @@ Ensure your environment meets the minimum specifications:
 ---
 
 <!-- ACADEMIC DOCUMENTATION -->
-## Academic Documentation
-
-### 1. Phi Education (Internship Tasks)
+<!-- EDUCATIONAL MILESTONES -->
+## Educational Milestones (Phi Education)
 **Mentored by**: Phi Education | **Students**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
 
-#### Task 1: Understand Object Oriented Programming in C
+### Task 1: Understand Object Oriented Programming in C
 - **Description**: In this task you are supposed to develop an understanding of object oriented programming in C language. You must understand that languages are not object oriented, but they help you implement the object oriented code. OOP is more of a thought process than language feature. You shall submit a code snippet explaining, how you could implement "virtual" methods associated with a data type in C.
 - **Resources**:
   - [OOPC: Object Oriented C Programming](http://staff.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html)
@@ -396,7 +395,7 @@ Ensure your environment meets the minimum specifications:
   - [OOPC: Codementor](https://www.codementor.io/@michaelsafyan/object-oriented-programming-in-c-du1081gw2)
 - **Doubt & Conversation**: *[Pending Update]*
 
-#### Task 2: Understand Design Patterns in C
+### Task 2: Understand Design Patterns in C
 - **Description**: In this task you shall develop the understanding of basics of design patterns in C. The task will help you understand the basics of API design and introduce you the though process required for writing industrial grade reusable code. You shall create an abstract API for matrices (you aren't supposed to implement the API). You shall create the API for matrix. Following operations shall be supported by your API: create, delete, property access (think what properties you shall expose), various operations (this is something which will reflect your own understanding of matrices). The operations you will expose will also reflect on your understanding of the design pattern.
 - **Resources**:
   - [Patterns in C - Part 1](https://www.adamtornhill.com/Patterns%20in%20C%201.pdf)
@@ -405,18 +404,25 @@ Ensure your environment meets the minimum specifications:
   - [Patterns in C - Observer](https://www.adamtornhill.com/Patterns%20in%20C%204%20OBSERVER.pdf)
 - **Doubt & Conversation**: *[Pending Update]*
 
-#### Task 3: Learn how to use TinyXml
+### Task 3: Learn how to use TinyXml
 - **Description**: In this task you are expected to learn about xml file format and how to use library tinyxml for reading and writing the same.
 - **Resources**:
   - [Learn TinyXml](https://www.youtube.com/watch?v=BuqHPQWRLvQ)
   - [Understand XML: Beginner](https://www.youtube.com/watch?v=KeLIQXqVgMI)
 - **Doubt & Conversation**: *[Pending Update]*
 
-#### Presentation
+### Presentation
 - **Presentation**: [PPTX](Initial%20Work/QuadTree_Implementation_Presentation.pptx) | [PDF](Initial%20Work/QuadTree_Implementation_Presentation.pdf) (Placeholder)
 
-### 2. Project Inception (Topic Selection)
-**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
+<br>
+
+<!-- ACADEMIC DOCUMENTATION -->
+## Academic Documentation
+This section archives the formal milestones of the Bachelor of Engineering (B.E.) degree.
+
+### 1. Project Inception (Topic Selection)
+- **Selection Process**: [Team Building Details](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
+- **Guide Allocation**: [Project Guide Selection](Major-Project%20Selection/TN04_Project%20Guide%20Selection.pdf)
 - **Reference**: [Project Guide Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf)
 - **Formal Approval**:
   <details>
@@ -430,9 +436,7 @@ Ensure your environment meets the minimum specifications:
     <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
   </details>
 
-### 3. Semester VII (Major Project I)
-**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
-
+### 2. Semester VII (Major Project I)
 #### Review 1
 - **Time**: 2:48 PM | **Meeting**: BE project review I
 - **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
@@ -475,9 +479,7 @@ Ensure your environment meets the minimum specifications:
     <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="80%">
   </details>
 
-### 4. Semester VIII (Major Project II)
-**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
-
+### 3. Semester VIII (Major Project II)
 #### Review 3
 - **Presentation**: [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) | [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
 - **Scheduling**:
@@ -508,8 +510,7 @@ Ensure your environment meets the minimum specifications:
 #### Major Project II (Report)
 - **Report**: [DOCX](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
 
-### 5. Final Defense (25-04-2022)
-**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
+### 4. Final Defense (25-04-2022)
 - **Presentation**: [PPTX](25-04-2022/Final%20Presentation.pptx) | [PDF](25-04-2022/Final%20Presentation.pdf)
 - **Preparation Notes**: [PDF](25-04-2022/Presentation_Preparation.pdf) | [TXT](25-04-2022/Presentation_Preparation.txt)
 - **Defense Day Photos**:

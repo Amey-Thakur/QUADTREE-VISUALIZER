@@ -459,14 +459,10 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 - **Presentation**: [PPTX](25-04-2022/Final%20Presentation.pptx) | [PDF](25-04-2022/Final%20Presentation.pdf)
 - **Preparation Notes**: [PDF](25-04-2022/Presentation_Preparation.pdf) | [TXT](25-04-2022/Presentation_Preparation.txt)
 - **Event Gallery**:
-  <details>
-    <summary><strong>View Defense Photos</strong></summary>
-    <br>
-    <div align="center">
-      <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%">
-      <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%">
-    </div>
-  </details>
+  <div align="center">
+    <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%">
+    <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%">
+  </div>
 
 ### 5. Research Publication (IJERT)
 **"QuadTree Visualizer" (Volume 11, Issue 04, April 2022)**

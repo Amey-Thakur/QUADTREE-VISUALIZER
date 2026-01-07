@@ -384,11 +384,39 @@ Ensure your environment meets the minimum specifications:
 
 <!-- ACADEMIC DOCUMENTATION -->
 ## Academic Documentation
-This section archives the formal milestones of the Bachelor of Engineering (B.E.) degree.
 
-### 1. Project Inception (Topic Selection)
-- **Selection Process**: [Team Building Details](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
-- **Guide Allocation**: [Project Guide Selection](Major-Project%20Selection/TN04_Project%20Guide%20Selection.pdf)
+### 1. Phi Education (Internship Tasks)
+**Mentored by**: Phi Education | **Student**: [Amey Thakur](https://github.com/Amey-Thakur)
+
+#### Task 1: Understand Object Oriented Programming in C
+- **Description**: In this task you are supposed to develop an understanding of object oriented programming in C language. You must understand that languages are not object oriented, but they help you implement the object oriented code. OOP is more of a thought process than language feature. You shall submit a code snippet explaining, how you could implement "virtual" methods associated with a data type in C.
+- **Resources**:
+  - [OOPC: Object Oriented C Programming](http://staff.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html)
+  - [OOPC: State Machine](https://www.state-machine.com/doc/AN_OOP_in_C.pdf)
+  - [OOPC: Codementor](https://www.codementor.io/@michaelsafyan/object-oriented-programming-in-c-du1081gw2)
+- **Doubt & Conversation**: *[Pending Update]*
+
+#### Task 2: Understand Design Patterns in C
+- **Description**: In this task you shall develop the understanding of basics of design patterns in C. The task will help you understand the basics of API design and introduce you the though process required for writing industrial grade reusable code. You shall create an abstract API for matrices (you aren't supposed to implement the API). You shall create the API for matrix. Following operations shall be supported by your API: create, delete, property access (think what properties you shall expose), various operations (this is something which will reflect your own understanding of matrices). The operations you will expose will also reflect on your understanding of the design pattern.
+- **Resources**:
+  - [Patterns in C - Part 1](https://www.adamtornhill.com/Patterns%20in%20C%201.pdf)
+  - [Patterns in C - State](https://www.adamtornhill.com/Patterns%20in%20C%202%20STATE.pdf)
+  - [Patterns in C - Strategy](https://www.adamtornhill.com/Patterns%20in%20C%203%20STRATEGY.pdf)
+  - [Patterns in C - Observer](https://www.adamtornhill.com/Patterns%20in%20C%204%20OBSERVER.pdf)
+- **Doubt & Conversation**: *[Pending Update]*
+
+#### Task 3: Learn how to use TinyXml
+- **Description**: In this task you are expected to learn about xml file format and how to use library tinyxml for reading and writing the same.
+- **Resources**:
+  - [Learn TinyXml](https://www.youtube.com/watch?v=BuqHPQWRLvQ)
+  - [Understand XML: Beginner](https://www.youtube.com/watch?v=KeLIQXqVgMI)
+- **Doubt & Conversation**: *[Pending Update]*
+
+#### Presentation
+- **Presentation**: [PPTX](Initial%20Work/QuadTree_Implementation_Presentation.pptx) | [PDF](Initial%20Work/QuadTree_Implementation_Presentation.pdf) (Placeholder)
+
+### 2. Project Inception (Topic Selection)
+**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
 - **Reference**: [Project Guide Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf)
 - **Formal Approval**:
   <details>
@@ -402,7 +430,9 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
     <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
   </details>
 
-### 2. Semester VII (Major Project I)
+### 3. Semester VII (Major Project I)
+**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
+
 #### Review 1
 - **Time**: 2:48 PM | **Meeting**: BE project review I
 - **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
@@ -420,20 +450,34 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 #### Review 2
 - **Presentation**: [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) | [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
+- **Evaluation Evidence**:
+  <details>
+    <summary><strong>View Evaluation Assets</strong></summary>
+    <br>
+    <h4>Review Panel</h4>
+    <img src="Review-2/Review-2_Panel.jpg" width="80%">
+    <br><br>
+    <h4>Attendance Proof</h4>
+    <img src="Review-2/Review-2_Attendance_Proof.png" width="80%">
+  </details>
 
 #### Final Review (Major Project I)
 - **Date**: October 25, 2021
-- **Time**: 12:29 PM | **Meet Code**: `vqt-diqt-edq`
+- **Time**: 12:29 PM
+- **Meet Code**: `vqt-diqt-edq`
 - **Presentation**: [PPTX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pptx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
-- **Submission Report**: [Major Project I Report](Major-Project-I/MAJOR_PROJECT-I_REPORT_PHI-CS-73.pdf)
-- **Attendance**:
+- **Report**: [DOCX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.docx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
+- **Evaluation Evidence**:
   <details>
-    <summary><strong>View Attendance</strong></summary>
+    <summary><strong>View Evaluation Assets</strong></summary>
     <br>
+    <h4>Attendance Proof</h4>
     <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="80%">
   </details>
 
-### 3. Semester VIII (Major Project II)
+### 4. Semester VIII (Major Project II)
+**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
+
 #### Review 3
 - **Presentation**: [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) | [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
 - **Scheduling**:
@@ -450,12 +494,22 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 #### Review 4
 - **Presentation**: [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) | [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
+- **Scheduling**:
+  <details>
+    <summary><strong>View Schedule & Panel</strong></summary>
+    <br>
+    <h4>Review Schedule</h4>
+    <img src="Review-4/Review-4_Schedule.png" width="80%">
+    <br><br>
+    <h4>Review Panel</h4>
+    <img src="Review-4/Review-4_Panel.png" width="80%">
+  </details>
 
-#### Final Review (Major Project II)
-- **Presentation**: [PPTX](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pptx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
-- **Submission Report**: [Major Project II Report (PDF)](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.pdf) | [DOCX](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx)
+#### Major Project II (Report)
+- **Report**: [DOCX](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
 
-### 4. Final Defense (25-04-2022)
+### 5. Final Defense (25-04-2022)
+**Authors**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
 - **Presentation**: [PPTX](25-04-2022/Final%20Presentation.pptx) | [PDF](25-04-2022/Final%20Presentation.pdf)
 - **Preparation Notes**: [PDF](25-04-2022/Presentation_Preparation.pdf) | [TXT](25-04-2022/Presentation_Preparation.txt)
 - **Defense Day Photos**:

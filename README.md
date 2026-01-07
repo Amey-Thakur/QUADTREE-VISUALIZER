@@ -519,35 +519,26 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 Initial training and milestones completed under the Phi Education track "Introduction to C Programming".
 
-### Task 1: Understand Object Oriented Programming in C
-- **Description**: In this task you are supposed to develop an understanding of object oriented programming in C language. You must understand that languages are not object oriented, but they help you implement the object oriented code. OOP is more of a thought process than language feature. You shall submit a code snippet explaining, how you could implement "virtual" methods associated with a data type in C.
-- **Resources**:
-  - [OOPC: Object Oriented C Programming](http://staff.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html)
-  - [OOPC: State Machine](https://www.state-machine.com/doc/AN_OOP_in_C.pdf)
-  - [OOPC: Codementor](https://www.codementor.io/@michaelsafyan/object-oriented-programming-in-c-du1081gw2)
-- **Doubt & Conversation**: *[Pending Update]*
+### Task 1: [Understand Object Oriented Programming in C](Initial%20Work/Phi%20Tasks/Task%201)
+- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%201/Task%2001.png)
+- **Doubts & Discussion**: [View Doubt](Initial%20Work/Phi%20Tasks/Task%201/Doubts-Response.png)
 
-### Task 2: Understand Design Patterns in C
-- **Description**: In this task you shall develop the understanding of basics of design patterns in C. The task will help you understand the basics of API design and introduce you the though process required for writing industrial grade reusable code. You shall create an abstract API for matrices (you aren't supposed to implement the API). You shall create the API for matrix. Following operations shall be supported by your API: create, delete, property access (think what properties you shall expose), various operations (this is something which will reflect your own understanding of matrices). The operations you will expose will also reflect on your understanding of the design pattern.
-- **Resources**:
-  - [Patterns in C - Part 1](https://www.adamtornhill.com/Patterns%20in%20C%201.pdf)
-  - [Patterns in C - State](https://www.adamtornhill.com/Patterns%20in%20C%202%20STATE.pdf)
-  - [Patterns in C - Strategy](https://www.adamtornhill.com/Patterns%20in%20C%203%20STRATEGY.pdf)
-  - [Patterns in C - Observer](https://www.adamtornhill.com/Patterns%20in%20C%204%20OBSERVER.pdf)
-- **Doubt & Conversation**: *[Pending Update]*
+### Task 2: [Understand Design Patterns in C](Initial%20Work/Phi%20Tasks/Task%202)
+- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%202/Task%2002.png)
+- **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%202/PHI%20CS%2073%20-%20Task%202%20%5BSUBMISSION%20-%2015%5D%20APPROVED.png)
 
-### Task 3: Learn how to use TinyXml
-- **Description**: In this task you are expected to learn about xml file format and how to use library tinyxml for reading and writing the same.
-- **Resources**:
-  - [Learn TinyXml](https://www.youtube.com/watch?v=BuqHPQWRLvQ)
-  - [Understand XML: Beginner](https://www.youtube.com/watch?v=KeLIQXqVgMI)
-- **Doubt & Conversation**: *[Pending Update]*
+### Task 3: [Learn how to use TinyXml](Initial%20Work/Phi%20Tasks/Task%203)
+- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%203/Task%2003.png)
+- **Doubts**: [View Doubt](Initial%20Work/Phi%20Tasks/Task%203/Doubts.png)
+- **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%203/PHI-CS-73%20TASK-3%20%5BSUBMISSION-1%5D%20APPROVED.png)
 
-### Task 4 - 10 (Summary)
-- [ ] Task 4: [Define ADT for Quad Tree](Initial%20Work/Phi%20Tasks/Task%204)
-- [ ] Task 5: [Define file format](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg)
-- [ ] Task 6: [pcf_ui library](Initial%20Work/Phi%20Tasks/Task%206)
-- [ ] Task 7 - 10: [View Descriptions](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/)
+### Task 4: [Define ADT for Quad Tree](Initial%20Work/Phi%20Tasks/Task%204)
+- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task4.jpeg)
+- **Doubts**: [View Doubt](Initial%20Work/Phi%20Tasks/Task%204/Doubts.png) | [Response](Initial%20Work/Phi%20Tasks/Task%204/Doubts-Response.png)
+
+### Task 5: [Define file format](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg)
+### Task 6: [pcf_ui library](Initial%20Work/Phi%20Tasks/Task%206)
+### Task 7 - 10: [View Descriptions](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/)
 
 ### Presentation
 - **Presentation**: [PPTX](Initial%20Work/QuadTree_Implementation_Presentation.pptx) | [PDF](Initial%20Work/QuadTree_Implementation_Presentation.pdf) (Placeholder)

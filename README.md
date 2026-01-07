@@ -600,20 +600,21 @@ The development of the **QuadTree Visualizer** was informed by a comprehensive r
 
 ---
 
-<!-- USAGE GUIDELINES -->
+<!-- =========================================================================================
+                                     USAGE SECTION
+     ========================================================================================= -->
 ## Usage Guidelines
 
-This repository is maintained as a scholarly archival record. Adherence to the following guidelines ensures the integrity of the technical and academic artifacts.
+This repository is maintained as a scholarly archival record to support learning and knowledge exchange across the academic community.
 
-### For Educators
--   **Archival Integrity**: Utilize this repository as a comprehensive case study for spatial data structure optimization and academic archiving standards in Computer Engineering.
--   **Reference Implementation**: The `quadtree-visualizer` source code provides a production-grade reference for O(N log N) collision detection algorithms and recursive subdivision.
--   **Academic Record**: The linked engineering thesis documents (Black Books) provide exhaustive theoretical background for Semester-wise evaluations and defense preparation.
+**For Students**  
+Use this development record as a reference for understanding spatial partitioning, QuadTree data structures, and the implementation of O(N log N) collision detection algorithms. The pedagogical artifacts, ranging from early C-based prototypes to the final interactive Next.js simulation, are documented to support deep technical exploration of computational geometry and scholarly documentation standards.
 
-### For Students
--   **Pedagogical Resource**: Study the technical transformation from foundational C-based prototypes (located in `Initial Work`) to the final high-performance Next.js implementation.
--   **Simulation Parameters**: Experiment with particle density, node capacity, and boundary conditions to observe the computational performance limits of QuadTrees.
--   **Documentation Standards**: Observe the integration of dDoxygen-style scholarly headers and structured inline documentation as a benchmark for professional project submissions.
+**For Educators**  
+This repository serves as a comprehensive case study for engineering thesis documentation and spatial algorithm visualization. It may be utilized as a formal reference or supplementary teaching resource for Major Project modules (**CSP705** and **CSP805**) within the Computer Engineering curriculum.
+
+**For Researchers**  
+The published research paper and engineering thesis provide empirical evidence and theoretical analysis regarding the efficiency of hierarchical data structures in reducing computational complexity for dense particle systems and spatial querying.
 
 ---
 

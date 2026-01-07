@@ -568,7 +568,7 @@ This section provides a formal archival record of the foundational training curr
 
 Before the final Next.js implementation, several iterative prototypes were developed to evaluate various spatial partitioning logic and collision detection algorithms. These artifacts represent the technical evolution of the project.
 
-| Phase | Research Artifact | Technical Objective & Focus |
+| <div align="center">Phase</div> | <div align="center">Research Artifact</div> | <div align="center">Technical Objective & Focus</div> |
 | :---: | :--- | :--- |
 | **P-01** | [QuadTree Collision Visualizer](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Collision%20Visualizer) | Initial feasibility study comparing O(N²) vs O(N log N) spatial logic. |
 | **P-02** | [QuadTree Library](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20Library) | Decoupling of the QuadTree engine into a reusable, modular C-based library. |

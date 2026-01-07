@@ -35,25 +35,28 @@
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
   <table>
-  <tr>
   <td align="center">
   <a href="https://github.com/Amey-Thakur">
   <img src="https://github.com/Amey-Thakur.png" width="150px;" alt="Amey Thakur"/><br />
-  <sub><b>Amey Thakur</b></sub>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
-  <sub><b>Mega Satish</b></sub>
+  <b>Amey Thakur</b><br />
+  (TU3F1819127)
   </a>
   </td>
   <td align="center">
   <a href="https://github.com/rizvihasan">
   <img src="https://github.com/rizvihasan.png" width="150px;" alt="Hasan Rizvi"/><br />
-  <sub><b>Hasan Rizvi</b></sub>
+  <b>Hasan Rizvi</b><br />
+  (TU3F1819130)
   </a>
   </td>
+  <td align="center">
+  <a href="https://github.com/msatmod">
+  <img src="Mega/Mega.png" width="150px;" alt="Mega Satish"/><br />
+  <b>Mega Satish</b><br />
+  (TU3F1819139)
+  </a>
+  </td>
+
   </tr>
   </table>
 
@@ -503,8 +506,8 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 ### 6. Submission Reports (Black Book)
 - **Amey Thakur**: [Submission Report (PDF)](Submission%20Report/Amey_B-50_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf)
-- **Mega Satish**: [Submission Report (PDF)](Submission%20Report/Mega_B-58_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)
 - **Hasan Rizvi**: [Submission Report (PDF)](Submission%20Report/Hasan_B-51_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf)
+- **Mega Satish**: [Submission Report (PDF)](Submission%20Report/Mega_B-58_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)
 - **Ajay Davare**: [Final Black Book (PDF)](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf)
 - **Team Compilation**: [Combined Black Book (PDF)](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf)
 
@@ -623,7 +626,7 @@ This repository and all linked academic content are made available under the **M
 > [!NOTE]
 > **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
-Copyright © 2022 Amey Thakur, Mega Satish, Hasan Rizvi
+Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 
 ---
 

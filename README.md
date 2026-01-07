@@ -397,7 +397,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
     <img src="Major-Project%20Selection/Approval%20Message.png" width="80%">
   </details>
   <details>
-    <summary><strong>View Project List</strong></summary>
+    <summary><strong>View Project (Pic Credit: Supreet)</strong></summary>
     <br>
     <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
   </details>

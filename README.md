@@ -403,6 +403,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 ### 2. Semester VII (Major Project I)
 #### Review 1
+- **Time**: 2:48 PM | **Meeting**: BE project review I
 - **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
 - **Evaluation Evidence**:
   <details>

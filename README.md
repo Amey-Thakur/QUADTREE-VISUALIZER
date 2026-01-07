@@ -386,7 +386,7 @@ Ensure your environment meets the minimum specifications:
 ## Academic Documentation
 
 ### 1. Phi Education (Internship Tasks)
-**Mentored by**: Phi Education | **Student**: [Amey Thakur](https://github.com/Amey-Thakur)
+**Mentored by**: Phi Education | **Students**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/Mega-Satish), [Hasan Rizvi](https://github.com/rizvihasan)
 
 #### Task 1: Understand Object Oriented Programming in C
 - **Description**: In this task you are supposed to develop an understanding of object oriented programming in C language. You must understand that languages are not object oriented, but they help you implement the object oriented code. OOP is more of a thought process than language feature. You shall submit a code snippet explaining, how you could implement "virtual" methods associated with a data type in C.

@@ -20,14 +20,13 @@
 ---
 
 <div align="center">
-
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Academic Record](#academic-documentation) &nbsp;·&nbsp; [Milestones](#educational-milestones) &nbsp;·&nbsp; [References](#references) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository)
-
+  [Authors](#authors) &middot; [Overview](#overview) &middot; [Features](#features) &middot; [Structure](#project-structure) &middot; [Results](#results-gallery) &middot; [Quick Start](#quick-start) &middot; [Academic Record](#academic-documentation) &middot; [Milestones](#educational-milestones) &middot; [References](#literature-survey) &middot; [Usage Guidelines](#usage-guidelines) &middot; [License](#license) &middot; [About This Repository](#about-this-repository) &middot; [Acknowledgments](#acknowledgments)
 </div>
 
 ---
 
 <!-- AUTHORS -->
+<a name="authors"></a>
 <div align="center">
 
   ## Authors
@@ -67,6 +66,7 @@
 ---
 
 <!-- OVERVIEW -->
+<a name="overview"></a>
 ## Overview
 
 **QuadTree Visualizer** is a comprehensive tool designed to demonstrate the efficacy of QuadTrees in optimizing spatial querying and collision detection. Unlike naive O(N²) collision checks, this system implements an efficient hierarchical data structure, visualizing `insert`, `retrieve`, and `clear` operations in real-time.
@@ -130,6 +130,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 ---
 
 <!-- FEATURES -->
+<a name="features"></a>
 ## Features
 
 | Feature | Description |
@@ -150,6 +151,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 ---
 
 <!-- STRUCTURE -->
+<a name="project-structure"></a>
 ## Project Structure
 
 ```bash
@@ -296,6 +298,7 @@ QUADTREE-VISUALIZER/
 ---
 
 <!-- RESULTS -->
+<a name="results-gallery"></a>
 ## Results Gallery
 
 <div align="center">
@@ -346,6 +349,7 @@ An experimental implementation generating QuadTrees from static images.
 ---
 
 <!-- QUICK START -->
+<a name="quick-start"></a>
 ## Quick Start
 
 ### 1. Prerequisites
@@ -514,6 +518,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 ---
 
 <!-- EDUCATIONAL MILESTONES -->
+<a name="educational-milestones"></a>
 ## Educational Milestones (Phi Education)
 **Mentored by**: Phi Education | **Students**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod), [Hasan Rizvi](https://github.com/rizvihasan)
 
@@ -577,6 +582,7 @@ Before the final Next.js implementation, several iterative prototypes were devel
 ---
 
 <!-- REFERENCES -->
+<a name="literature-survey"></a>
 ## Literature Survey & Bibliography
 
 The development of the **QuadTree Visualizer** was informed by a comprehensive review of established research in computational geometry, spatial data structures, and high-performance rendering. The following bibliography constitutes the primary theoretical foundation for this project:
@@ -603,6 +609,7 @@ The development of the **QuadTree Visualizer** was informed by a comprehensive r
 <!-- =========================================================================================
                                      USAGE SECTION
      ========================================================================================= -->
+<a name="usage-guidelines"></a>
 ## Usage Guidelines
 
 This repository is openly shared to support learning and knowledge exchange across the academic community.
@@ -619,6 +626,7 @@ The published paper and preprint provide insights into spatial partitioning logi
 ---
 
 <!-- LICENSE -->
+<a name="license"></a>
 ## License
 
 This repository and all linked academic content are made available under the **MIT License**. See the [LICENSE](LICENSE) file for complete terms.
@@ -631,6 +639,7 @@ Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 ---
 
 <!-- ABOUT -->
+<a name="about-this-repository"></a>
 ## About This Repository
 
 **Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod) & [Hasan Rizvi](https://github.com/rizvihasan)  
@@ -643,6 +652,7 @@ This repository serves as a permanent technical record for **QuadTree Visualizer
 **Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
 
 ### Acknowledgments
+<a name="acknowledgments"></a>
 
 Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Hasan Rizvi](https://github.com/rizvihasan)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
 
@@ -654,7 +664,7 @@ Special thanks to **Prof. Randeep Kaur Kahlon** for her mentorship and guidance 
 
   [↑ Back to Top](#readme-top)
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results-gallery) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [About](#about-this-repository)
+  [Authors](#authors) &middot; [Overview](#overview) &middot; [Features](#features) &middot; [Structure](#project-structure) &middot; [Results](#results-gallery) &middot; [Quick Start](#quick-start) &middot; [Academic Record](#academic-documentation) &middot; [Milestones](#milestones) &middot; [References](#references) &middot; [Usage](#usage) &middot; [License](#license) &middot; [About](#about)
 
   <br>
 

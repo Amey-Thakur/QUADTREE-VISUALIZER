@@ -445,7 +445,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 - **Time**: 12:29 PM
 - **Meet Code**: `vqt-diqt-edq`
 - **Presentation**: [PPTX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pptx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
-- **Report**: [DOCX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.docx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
+- **Report**: [DOCX](Major-Project-I/MAJOR_PROJECT_BE-COMPS_B-50,51,58.docx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
 - **Evaluation Evidence**:
   <details>
     <summary><strong>View Evaluation Assets</strong></summary>
@@ -483,7 +483,7 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
   </details>
 
 #### Major Project - II | CSP805 (Report)
-- **Report**: [DOCX](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
+- **Report**: [DOCX](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
 
 ### 4. Final Defense (25-04-2022)
 - **Presentation**: [PPTX](25-04-2022/Final%20Presentation.pptx) | [PDF](25-04-2022/Final%20Presentation.pdf)
@@ -593,7 +593,7 @@ The development of the **QuadTree Visualizer** was informed by a comprehensive r
    *Focus: Optimization of large-scale spatial datasets.*
 2. **An Effective Way to Represent Quadtrees** | [View PDF](Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf)  
    *Focus: Theoretical memory and structure efficiency.*
-3. **Efficient Quadtree Coding of Images and Video** | [View PDF](Reference%20Papers/Efficient%20Quadtree-Coding%20of%20Images%20and%20Video.pdf)  
+3. **Efficient Quadtree Coding of Images and Video** | [View PDF](Reference%20Papers/Efficient%20Quadtree%20Coding%20of%20Images%20and%20Video.pdf)  
    *Focus: Application of QuadTrees in signal processing.*
 4. **Energetics of a Bouncing Drop** | [View PDF](Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf)  
    *Focus: Physics modeling and collision energetics.*

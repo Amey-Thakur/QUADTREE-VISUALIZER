@@ -438,12 +438,13 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 - **Presentation**: [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) | [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
 - **Scheduling**:
   <details>
-    <summary><strong>View Schedule & Panel</strong></summary>
+    <summary><strong>View Review Schedule</strong></summary>
     <br>
-    <h4>Review Schedule</h4>
     <img src="Review-3/Review-3_Schedule.png" width="80%">
-    <br><br>
-    <h4>Review Panel</h4>
+  </details>
+  <details>
+    <summary><strong>View Review Panel</strong></summary>
+    <br>
     <img src="Review-3/Review-3_Panel.png" width="80%">
   </details>
 

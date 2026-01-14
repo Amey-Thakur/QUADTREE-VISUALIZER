@@ -390,32 +390,32 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 
 <div align="center">
   <h4>Research Domain Selection & Institutional Approval</h4>
-  <img src="Major-Project%20Selection/Approval%20Message.png" width="85%" />
+  <img src="Major-Project%20Selection/Approval%20Message.png" width="65%" />
 </div>
 
 <div align="center">
   <h4>Formative Assessment Stage I (Institutional Review Board)</h4>
-  <img src="Review-1/Review-1_Panel.jpg" width="85%" />
+  <img src="Review-1/Review-1_Panel.jpg" width="65%" />
 </div>
 
 <div align="center">
   <h4>Institutional Attendance Record (Second Half 2021)</h4>
-  <img src="Review-1/Review-1_Attendance_Proof.png" width="85%" />
+  <img src="Review-1/Review-1_Attendance_Proof.png" width="65%" />
 </div>
 
 <div align="center">
   <h4>Summative Evaluation Phase I (Institutional Attendance Audit)</h4>
-  <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="85%" />
+  <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="65%" />
 </div>
 
 <div align="center">
   <h4>Critical Path Scheduling & Methodological Validation</h4>
-  <img src="Review-3/Review-3_Schedule.png" width="85%" />
+  <img src="Review-3/Review-3_Schedule.png" width="65%" />
 </div>
 
 <div align="center">
   <h4>Formative Assessment Stage II (Architectural Synthesis Panel)</h4>
-  <img src="Review-3/Review-3_Panel.png" width="85%" />
+  <img src="Review-3/Review-3_Panel.png" width="65%" />
 </div>
 
 <div align="center">

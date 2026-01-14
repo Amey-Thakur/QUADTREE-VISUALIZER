@@ -35,44 +35,16 @@
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-  <table>
-  <td align="center">
-  <a href="https://github.com/Amey-Thakur">
-  <img src="https://github.com/Amey-Thakur.png" width="180px;" alt="Amey Thakur"/><br />
-  <b>Amey Thakur</b><br />
-  (TU3F1819127)
-  </a><br /><br />
-  <a href="https://orcid.org/0000-0001-5644-1575">
-  <img src="https://img.shields.io/badge/ORCID-0000--0001--5644--1575-brightgreen" alt="ORCID"/>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/rizvihasan">
-  <img src="https://github.com/rizvihasan.png" width="180px;" alt="Hasan Rizvi"/><br />
-  <b>Hasan Rizvi</b><br />
-  (TU3F1819130)
-  </a><br /><br />
-  <a href="https://github.com/rizvihasan">
-  <img src="https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github" alt="GitHub"/>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/msatmod">
-  <img src="Mega/Mega.png" width="180px;" alt="Mega Satish"/><br />
-  <b>Mega Satish</b><br />
-  (TU3F1819139)
-  </a><br /><br />
-  <a href="https://orcid.org/0000-0002-1844-9557">
-  <img src="https://img.shields.io/badge/ORCID-0000--0002--1844--9557-brightgreen" alt="ORCID"/>
-  </a>
-  </td>
-
-  </tr>
-  </table>
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github)](https://github.com/rizvihasan) | <a href="https://github.com/msatmod"><img src="Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| :---: | :---: | :---: |
 
   *Project Guide: **Prof. Randeep Kaur Kahlon** ([Area of Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf))*
 
 </div>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to **[Mega Satish](https://github.com/msatmod)**, **[Hasan Rizvi](https://github.com/rizvihasan)** and **Prof. Randeep Kaur Kahlon** for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ---
 
@@ -89,8 +61,8 @@ The application allows users to spawn varying numbers of particles, apply physic
   <img src="https://user-images.githubusercontent.com/54937357/165130570-bbab7825-fbbc-4b98-908e-1f591ac6d91e.gif" alt="QuadTree" width="350" height="350">
 </div>
 
-> [!IMPORTANT]
-> **Research Impact**
+> [!NOTE]
+> **Research Impact & Certification**
 >
 > This project was published as a research paper in the **International Journal of Engineering Research & Technology (IJERT)** (Volume 11, Issue 04) and is also available as a preprint on **viXra**. The project received an official **Publication Certificate** for its research contribution to engineering education.
 >

@@ -469,7 +469,9 @@ This section archives the foundational technical training and pedagogical milest
 | **Spatial Logic** | April 06, 2022 | [Formal ADT Specification for Spatial Partitioning](Initial%20Work/Phi%20Tasks/Task%204) | [Assessment](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task4.jpeg) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%204/Doubts.png) \| [Resolution](Initial%20Work/Phi%20Tasks/Task%204/Doubts-Response.png) | - |
 | **Data Definition** | November 26, 2021 | [Formal Specification of Persistence File Formats](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg) | - | - | [Pending] |
 | **Interface Design** | December 10, 2021 | [Architectural Synthesis of the `pcf_ui` Library](Initial%20Work/Phi%20Tasks/Task%206) | - | - | [Repository](Initial%20Work/Phi%20Tasks/Task%206) |
-| **Advanced Logic** | December 24, 2021 | [Cumulative Theoretical Logic & System Modeling](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | - | [Modules 07-10] |
+| **Advanced Logic (T-07)** | December 24, 2021 | [Theoretical Logic & System Modeling](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | - | [Module 07] |
+| **Advanced Logic (T-08)** | January 08, 2022 | [Algorithm Complexity Assessment](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | - | [Module 08] |
+| **Advanced Logic (9-10)** | - | [Theoretical Component Synthesis](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | - | [Modules 09-10] |
 | **Thesis Prep** | April 2022 | [Foundational Technical Thesis Presentation](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) | [PDF](Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf) | [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) |
 
 ### 2. Foundational Programming Curriculum (C-Systems)

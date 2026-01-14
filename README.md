@@ -74,7 +74,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 ### Engineering Thesis
 
 | # | Name | Student ID | Description | Certificate | Thesis |
-| :-: | :--- | :--- | :--- | :---: | :---: |
+| :-: | :--- | :---: | :--- | :---: | :---: |
 | 1 | **Amey Thakur** | TU3F1819127 | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) | [View](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf) |
 | 2 | **Hasan Rizvi** | TU3F1819130 | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf) | [View](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf) |
 | 3 | **Mega Satish** | TU3F1819139 | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf) | [View](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf) |

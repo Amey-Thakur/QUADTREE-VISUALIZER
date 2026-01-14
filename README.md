@@ -11,7 +11,7 @@
 
   A high-performance interactive simulation visualizing the efficiency of the QuadTree data structure in spatial partitioning and collision detection, built with Next.js and HTML5 Canvas.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Research Paper](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)** &nbsp;·&nbsp; **[Live Demo](https://amey-thakur.github.io/QUADTREE-VISUALIZER/)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/8un0Qu8ibNk)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Research Paper](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/8un0Qu8ibNk)** &nbsp;·&nbsp; **[Live Demo](https://amey-thakur.github.io/QUADTREE-VISUALIZER/)**
 
   [![QuadTree Visualizer Demo](https://img.youtube.com/vi/8un0Qu8ibNk/0.jpg)](https://youtu.be/8un0Qu8ibNk)
 

@@ -455,7 +455,7 @@ Archival records of the comprehensive engineering thesis submitted to the **Univ
 <a name="educational-milestones"></a>
 ## Pedagogical Foundation & Technical Proficiency Manifest
 
-**Institutional Mentor**: Phi Education | **Scholarly Team**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod), [Hasan Rizvi](https://github.com/rizvihasan)
+**Institutional Mentor**: Phi Education | **Project Team**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod), [Hasan Rizvi](https://github.com/rizvihasan)
 
 This section archives the foundational technical training and pedagogical milestones completed under the **Phi Education** track. These assessments document the chronological progression of technical proficiency in C-based systems programming and structural optimization, serving as the technical foundation for the project's final implementation.
 

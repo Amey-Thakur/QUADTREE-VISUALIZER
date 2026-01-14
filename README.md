@@ -382,13 +382,15 @@ This section archives the formal evaluation milestones and scholarly artifacts a
 A chronological record of technical reviews, phase reports, and formal evaluations conducted by the institutional review board.
 
 | Milestone | Timeline | Evaluation Focal Point | Official Documentation | Evidence |
-| :--- | :---: | :--- | :---: | :---: |
+| :--- | :--- | :--- | :---: | :---: |
 | **Project Inception** | 2021 | Topic Selection & Guide Allocation | [Selection Doc](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf) | [Approval](Major-Project%20Selection/Approval%20Message.png) |
-| **Major Project - I** | Oct 2021 | Phase I System Design | [Report](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf) | [Attendance](Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg) |
-| **Progress Reviews** | SH 2021 | Technical Feasibility & Design | [Review 1](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) \| [Review 2](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) |
-| **Major Project - II** | FH 2022 | Final Execution & Validation | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) | [Schedule](Review-3/Review-3_Schedule.png) |
-| **Advanced Reviews** | FH 2022 | Optimization & Result Analysis | [Review 3](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) \| [Review 4](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf) | [Panel](Review-3/Review-3_Panel.png) |
-| **Final Defense** | Apr 2022 | Oral Examination & Presentation | [Presentation](25-04-2022/Final%20Presentation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
+| **Review 1** | SH 2021 | 2:48 PM \| BE project review I | [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) \| [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) \| [Attendance](Review-1/Review-1_Attendance_Proof.png) |
+| **Review 2** | SH 2021 | Progress Review \| Presentation | [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) \| [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf) | - |
+| **Major Project - I** | Oct 25, 2021 | 12:29 PM \| Meet: `vqt-diqt-edq` | [Report](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf) \| [Docx](Major-Project-I/MAJOR_PROJECT_BE-COMPS_B-50,51,58.docx) | [Attendance](Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg) |
+| **Review 3** | FH 2022 | Progress Review \| Scheduling | [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) \| [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) | [Schedule](Review-3/Review-3_Schedule.png) \| [Panel](Review-3/Review-3_Panel.png) |
+| **Review 4** | FH 2022 | Milestone Review \| Phase II | [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) \| [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf) | - |
+| **Major Project - II** | FH 2022 | Final Project Phase \| CSP805 | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) \| [Docx](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | - |
+| **Final Defense** | Apr 25, 2022 | 10:53 AM \| Oral Examination | [Presentation](25-04-2022/Final%20Presentation.pdf) \| [Prep](25-04-2022/Presentation_Preparation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
 
 <p align="center">
   <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Defense Day Photos (April 25, 2022 - Monday) [10:53 AM]</h3>
@@ -402,11 +404,11 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 
 Formal research contribution published in the **International Journal of Engineering Research & Technology (IJERT)**, including authenticity audits.
 
-| Scholarly Artifact | Institutional Record | Integrity Manifest | Technical Submission |
+| Scholarly Project | Institutional Record | Integrity Manifest | Technical Submission |
 | :--- | :--- | :--- | :---: |
 | **Technical Paper** | IJERT Vol 11, Issue 04 | [Plagiarism Report](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) | [Final Paper](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf) |
 | **Official Acceptance** | Editorial Board Approval | [Acceptance Letter](Research%20Paper/IJERTV11IS040156_Acceptance.pdf) | [Preprint](https://vixra.org/abs/2204.0168) |
-| **Publication Merit** | IJERT Certification | [Payment Receipt](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) |
+| **Publication Merit** | Publication Certificate | [Payment Receipt](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) |
 
 ### 3. Official Engineering Thesis Archival (Black Book)
 

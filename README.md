@@ -373,106 +373,53 @@ Ensure your environment meets the minimum specifications:
 This section archives the formal milestones of the Bachelor of Engineering (B.E.) degree.
 
 ### 1. Project Inception (Topic Selection)
-- **Selection Process**: [Team Building Details](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf)
-- **Guide Allocation**: [Project Guide Selection](Major-Project%20Selection/TN04_Project%20Guide%20Selection.pdf)
-- **Reference**: [Project Guide Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf)
-- **Formal Approval**:
-  <details>
-    <summary><strong>View Approval Message</strong></summary>
-    <br>
-    <img src="Major-Project%20Selection/Approval%20Message.png" width="80%">
-  </details>
-  <details>
-    <summary><strong>View Project (Pic Credit: Supreet)</strong></summary>
-    <br>
-    <img src="Major-Project%20Selection/Final%20Year%20Project.jpg" width="80%">
-  </details>
+## Academic Documentation
 
-### 2. Semester VII (Major Project - I | CSP705)
-#### Review 1
-- **Time**: 2:48 PM | **Meeting**: BE project review I
-- **Presentation**: [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) | [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf)
-- **Evaluation Evidence**:
-  <details>
-    <summary><strong>View Review Panel</strong></summary>
-    <br>
-    <img src="Review-1/Review-1_Panel.jpg" width="80%">
-  </details>
-  <details>
-    <summary><strong>View Attendance Proof</strong></summary>
-    <br>
-    <img src="Review-1/Review-1_Attendance_Proof.png" width="80%">
-  </details>
+This section archives the formal evaluation milestones and scholarly artifacts associated with the Bachelor of Engineering (B.E.) degree in Computer Engineering.
 
-#### Review 2
-- **Presentation**: [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) | [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
+### 1. Academic Evaluation Manifest
 
-#### Final Review (Major Project - I | CSP705)
-- **Date**: October 25, 2021
-- **Time**: 12:29 PM
-- **Meet Code**: `vqt-diqt-edq`
-- **Presentation**: [PPTX](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pptx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
-- **Report**: [DOCX](Major-Project-I/MAJOR_PROJECT_BE-COMPS_B-50,51,58.docx) | [PDF](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf)
-- **Evaluation Evidence**:
-  <details>
-    <summary><strong>View Evaluation Assets</strong></summary>
-    <br>
-    <h4>Attendance Proof</h4>
-    <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="80%">
-  </details>
+A chronological record of technical reviews, phase reports, and formal evaluations conducted by the institutional review board.
 
-### 3. Semester VIII (Major Project - II | CSP805)
-#### Review 3
-- **Presentation**: [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) | [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf)
-- **Scheduling**:
-  <details>
-    <summary><strong>View Review Schedule</strong></summary>
-    <br>
-    <img src="Review-3/Review-3_Schedule.png" width="80%">
-  </details>
-  <details>
-    <summary><strong>View Review Panel</strong></summary>
-    <br>
-    <img src="Review-3/Review-3_Panel.png" width="80%">
-  </details>
+| Milestone | Timeline | Evaluation Focal Point | Official Documentation | Evidence |
+| :--- | :---: | :--- | :---: | :---: |
+| **Project Inception** | 2021 | Topic Selection & Guide Allocation | [Selection Doc](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf) | [Approval](Major-Project%20Selection/Approval%20Message.png) |
+| **Major Project - I** | Oct 2021 | Phase I System Design | [Report](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf) | [Attendance](Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg) |
+| **Progress Reviews** | SH 2021 | Technical Feasibility & Design | [Review 1](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) \| [Review 2](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) |
+| **Major Project - II** | FH 2022 | Final Execution & Validation | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) | [Schedule](Review-3/Review-3_Schedule.png) |
+| **Advanced Reviews** | FH 2022 | Optimization & Result Analysis | [Review 3](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) \| [Review 4](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf) | [Panel](Review-3/Review-3_Panel.png) |
+| **Final Defense** | Apr 2022 | Oral Examination & Presentation | [Presentation](25-04-2022/Final%20Presentation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
 
-#### Review 4
-- **Presentation**: [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) | [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
+<p align="center">
+  <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Defense Day Photos (April 25, 2022 - Monday) [10:53 AM]</h3>
+  <br>
+  <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="48%" />
+  &nbsp;
+  <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="48%" />
+</p>
 
-#### Major Project - II | CSP805 (Report)
-- **Report**: [DOCX](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
+### 2. Scholarly Publication & Technical Integrity
 
-### 4. Final Defense (25-04-2022)
-- **Presentation**: [PPTX](25-04-2022/Final%20Presentation.pptx) | [PDF](25-04-2022/Final%20Presentation.pdf)
-- **Preparation Notes**: [PDF](25-04-2022/Presentation_Preparation.pdf) | [TXT](25-04-2022/Presentation_Preparation.txt)
-- **Defense Day Photos**:
-  <br><br>
-  <div align="center">
-    <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%">
-    &nbsp;&nbsp;
-    <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%">
-  </div>
+Formal research contribution published in the **International Journal of Engineering Research & Technology (IJERT)**, including authenticity audits.
 
-### 5. Research Publication (IJERT)
-**"QuadTree Visualizer" (Volume 11, Issue 04, April 2022)**
-- **Published Paper**: [IJERTV11IS040156](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf)
-- **Publication Certificates**:
-  - **Guide (Prof. Randeep Kaur Kahlon)**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf)
-  - **Amey Thakur**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf)
-  - **Mega Satish**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf)
-  - **Hasan Rizvi**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf)
-  - **Ajay Davare**: [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf)
-- **Compliance Documents**:
-  - [Plagiarism Report](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf)
-  - [Acceptance Letter](Research%20Paper/IJERTV11IS040156_Acceptance.pdf)
-  - [Payment Receipt](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf)
+| Scholarly Artifact | Institutional Record | Integrity Manifest | Technical Submission |
+| :--- | :--- | :--- | :---: |
+| **Technical Paper** | IJERT Vol 11, Issue 04 | [Plagiarism Report](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) | [Final Paper](Research%20Paper/IJERTV11IS040156%20-%20QuadTree%20Visualizer.pdf) |
+| **Official Acceptance** | Editorial Board Approval | [Acceptance Letter](Research%20Paper/IJERTV11IS040156_Acceptance.pdf) | [Preprint](https://vixra.org/abs/2204.0168) |
+| **Publication Merit** | IJERT Certification | [Payment Receipt](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) |
 
-### 6. Submission Reports (Black Book)
-- **Amey Thakur**: [Submission Report (PDF)](Submission%20Report/Amey_B-50_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf)
-- **Hasan Rizvi**: [Submission Report (PDF)](Submission%20Report/Hasan_B-51_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf)
-- **Mega Satish**: [Submission Report (PDF)](Submission%20Report/Mega_B-58_Submission_Report.pdf) | [Final Black Book (PDF)](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf)
-- **Ajay Davare**: [Final Black Book (PDF)](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf)
-- **Team Compilation**: [Combined Black Book (PDF)](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf)
+### 3. Official Engineering Thesis Archival (Black Book)
+
+Archival records of the comprehensive engineering thesis submitted to the **University of Mumbai**.
+
+| # | Contributor | Institutional ID | Document Scope | Archival Record |
+| :-: | :--- | :---: | :--- | :---: |
+| 1 | **Amey Thakur** | TU3F1819127 | Individual Engineering Thesis | [View PDF](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf) |
+| 2 | **Hasan Rizvi** | TU3F1819130 | Individual Engineering Thesis | [View PDF](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf) |
+| 3 | **Mega Satish** | TU3F1819139 | Individual Engineering Thesis | [View PDF](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf) |
+| 4 | **Ajay Davare** | TU3F1718006 | Individual Engineering Thesis | [View PDF](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf) |
+| 5 | **Team compilation** | CSP705 / CSP805 | Combined Major Project Thesis | [View PDF](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf) |
+| 6 | **Submission Receipt** | - | Official Submission Evidence | [Amey](Submission%20Report/Amey_B-50_Submission_Report.pdf) \| [Hasan](Submission%20Report/Hasan_B-51_Submission_Report.pdf) \| [Mega](Submission%20Report/Mega_B-58_Submission_Report.pdf) |
 
 ---
 

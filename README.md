@@ -451,57 +451,47 @@ Archival records of the comprehensive engineering thesis submitted to the **Univ
 
 ---
 
-<!-- EDUCATIONAL MILESTONES -->
+<!-- PEDAGOGICAL FOUNDATION -->
 <a name="educational-milestones"></a>
-## Educational Milestones (Phi Education)
-**Mentored by**: Phi Education | **Students**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod), [Hasan Rizvi](https://github.com/rizvihasan)
+## Pedagogical Foundation & Technical Proficiency Manifest
 
-Initial training and milestones completed under the Phi Education track "Introduction to C Programming".
+**Institutional Mentor**: Phi Education | **Scholarly Team**: [Amey Thakur](https://github.com/Amey-Thakur), [Mega Satish](https://github.com/msatmod), [Hasan Rizvi](https://github.com/rizvihasan)
 
-### Task 1: [Understand Object Oriented Programming in C](Initial%20Work/Phi%20Tasks/Task%201)
-- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%201/Task%2001.png)
-- **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%201/PHI%20CS%2073%20-%20Task%201%20%5BSUBMISSION%20-%203%5D%20APPROVED.png)
+This section archives the foundational technical training and pedagogical milestones completed under the **Phi Education** track. These assessments document the chronological progression of technical proficiency in C-based systems programming and structural optimization, serving as the technical foundation for the project's final implementation.
 
-### Task 2: [Understand Design Patterns in C](Initial%20Work/Phi%20Tasks/Task%202)
-- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%202/Task%2002.png)
-- **Doubts**: [View Doubts](Initial%20Work/Phi%20Tasks/Task%202/Doubts.pdf)
-- **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%202/PHI%20CS%2073%20-%20Task%202%20%5BSUBMISSION%20-%2015%5D%20APPROVED.png)
+### 1. Foundational Technical Assessment & Training Matrix
 
-### Task 3: [Learn how to use TinyXml](Initial%20Work/Phi%20Tasks/Task%203)
-- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Task%203/Task%2003.png)
-- **Doubts**: [View Doubt](Initial%20Work/Phi%20Tasks/Task%203/Doubts.png)
-- **Acceptance**: [View Approved Submission](Initial%20Work/Phi%20Tasks/Task%203/PHI-CS-73%20TASK-3%20%5BSUBMISSION-1%5D%20APPROVED.png)
+| Objective | Scholarly Project & Training Module | Academic Evaluation | Technical Outcome |
+| :--- | :--- | :---: | :---: |
+| **Logic & Paradigm** | [Object-Oriented Paradigm Simulation in C](Initial%20Work/Phi%20Tasks/Task%201) | [Assessment](Initial%20Work/Phi%20Tasks/Task%201/Task%2001.png) | [Approved](Initial%20Work/Phi%20Tasks/Task%201/PHI%20CS%2073%20-%20Task%201%20%5BSUBMISSION%20-%203%5D%20APPROVED.png) |
+| **Design Synthesis** | [Structural Design Patterns & Logic Validation](Initial%20Work/Phi%20Tasks/Task%202) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%202/Doubts.pdf) | [Approved](Initial%20Work/Phi%20Tasks/Task%202/PHI%20CS%2073%20-%20Task%202%20%5BSUBMISSION%20-%2015%5D%20APPROVED.png) |
+| **XML Processing** | [Hierarchical Data Extraction via TinyXml](Initial%20Work/Phi%20Tasks/Task%203) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%203/Doubts.png) | [Approved](Initial%20Work/Phi%20Tasks/Task%203/PHI-CS-73%20TASK-3%20%5BSUBMISSION-1%5D%20APPROVED.png) |
+| **Spatial Logic** | [Formal ADT Specification for Spatial Partitioning](Initial%20Work/Phi%20Tasks/Task%204) | [Assessment](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task4.jpeg) | [Resolution](Initial%20Work/Phi%20Tasks/Task%204/Doubts-Response.png) |
+| **Data Definition** | [Formal Specification of Persistence File Formats](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg) | - | [Pending] |
+| **Interface Design** | [Architectural Synthesis of the `pcf_ui` Library](Initial%20Work/Phi%20Tasks/Task%206) | - | [Repository](Initial%20Work/Phi%20Tasks/Task%206) |
+| **Advanced Logic** | [Cumulative Theoretical Logic & System Modeling](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | [Modules 07-10] |
+| **Thesis Prep** | [Foundational Technical Thesis Presentation](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) | [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) |
 
-### Task 4: [Define ADT for Quad Tree](Initial%20Work/Phi%20Tasks/Task%204)
-- **Task Details**: [View Description](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task4.jpeg)
-- **Doubts**: [View Doubt](Initial%20Work/Phi%20Tasks/Task%204/Doubts.png) | [Response](Initial%20Work/Phi%20Tasks/Task%204/Doubts-Response.png)
+### 2. Foundational Programming Curriculum (C-Systems)
 
-### Task 5: [Define file format](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg)
-### Task 6: [pcf_ui library](Initial%20Work/Phi%20Tasks/Task%206)
-### Task 7 - 10: [View Descriptions](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/)
+A record of fundamental C-Programming milestones archiving the pedagogical seeds of the project's core spatial algorithms.
 
-### Presentation
-- **Presentation**: [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf)
-
-### Academic Milestones (Introduction to C Programming)
-This section provides a formal archival record of the foundational training curriculum completed at **Phi Education**. These milestones document the chronological progression of technical proficiency in C-based systems programming and data structure implementation, serving as the pedagogical foundation for the advanced algorithms utilized in this project.
-
-| Milestones | Academic Evaluation | Knowledge Module | <div align="center">Technical Focus & Key Artifacts</div> |
-| :---: | :---: | :---: | :--- |
-| **Milestones**<br>**01** | [Certificate](Initial%20Work/Phi%20Education/Milestone%201%20Completed.png) | [Milestone_1](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1) | Basic Geometry & Unit Conversions (`Area of Circle/Rectangle`, `Temp/Weight Conversion`) |
-| **Milestones**<br>**02** | [Certificate](Initial%20Work/Phi%20Education/Milestone%202%20Completed.png) | [Milestone_2](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2) | Mathematical Logic & Finance ADTs (`Factorial`, `Prime Check`, `GCD/LCM`, `Compound Interest`) |
-| **Milestones**<br>**03** | [Certificate](Initial%20Work/Phi%20Education/Milestone%203%20Completed.png) | [Milestone_3](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3) | Fundamental Array Operations (`arraysearch.C`, `arraysort.C`) |
-| **Milestones**<br>**04** | [Certificate](Initial%20Work/Phi%20Education/Milestone%204%20Completed.png) | [Milestone_4](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_4) | Advanced Array Manipulations (`ARRAYOP.C`) |
-| **Milestones**<br>**05** | [Certificate](Initial%20Work/Phi%20Education/Milestone%205%20Completed.png) | [Milestone_5](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_5) | String Library Implementation (`strcompare.C`, `strcopy.C`, `strlength.C`, `strfindsubstring.C`) |
-| **Milestones**<br>**06** | [Certificate](Initial%20Work/Phi%20Education/Milestone%206%20Completed.png) | [Milestone_6](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_6) | Consolidated String Utility Engine (`STR.C`) |
-| **Milestones**<br>**07** | [Certificate](Initial%20Work/Phi%20Education/Milestone%207%20Completed.png) | [Milestone_7](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_7) | Complex String Analysis Algorithms (`stringoperation.C`) |
-| **Milestones**<br>**08** | [Certificate](Initial%20Work/Phi%20Education/Milestone%208%20Completed.png) | [Milestone_8](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_8) | Polymorphic Sorting Concepts (`sortdatatype.C`) |
-| **Milestones**<br>**09** | [Certificate](Initial%20Work/Phi%20Education/Milestone%209%20Completed.png) | [Milestone_9](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9) | Linked List Data Structures (`Reverse`, `Merge Sort`, `Recursive Reverse`, `Pop/Push Operations`) |
-| **Milestones**<br>**10** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png) | [Milestone_10](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10) | Dictionary ADT Implementation (`dictionary.C`) |
-| **Milestones**<br>**11** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png) | [Milestone_11](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11) | Sequential File Processing & Tokenization (`FILEREAD.C`) |
-| **Milestones**<br>**12** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png) | [Milestone_12](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12) | Persistent Data Storage Mechanisms (`arrayfile.C`, `dictionary.C`) |
-| **Milestones**<br>**13** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png) | [Milestone_13](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13) | Iterative Data Structure Reversal (`reverselinklist.C`) |
-| **Milestones**<br>**14** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png) | [Milestone_14](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14) | Complex List Merging & Optimization Assessment (`14.c`) |
+| Milestone | Knowledge Module | Technical Focus & System Artifacts | Evaluation |
+| :---: | :--- | :--- | :---: |
+| **01** | [Geometry & Logic](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_1) | Basic Geometry & Unit Conversions (`Area Calculation Engine`) | [View](Initial%20Work/Phi%20Education/Milestone%201%20Completed.png) |
+| **02** | [Algorithmic Finance](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_2) | Mathematical Logic & Finance ADTs (`GCD`, `LCM`, `Compound Interest`) | [View](Initial%20Work/Phi%20Education/Milestone%202%20Completed.png) |
+| **03** | [Linear Data Structures](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_3) | Fundamental Array Operations (`Search`, `Sort` Implementations) | [View](Initial%20Work/Phi%20Education/Milestone%203%20Completed.png) |
+| **04** | [Array Optimization](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_4) | Advanced Spatial Array Manipulations (`ARRAYOP.C`) | [View](Initial%20Work/Phi%20Education/Milestone%204%20Completed.png) |
+| **05** | [Lexical Processing I](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_5) | String Library Implementation (`strcompare`, `strfindsubstring`) | [View](Initial%20Work/Phi%20Education/Milestone%205%20Completed.png) |
+| **06** | [Lexical Processing II](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_6) | Consolidated String Utility Engine (`STR.C`) | [View](Initial%20Work/Phi%20Education/Milestone%206%20Completed.png) |
+| **07** | [Analytical Algorithms](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_7) | Complex String Analysis Algorithms (`stringoperation.C`) | [View](Initial%20Work/Phi%20Education/Milestone%207%20Completed.png) |
+| **08** | [Polymorphic Logic](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_8) | Polymorphic Sorting Concepts (`sortdatatype.C`) | [View](Initial%20Work/Phi%20Education/Milestone%208%20Completed.png) |
+| **09** | [Dynamic Memory](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9) | Linked List Data Structures (`Recursive Reverse`, `Merge Sort`) | [View](Initial%20Work/Phi%20Education/Milestone%209%20Completed.png) |
+| **10** | [Dictionary ADT](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10) | Dictionary ADT Implementation via Hashing Logic | [View](Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png) |
+| **11** | [File I/O Systems](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11) | Sequential File Processing & Tokenization (`FILEREAD.C`) | [View](Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png) |
+| **12** | [Persistence Models](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12) | Persistent Data Storage Mechanisms (`arrayfile.C`, `dictionary.C`) | [View](Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png) |
+| **13** | [Recursive Logic](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13) | Iterative & Recursive Data Structure Reversal | [View](Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png) |
+| **14** | [Optimization Metrics](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14) | Complex List Merging & Optimization Assessment (`14.c`) | [View](Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png) |
 
 ### Technical Prototypes & Early Research Implementations
 

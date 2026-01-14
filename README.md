@@ -73,14 +73,14 @@ The application allows users to spawn varying numbers of particles, apply physic
 
 ### Engineering Thesis
 
-| # | Name | Student ID | Thesis | Description | Certificate |
-| :-: | :--- | :---: | :---: | :--- | :---: |
-| 1 | **Amey Thakur** | TU3F1819127 | [View](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf) | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) |
-| 2 | **Hasan Rizvi** | TU3F1819130 | [View](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf) | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf) |
-| 3 | **Mega Satish** | TU3F1819139 | [View](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf) | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf) |
-| 4 | **Ajay Davare** | TU3F1718006 | [View](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf) | Official Engineering Thesis | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf) |
-| 5 | **Randeep Kaur Kahlon** | Guide | - | Project Guide & Mentor | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf) |
-| 6 | **Group** | - | [View](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf) | Combined Major Project Thesis | - |
+| # | Name | Student ID | Thesis | Certificate | Description |
+| :-: | :--- | :---: | :---: | :---: | :--- |
+| 1 | **Amey Thakur** | TU3F1819127 | [View](BlackBook/BlackBook-Amey_Mahendra_Thakur-TU3F1819127.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Amey%20Thakur.pdf) | Official Engineering Thesis |
+| 2 | **Hasan Rizvi** | TU3F1819130 | [View](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf) | Official Engineering Thesis |
+| 3 | **Mega Satish** | TU3F1819139 | [View](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf) | Official Engineering Thesis |
+| 4 | **Ajay Davare** | TU3F1718006 | [View](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf) | Official Engineering Thesis |
+| 5 | **Randeep Kaur Kahlon** | Guide | - | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf) | Project Guide & Mentor |
+| 6 | **Group** | - | [View](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf) | - | Combined Major Project Thesis |
 
 <br>
 

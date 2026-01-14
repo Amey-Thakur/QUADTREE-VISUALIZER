@@ -470,7 +470,7 @@ This section archives the foundational technical training and pedagogical milest
 | **Data Definition** | [Formal Specification of Persistence File Formats](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg) | - | [Pending] |
 | **Interface Design** | [Architectural Synthesis of the `pcf_ui` Library](Initial%20Work/Phi%20Tasks/Task%206) | - | [Repository](Initial%20Work/Phi%20Tasks/Task%206) |
 | **Advanced Logic** | [Cumulative Theoretical Logic & System Modeling](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | [Modules 07-10] |
-| **Thesis Prep** | [Foundational Technical Thesis Presentation](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) | [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) |
+| **Thesis Prep** | [Foundational Technical Thesis Presentation](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) | [Review](Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf) \| [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) |
 
 ### 2. Foundational Programming Curriculum (C-Systems)
 

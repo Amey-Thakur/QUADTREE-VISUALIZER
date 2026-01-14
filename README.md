@@ -92,7 +92,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 
 ### Additional Resources
 
-| Resource | Description |
+| Resource | Description |Z
 |---|---|
 | [**Plagiarism Report**](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) | Detailed analysis of content originality |
 | [**Scan Report**](Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf) | Automated similarity index scan result |
@@ -302,7 +302,7 @@ QUADTREE-VISUALIZER/
 
 An experimental implementation generating QuadTrees from static images.
 
-[Kaggle Notebook](https://www.kaggle.com/code/ameythakur20/quadtree) &nbsp; | &nbsp; [Kaggle Dataset](https://www.kaggle.com/datasets/ameythakur20/images)
+**[Kaggle Notebook](https://www.kaggle.com/code/ameythakur20/quadtree)** &nbsp; | &nbsp; **[Kaggle Dataset](https://www.kaggle.com/datasets/ameythakur20/images)**
 
 <img src="https://user-images.githubusercontent.com/54937357/134290440-0e70c3a3-4b3d-4dd6-8ac0-649c2d72e103.gif" alt="Image QuadTree" height="400">
 

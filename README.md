@@ -377,14 +377,14 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 
 | Milestone | Timeline | Evaluation Focal Point | Official Documentation | Evidence |
 | :--- | :---: | :--- | :---: | :---: |
-| **Project Inception** | 2021 | Topic Selection & Guide Allocation | [Selection Document](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf) | [Approval](Major-Project%20Selection/Approval%20Message.png) |
-| **Review 1** | Second Half 2021 | 2:48 PM \| BE project review I | [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) \| [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) \| [Attendance](Review-1/Review-1_Attendance_Proof.png) |
-| **Review 2** | Second Half 2021 | Progress Review \| Presentation | [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) \| [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf) | - |
-| **Major Project - I** | October 25, 2021 | 12:29 PM \| Meet: `vqt-diqt-edq` | [Report](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf) \| [Docx](Major-Project-I/MAJOR_PROJECT_BE-COMPS_B-50,51,58.docx) | [Attendance](Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg) |
-| **Review 3** | First Half 2022 | Progress Review \| Scheduling | [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) \| [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) | [Schedule](Review-3/Review-3_Schedule.png) \| [Panel](Review-3/Review-3_Panel.png) |
-| **Review 4** | First Half 2022 | Milestone Review \| Phase II | [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) \| [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf) | - |
-| **Major Project - II** | First Half 2022 | Final Project Phase \| CSP805 | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) \| [Docx](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | - |
-| **Final Defense** | April 25, 2022 | 10:53 AM \| Oral Examination | [Presentation](25-04-2022/Final%20Presentation.pdf) \| [Preparation](25-04-2022/Presentation_Preparation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
+| **Project Inception** | 2021 | Research Domain Selection & Supervisory Allocation | [Selection Document](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf) | [Approval](Major-Project%20Selection/Approval%20Message.png) |
+| **Review 1** | Second Half 2021 | 2:48 PM \| Formative Assessment Stage I (Institutional Review) | [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) \| [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) \| [Attendance](Review-1/Review-1_Attendance_Proof.png) |
+| **Review 2** | Second Half 2021 | Interim Progress Documentation & Technical Presentation | [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) \| [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf) | - |
+| **Major Project - I** | October 25, 2021 | 12:29 PM \| Summative Evaluation Phase I (Institutional Audit) | [Report](Major-Project-I/QuadTree_Visualizer_Major-Project-I_CS-73.pdf) \| [Docx](Major-Project-I/MAJOR_PROJECT_BE-COMPS_B-50,51,58.docx) | [Attendance](Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg) |
+| **Review 3** | First Half 2022 | Critical Path Scheduling & Methodological Validation | [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) \| [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) | [Schedule](Review-3/Review-3_Schedule.png) \| [Panel](Review-3/Review-3_Panel.png) |
+| **Review 4** | First Half 2022 | Formative Assessment Stage II (Architectural Synthesis) | [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) \| [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf) | - |
+| **Major Project - II** | First Half 2022 | Summative Evaluation Phase II (Final Technical Repository) | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) \| [Docx](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | - |
+| **Final Defense** | April 25, 2022 | 10:53 AM \| Final Scholarly Defense & Viva Voce | [Presentation](25-04-2022/Final%20Presentation.pdf) \| [Preparation](25-04-2022/Presentation_Preparation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
 
 <p align="center">
   <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Defense Day Photos (April 25, 2022 - Monday) [10:53 AM]</h3>

@@ -79,7 +79,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 | 2 | **Hasan Rizvi** | TU3F1819130 | [View](BlackBook/BlackBook-Hasan_Mehdi_Rizvi-TU3F1819130.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Hasan%20Rizvi.pdf) | Official Engineering Thesis |
 | 3 | **Mega Satish** | TU3F1819139 | [View](BlackBook/BlackBook-Mega_Satish_Modha-TU3F1819139.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Mega%20Satish.pdf) | Official Engineering Thesis |
 | 4 | **Ajay Davare** | TU3F1718006 | [View](BlackBook/BlackBook-Ajay_Ramesh_Davare-TU3F1718006.pdf) | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Ajay%20Davare.pdf) | Official Engineering Thesis |
-| 5 | **Randeep Kaur Kahlon** | Guide | - | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf) | Project Guide & Mentor |
+| 5 | **Prof. Randeep Kaur Kahlon** | Guide | - | [View](Research%20Paper/Certificates/IJERTV11IS040156%20Certificate%20-%20Randeep%20Kaur%20Kahlon.pdf) | Project Guide & Mentor |
 | 6 | **Group** | - | [View](BlackBook/BlackBook-Amey-TU3F1819127_Hasan-TU3F1819130_Mega-TU3F1819139_Ajay-TU3F1718006.pdf) | - | Combined Major Project Thesis |
 
 <br>

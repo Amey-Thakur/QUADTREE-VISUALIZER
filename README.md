@@ -131,7 +131,7 @@ The application allows users to spawn varying numbers of particles, apply physic
 <a name="project-structure"></a>
 ## Project Structure
 
-```bash
+```python
 QUADTREE-VISUALIZER/
 │
 ├── .github/                                                      # GitHub Workflows & Metadata
@@ -202,6 +202,7 @@ QUADTREE-VISUALIZER/
 │   └── QuadTree_Visualizer_Major-Project-II_CS-73.pptx           # Phase II Presentation (PPTX)
 │
 ├── Mega/                                                         # Archival Attribution Assets
+│   ├── Filly.jpg                                                 # Companion (Filly)
 │   └── Mega.png                                                  # Author Profile Image (Mega Satish)
 │
 ├── Reference Papers/                                             # Literature Survey & Bibliography
@@ -263,6 +264,7 @@ QUADTREE-VISUALIZER/
 │   └── Mega_B-58_Submission_Report.pdf                           # Submission Receipt (Mega)
 │
 ├── .gitattributes                                                # Git configuration
+│
 ├── .gitignore                                                    # Git exclusion rules
 ├── BE-Major-Project.jpeg                                         # Project Banner Image
 ├── CITATION.cff                                                  # Scholarly Citation Metadata

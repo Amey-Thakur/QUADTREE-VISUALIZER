@@ -384,7 +384,7 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 | **Review 3** | First Half 2022 | Progress Review \| Scheduling | [PPTX](Review-3/QuadTree_Visualizer_Review-3_CS-73.pptx) \| [PDF](Review-3/QuadTree_Visualizer_Review-3_CS-73.pdf) | [Schedule](Review-3/Review-3_Schedule.png) \| [Panel](Review-3/Review-3_Panel.png) |
 | **Review 4** | First Half 2022 | Milestone Review \| Phase II | [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) \| [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf) | - |
 | **Major Project - II** | First Half 2022 | Final Project Phase \| CSP805 | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) \| [Docx](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | - |
-| **Final Defense** | April 25, 2022 | 10:53 AM \| Oral Examination | [Presentation](25-04-2022/Final%20Presentation.pdf) \| [Prep](25-04-2022/Presentation_Preparation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
+| **Final Defense** | April 25, 2022 | 10:53 AM \| Oral Examination | [Presentation](25-04-2022/Final%20Presentation.pdf) \| [Preparation](25-04-2022/Presentation_Preparation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
 
 <p align="center">
   <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Defense Day Photos (April 25, 2022 - Monday) [10:53 AM]</h3>

@@ -370,7 +370,6 @@ Ensure your environment meets the minimum specifications:
 
 This section archives the formal evaluation milestones and scholarly projects associated with the Bachelor of Engineering (B.E.) degree in Computer Engineering.
 
-This section archives the formal evaluation milestones and scholarly artifacts associated with the Bachelor of Engineering (B.E.) degree in Computer Engineering.
 
 ### 1. Academic Evaluation Manifest
 

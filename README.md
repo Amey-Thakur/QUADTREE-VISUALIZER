@@ -557,7 +557,7 @@ This repository and all linked academic content are made available under the **M
 > [!NOTE]
 > **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
-Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
+Copyright © 2022 Amey Thakur, Mega Satish, Hasan Rizvi
 
 ---
 

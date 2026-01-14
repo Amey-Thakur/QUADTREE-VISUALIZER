@@ -310,20 +310,20 @@ An experimental implementation generating QuadTrees from static images.
 
 ### Additional Resources
 
-| # | Name | Type | Link |
-| :-: | :--- | :--- | :-: |
-| 1 | **QuadTree Notebook 1** | Jupyter Notebook | [View File](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb) |
-| 2 | **QuadTree Notebook 2** | Jupyter Notebook | [View File](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_2.ipynb) |
-| 3 | **Kaggle Notebook** | External Link | [View Notebook](https://www.kaggle.com/code/ameythakur20/quadtree) |
-| 4 | **Kaggle Dataset** | External Link | [View Dataset](https://www.kaggle.com/datasets/ameythakur20/images) |
-| 5 | **Croatia** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Croatia.jpg) |
-| 6 | **Filly (Version 2)** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Filly-2.jpg) |
-| 7 | **Filly (InstaDP)** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Filly-InstaDP.jpg) |
-| 8 | **Filly** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Filly.jpg) |
-| 9 | **Gateway of India** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Gateway%20of%20India.jpg) |
-| 10 | **Injila** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Injila.jpg) |
-| 11 | **Lake** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Lake.jpg) |
-| 12 | **Park** | Image | [View Image](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/park.jpg) |
+| # | Resource | Type |
+| :-: | :--- | :--- |
+| 1 | [**QuadTree Notebook 1**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_1.ipynb) | Jupyter Notebook |
+| 2 | [**QuadTree Notebook 2**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/QuadTree_2.ipynb) | Jupyter Notebook |
+| 3 | [**Kaggle Notebook**](https://www.kaggle.com/code/ameythakur20/quadtree) | External Link |
+| 4 | [**Kaggle Dataset**](https://www.kaggle.com/datasets/ameythakur20/images) | External Link |
+| 5 | [**Croatia**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Croatia.jpg) | Image |
+| 6 | [**Filly (Version 2)**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Filly-2.jpg) | Image |
+| 7 | [**Filly (InstaDP)**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Filly-InstaDP.jpg) | Image |
+| 8 | [**Filly**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Filly.jpg) | Image |
+| 9 | [**Gateway of India**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Gateway%20of%20India.jpg) | Image |
+| 10 | [**Injila**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Injila.jpg) | Image |
+| 11 | [**Lake**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/Lake.jpg) | Image |
+| 12 | [**Park**](Initial%20Work/QuadTree%20Implementation%20Examples/QuadTree%20from%20Images/IMAGES/park.jpg) | Image |
 
 ---
 

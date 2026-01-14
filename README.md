@@ -572,14 +572,14 @@ Copyright © 2022 Amey Thakur, Hasan Rizvi, Mega Satish
 
 This repository serves as a permanent technical record for **QuadTree Visualizer**, developed as the **8th Semester Major Project**. It highlights the practical application of hierarchical data structures in spatial algorithm optimization and the deployment of high-performance interactive simulations via modern web interfaces.
 
-**Connect**: [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur) · [ORCID](https://orcid.org/0000-0001-5644-1575)
+**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ### Acknowledgments
 <a name="acknowledgments"></a>
 
-Grateful acknowledgment to **[Mega Satish](https://github.com/msatmod)** and **[Hasan Rizvi](https://github.com/rizvihasan)** for their pivotal roles and collaborative excellence during the development of this project. Their intellectual contributions, technical insights, and dedicated commitment to software quality were fundamental in achieving the system's analytical and functional objectives. This technical record serves as a testament to their scholarly partnership and significant impact on the final implementation.
+Grateful acknowledgment to [**Hasan Rizvi**](https://github.com/rizvihasan) and [**Mega Satish**](https://github.com/msatmod) for their exceptional collaboration and scholarly partnership during the development of this project. Their constant support, technical clarity, and dedication to software quality were instrumental in achieving the system's functional objectives. Learning alongside them was a transformative experience; their thoughtful approach to problem-solving and steady encouragement turned complex requirements into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Hasan and Mega, for everything you shared and taught along the way.
 
-Special thanks to **Prof. Randeep Kaur Kahlon** for her mentorship and guidance as the project mentor throughout the research and development phases of this engineering thesis.
+Special thanks to **Prof. Randeep Kaur Kahlon** (Project Mentor) and the faculty members of the **Department of Computer Engineering** at Terna Engineering College for their guidance and instruction in computational geometry. Their expertise in spatial data structures and recursive algorithms helped me develop a strong understanding of professional software engineering methodologies.
 
 ---
 

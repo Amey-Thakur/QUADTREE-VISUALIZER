@@ -516,16 +516,16 @@ The development of the **QuadTree Visualizer** was informed by a rigorous analys
 
 ### Annotated Repository of Theoretical Foundations
 
-| Research Domain | Scholarly Publication Title | Technical Focus & Scholarly Contribution |
-| :--- | :--- | :--- |
-| **Computational Geometry** | [A Quadtree-based Hierarchical Clustering Method](Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method%20for%20Visualizing%20Large%20Point%20Dataset.pdf) | Analysis of hierarchical clustering mechanisms for optimizing large-scale spatial datasets and data visualization. |
-| **Computational Geometry** | [An Effective Way to Represent Quadtrees](Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf) | Investigation into the theoretical memory efficiency and structural representation of recursive spatial partitioning. |
-| **Computational Geometry** | [Optimal Quadtree Construction Algorithms](Reference%20Papers/Optimal%20Quadtree%20Construction%20Algorithms.pdf) | Algorithmic derivation and optimization of recursive subdivision processes for spatial indexing. |
-| **Physics Modeling** | [Kinetic Compressed Quadtrees in the Black-Box Model](Reference%20Papers/Kinetic%20Compressed%20Quadtrees%20in%20the%20Black-Box%20Model%20with%20Applications%20to%20Collision%20Detection%20for%20Low-Density%20Scenes.pdf) | Theoretical framework for advanced collision detection in dynamic systems and low-density spatial scenes. |
-| **Physics Modeling** | [Energetics of a Bouncing Drop](Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf) | Synthesis of coefficients of restitution and bubble entrapment logic for high-fidelity physics and collision energetics. |
-| **Signal Processing** | [Efficient Quadtree Coding of Images and Video](Reference%20Papers/Efficient%20Quadtree%20Coding%20of%20Images%20and%20Video.pdf) | Application of QuadTree data structures in image/video signal processing and data compression. |
-| **Signal Processing** | [Quad-Tree Motion Modelling with Leaf Merging](Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf) | Advanced dynamic node management through leaf-merging techniques for motion modeling. |
-| **System Architecture** | [Nodejs - High-Performance Network Programs](Reference%20Papers/Nodejs%20-%20Using%20JavaScript%20to%20Build%20High-Performance%20Network%20Programs.pdf) | Evaluation of V8 engine performance for real-time execution of high-performance network and graphical programs. |
+| # | Research Domain | Scholarly Publication Title | Technical Focus & Scholarly Contribution |
+| :---: | :--- | :--- | :--- |
+| 1 | **Computational Geometry** | [A Quadtree-based Hierarchical Clustering Method](Reference%20Papers/A%20Quadtree-based%20Hierarchical%20Clustering%20Method%20for%20Visualizing%20Large%20Point%20Dataset.pdf) | Analysis of hierarchical clustering mechanisms for optimizing large-scale spatial datasets and data visualization. |
+| 2 | **Computational Geometry** | [An Effective Way to Represent Quadtrees](Reference%20Papers/An%20Effective%20Way%20to%20Represent%20Quadtrees.pdf) | Investigation into the theoretical memory efficiency and structural representation of recursive spatial partitioning. |
+| 3 | **Computational Geometry** | [Optimal Quadtree Construction Algorithms](Reference%20Papers/Optimal%20Quadtree%20Construction%20Algorithms.pdf) | Algorithmic derivation and optimization of recursive subdivision processes for spatial indexing. |
+| 4 | **Physics Modeling** | [Kinetic Compressed Quadtrees in the Black-Box Model](Reference%20Papers/Kinetic%20Compressed%20Quadtrees%20in%20the%20Black-Box%20Model%20with%20Applications%20to%20Collision%20Detection%20for%20Low-Density%20Scenes.pdf) | Theoretical framework for advanced collision detection in dynamic systems and low-density spatial scenes. |
+| 5 | **Physics Modeling** | [Energetics of a Bouncing Drop](Reference%20Papers/Energetics%20of%20a%20bouncing%20drop-Coefficient%20of%20restitution%2C%20bubble%20entrapment%2C%20and%20escape.pdf) | Synthesis of coefficients of restitution and bubble entrapment logic for high-fidelity physics and collision energetics. |
+| 6 | **Signal Processing** | [Efficient Quadtree Coding of Images and Video](Reference%20Papers/Efficient%20Quadtree%20Coding%20of%20Images%20and%20Video.pdf) | Application of QuadTree data structures in image/video signal processing and data compression. |
+| 7 | **Signal Processing** | [Quad-Tree Motion Modelling with Leaf Merging](Reference%20Papers/Quad-Tree%20Motion%20Modelling%20with%20Leaf%20Merging.pdf) | Advanced dynamic node management through leaf-merging techniques for motion modeling. |
+| 8 | **System Architecture** | [Nodejs - High-Performance Network Programs](Reference%20Papers/Nodejs%20-%20Using%20JavaScript%20to%20Build%20High-Performance%20Network%20Programs.pdf) | Evaluation of V8 engine performance for real-time execution of high-performance network and graphical programs. |
 
 ---
 

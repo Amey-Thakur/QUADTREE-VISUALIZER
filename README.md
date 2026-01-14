@@ -44,7 +44,7 @@
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement
-> *Special thanks to **[Mega Satish](https://github.com/msatmod)**, **[Hasan Rizvi](https://github.com/rizvihasan)** and **Prof. Randeep Kaur Kahlon** for their meaningful contributions, guidance, and support that helped shape this work.*
+> *Special thanks to **[Hasan Rizvi](https://github.com/rizvihasan)**, **[Mega Satish](https://github.com/msatmod)** and **Prof. Randeep Kaur Kahlon** for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ---
 

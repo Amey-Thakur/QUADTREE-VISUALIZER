@@ -577,7 +577,9 @@ This repository serves as a permanent technical record for **QuadTree Visualizer
 ### Acknowledgments
 <a name="acknowledgments"></a>
 
-Grateful acknowledgment to [**Hasan Rizvi**](https://github.com/rizvihasan) and [**Mega Satish**](https://github.com/msatmod) for their exceptional collaboration and scholarly partnership during the development of this project. Their constant support, technical clarity, and dedication to software quality were instrumental in achieving the system's functional objectives. Learning alongside them was a transformative experience; their thoughtful approach to problem-solving and steady encouragement turned complex requirements into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Hasan and Mega, for everything you shared and taught along the way.
+Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) and [**Hasan Rizvi**](https://github.com/rizvihasan) for their exceptional collaboration and scholarly partnership during the development of this project. Their constant support, technical clarity, and dedication to software quality were instrumental in achieving the system's functional objectives. Learning alongside them was a transformative experience; their thoughtful approach to problem-solving and steady encouragement turned complex requirements into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Mega and Hasan, for everything you shared and taught along the way.
+
+Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning endeavor.
 
 Special thanks to **Prof. Randeep Kaur Kahlon** (Project Mentor) and the faculty members of the **Department of Computer Engineering** at Terna Engineering College for their guidance and instruction in computational geometry. Their expertise in spatial data structures and recursive algorithms helped me develop a strong understanding of professional software engineering methodologies.
 
@@ -591,11 +593,13 @@ Special thanks to **Prof. Randeep Kaur Kahlon** (Project Mentor) and the faculty
 
   <br>
 
-  🎬 **[QuadTree Visualizer](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)**
+  🎬 **[QuadTree Visualizer](https://amey-thakur.github.io/QUADTREE-VISUALIZER/)**
 
   ---
 
-  ### Presented as part of the 8th Semester Major-Project @ Terna Engineering College
+  #### Presented as part of the 8th Semester Major Project @ Terna Engineering College
+
+  ---
 
   ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
 

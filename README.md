@@ -376,7 +376,7 @@ This section archives the formal evaluation milestones and scholarly projects as
 A chronological record of technical reviews, phase reports, and formal evaluations conducted by the institutional review board.
 
 | Milestone | Timeline | Evaluation Focal Point | Official Documentation | Evidence |
-| :--- | :--- | :--- | :---: | :---: |
+| :--- | :---: | :--- | :---: | :---: |
 | **Project Inception** | 2021 | Topic Selection & Guide Allocation | [Selection Doc](Major-Project%20Selection/B.E.%20Major%20Project%20Team%20Building%20Details_FH2021.pdf) | [Approval](Major-Project%20Selection/Approval%20Message.png) |
 | **Review 1** | Second Half 2021 | 2:48 PM \| BE project review I | [PPTX](Review-1/QuadTree_Visualizer_Review-1_CS-73.pptx) \| [PDF](Review-1/QuadTree_Visualizer_Review-1_CS-73.pdf) | [Panel](Review-1/Review-1_Panel.jpg) \| [Attendance](Review-1/Review-1_Attendance_Proof.png) |
 | **Review 2** | Second Half 2021 | Progress Review \| Presentation | [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) \| [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf) | - |

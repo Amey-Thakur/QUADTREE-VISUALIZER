@@ -419,7 +419,7 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 </div>
 
 <div align="center">
-  <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Final Scholarly Defense & Viva Voce (April 25, 2022) [10:53 AM]</h3>
+  <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Final Scholarly Defense & Viva Voce (April 25, 2022 - Monday) [10:53 AM]</h3>
   <br>
   <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%" />
   &nbsp;

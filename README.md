@@ -386,12 +386,44 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 | **Major Project - II** | First Half 2022 | Summative Evaluation Phase II (Final Technical Repository) | [Final Report](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf) \| [Docx](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | - |
 | **Final Defense** | April 25, 2022 | 10:53 AM \| Final Scholarly Defense & Viva Voce | [Presentation](25-04-2022/Final%20Presentation.pdf) \| [Preparation](25-04-2022/Presentation_Preparation.pdf) | [Photos](#defense-day-photos-april-25-2022---monday-1053-am) |
 
+### Research & Evaluation Evidence
+
 <p align="center">
-  <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Defense Day Photos (April 25, 2022 - Monday) [10:53 AM]</h3>
+  <h4 align="center">Research Domain Selection & Institutional Approval</h4>
+  <img src="Major-Project%20Selection/Approval%20Message.png" width="85%" />
+</p>
+
+<p align="center">
+  <h4 align="center">Formative Assessment Stage I (Institutional Review Board)</h4>
+  <img src="Review-1/Review-1_Panel.jpg" width="85%" />
+</p>
+
+<p align="center">
+  <h4 align="center">Institutional Attendance Record (Second Half 2021)</h4>
+  <img src="Review-1/Review-1_Attendance_Proof.png" width="85%" />
+</p>
+
+<p align="center">
+  <h4 align="center">Summative Evaluation Phase I (Institutional Attendance Audit)</h4>
+  <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="85%" />
+</p>
+
+<p align="center">
+  <h4 align="center">Critical Path Scheduling & Methodological Validation</h4>
+  <img src="Review-3/Review-3_Schedule.png" width="85%" />
+</p>
+
+<p align="center">
+  <h4 align="center">Formative Assessment Stage II (Architectural Synthesis Panel)</h4>
+  <img src="Review-3/Review-3_Panel.png" width="85%" />
+</p>
+
+<p align="center">
+  <h3 id="defense-day-photos-april-25-2022---monday-1053-am" align="center">Final Scholarly Defense & Viva Voce (April 25, 2022) [10:53 AM]</h3>
   <br>
-  <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="48%" />
+  <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%" />
   &nbsp;
-  <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="48%" />
+  <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%" />
 </p>
 
 ### 2. Scholarly Publication & Technical Integrity

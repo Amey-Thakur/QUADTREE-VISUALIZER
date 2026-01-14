@@ -202,7 +202,7 @@ QUADTREE-VISUALIZER/
 │   ├── QuadTree Implementation Examples/                         # Reference Implementations
 │   ├── Phi Portal Dashboard.png                                  # UI Mockup - Dashboard
 │   ├── Phi Portal Login.png                                      # UI Mockup - Login
-│   └── Phi Potal Project Plan.png                                # Project Roadmap Visual
+│   └── Phi Portal Project Plan.png                               # Project Roadmap Visual
 │
 ├── Major-Project Selection/                                      # Topic Selection & Approval Records
 │   ├── BE STUDENTS LIST SH21/                                    # Student Batch List
@@ -438,16 +438,6 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 #### Review 2
 - **Presentation**: [PPTX](Review-2/QuadTree_Visualizer_Review-2_CS-73.pptx) | [PDF](Review-2/QuadTree_Visualizer_Review-2_CS-73.pdf)
-- **Evaluation Evidence**:
-  <details>
-    <summary><strong>View Evaluation Assets</strong></summary>
-    <br>
-    <h4>Review Panel</h4>
-    <img src="Review-2/Review-2_Panel.jpg" width="80%">
-    <br><br>
-    <h4>Attendance Proof</h4>
-    <img src="Review-2/Review-2_Attendance_Proof.png" width="80%">
-  </details>
 
 #### Final Review (Major Project - I | CSP705)
 - **Date**: October 25, 2021
@@ -480,16 +470,6 @@ This section archives the formal milestones of the Bachelor of Engineering (B.E.
 
 #### Review 4
 - **Presentation**: [PPTX](Review-4/QuadTree_Visualizer_Review-4_CS-73.pptx) | [PDF](Review-4/QuadTree_Visualizer_Review-4_CS-73.pdf)
-- **Scheduling**:
-  <details>
-    <summary><strong>View Schedule & Panel</strong></summary>
-    <br>
-    <h4>Review Schedule</h4>
-    <img src="Review-4/Review-4_Schedule.png" width="80%">
-    <br><br>
-    <h4>Review Panel</h4>
-    <img src="Review-4/Review-4_Panel.png" width="80%">
-  </details>
 
 #### Major Project - II | CSP805 (Report)
 - **Report**: [DOCX](Major-Project-II/MAJOR_PROJECT-II_REPORT_PHI-CS-73.docx) | [PDF](Major-Project-II/QuadTree_Visualizer_Major-Project-II_CS-73.pdf)
@@ -576,7 +556,7 @@ This section provides a formal archival record of the foundational training curr
 | **Milestones**<br>**09** | [Certificate](Initial%20Work/Phi%20Education/Milestone%209%20Completed.png) | [Milestone_9](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_9) | Linked List Data Structures (`Reverse`, `Merge Sort`, `Recursive Reverse`, `Pop/Push Operations`) |
 | **Milestones**<br>**10** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2010%20Completed.png) | [Milestone_10](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_10) | Dictionary ADT Implementation (`dictionary.C`) |
 | **Milestones**<br>**11** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2011%20Completed.png) | [Milestone_11](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_11) | Sequential File Processing & Tokenization (`FILEREAD.C`) |
-| **Milestones**<br>**12** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png) | [Milestone_12](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12) | Persistent Data Storage Mechanisms (`arrayfile.C`, `dictonary.C`) |
+| **Milestones**<br>**12** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2012%20Completed.png) | [Milestone_12](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_12) | Persistent Data Storage Mechanisms (`arrayfile.C`, `dictionary.C`) |
 | **Milestones**<br>**13** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2013%20Completed.png) | [Milestone_13](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_13) | Iterative Data Structure Reversal (`reverselinklist.C`) |
 | **Milestones**<br>**14** | [Certificate](Initial%20Work/Phi%20Education/Milestone%2014%20Completed.png) | [Milestone_14](Initial%20Work/Phi%20Education/Introduction%20To%20C%20Programming/Milestone_14) | Complex List Merging & Optimization Assessment (`14.c`) |
 

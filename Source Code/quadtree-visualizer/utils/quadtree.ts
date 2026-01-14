@@ -83,7 +83,7 @@ export class QuadNode {
     ]
 
     /**
-     * place current particles into newely created groups
+     * place current particles into newly created groups
      * removes the object from the current array if it fits into another node
      */
     this.quadObjects.forEach((object: QuadObject) => {

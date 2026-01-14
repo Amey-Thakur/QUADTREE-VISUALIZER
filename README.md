@@ -388,43 +388,43 @@ A chronological record of technical reviews, phase reports, and formal evaluatio
 
 ### Research & Evaluation Evidence
 
-<p align="center">
-  <h4 align="center">Research Domain Selection & Institutional Approval</h4>
+<div align="center">
+  <h4>Research Domain Selection & Institutional Approval</h4>
   <img src="Major-Project%20Selection/Approval%20Message.png" width="85%" />
-</p>
+</div>
 
-<p align="center">
-  <h4 align="center">Formative Assessment Stage I (Institutional Review Board)</h4>
+<div align="center">
+  <h4>Formative Assessment Stage I (Institutional Review Board)</h4>
   <img src="Review-1/Review-1_Panel.jpg" width="85%" />
-</p>
+</div>
 
-<p align="center">
-  <h4 align="center">Institutional Attendance Record (Second Half 2021)</h4>
+<div align="center">
+  <h4>Institutional Attendance Record (Second Half 2021)</h4>
   <img src="Review-1/Review-1_Attendance_Proof.png" width="85%" />
-</p>
+</div>
 
-<p align="center">
-  <h4 align="center">Summative Evaluation Phase I (Institutional Attendance Audit)</h4>
+<div align="center">
+  <h4>Summative Evaluation Phase I (Institutional Attendance Audit)</h4>
   <img src="Major-Project-I/Major%20Project%20Attendance%20%5B25-10-2021%5D.jpeg" width="85%" />
-</p>
+</div>
 
-<p align="center">
-  <h4 align="center">Critical Path Scheduling & Methodological Validation</h4>
+<div align="center">
+  <h4>Critical Path Scheduling & Methodological Validation</h4>
   <img src="Review-3/Review-3_Schedule.png" width="85%" />
-</p>
+</div>
 
-<p align="center">
-  <h4 align="center">Formative Assessment Stage II (Architectural Synthesis Panel)</h4>
+<div align="center">
+  <h4>Formative Assessment Stage II (Architectural Synthesis Panel)</h4>
   <img src="Review-3/Review-3_Panel.png" width="85%" />
-</p>
+</div>
 
-<p align="center">
-  <h3 id="defense-day-photos-april-25-2022---monday-1053-am" align="center">Final Scholarly Defense & Viva Voce (April 25, 2022) [10:53 AM]</h3>
+<div align="center">
+  <h3 id="defense-day-photos-april-25-2022---monday-1053-am">Final Scholarly Defense & Viva Voce (April 25, 2022) [10:53 AM]</h3>
   <br>
   <img src="25-04-2022/2022-04-25%20at%2010.53.18.jpeg" width="45%" />
   &nbsp;
   <img src="25-04-2022/2022-04-25%20at%2010.53.19.jpeg" width="45%" />
-</p>
+</div>
 
 ### 2. Scholarly Publication & Technical Integrity
 

@@ -366,14 +366,9 @@ Ensure your environment meets the minimum specifications:
 ---
 
 <!-- ACADEMIC DOCUMENTATION -->
-
-
-<!-- ACADEMIC DOCUMENTATION -->
 ## Academic Documentation
-This section archives the formal milestones of the Bachelor of Engineering (B.E.) degree.
 
-### 1. Project Inception (Topic Selection)
-## Academic Documentation
+This section archives the formal evaluation milestones and scholarly projects associated with the Bachelor of Engineering (B.E.) degree in Computer Engineering.
 
 This section archives the formal evaluation milestones and scholarly artifacts associated with the Bachelor of Engineering (B.E.) degree in Computer Engineering.
 

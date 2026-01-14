@@ -461,16 +461,16 @@ This section archives the foundational technical training and pedagogical milest
 
 ### 1. Foundational Technical Assessment & Training Matrix
 
-| Objective | Scholarly Project & Training Module | Academic Evaluation | Technical Outcome |
-| :--- | :--- | :---: | :---: |
-| **Logic & Paradigm** | [Object-Oriented Paradigm Simulation in C](Initial%20Work/Phi%20Tasks/Task%201) | [Assessment](Initial%20Work/Phi%20Tasks/Task%201/Task%2001.png) | [Approved](Initial%20Work/Phi%20Tasks/Task%201/PHI%20CS%2073%20-%20Task%201%20%5BSUBMISSION%20-%203%5D%20APPROVED.png) |
-| **Design Synthesis** | [Structural Design Patterns & Logic Validation](Initial%20Work/Phi%20Tasks/Task%202) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%202/Doubts.pdf) | [Approved](Initial%20Work/Phi%20Tasks/Task%202/PHI%20CS%2073%20-%20Task%202%20%5BSUBMISSION%20-%2015%5D%20APPROVED.png) |
-| **XML Processing** | [Hierarchical Data Extraction via TinyXml](Initial%20Work/Phi%20Tasks/Task%203) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%203/Doubts.png) | [Approved](Initial%20Work/Phi%20Tasks/Task%203/PHI-CS-73%20TASK-3%20%5BSUBMISSION-1%5D%20APPROVED.png) |
-| **Spatial Logic** | [Formal ADT Specification for Spatial Partitioning](Initial%20Work/Phi%20Tasks/Task%204) | [Assessment](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task4.jpeg) | [Resolution](Initial%20Work/Phi%20Tasks/Task%204/Doubts-Response.png) |
-| **Data Definition** | [Formal Specification of Persistence File Formats](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg) | - | [Pending] |
-| **Interface Design** | [Architectural Synthesis of the `pcf_ui` Library](Initial%20Work/Phi%20Tasks/Task%206) | - | [Repository](Initial%20Work/Phi%20Tasks/Task%206) |
-| **Advanced Logic** | [Cumulative Theoretical Logic & System Modeling](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | [Modules 07-10] |
-| **Thesis Prep** | [Foundational Technical Thesis Presentation](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) | [PDF](Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf) \| [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) |
+| Objective | Scholarly Project & Training Module | Technical Assessment | Inquiry & Resolution | Approved Outcome |
+| :--- | :--- | :---: | :---: | :---: |
+| **Logic & Paradigm** | [Object-Oriented Paradigm Simulation in C](Initial%20Work/Phi%20Tasks/Task%201) | [Assessment](Initial%20Work/Phi%20Tasks/Task%201/Task%2001.png) | - | [Approved](Initial%20Work/Phi%20Tasks/Task%201/PHI%20CS%2073%20-%20Task%201%20%5BSUBMISSION%20-%203%5D%20APPROVED.png) |
+| **Design Synthesis** | [Structural Design Patterns & Logic Validation](Initial%20Work/Phi%20Tasks/Task%202) | [Assessment](Initial%20Work/Phi%20Tasks/Task%202/Task%2002.png) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%202/Doubts.pdf) | [Approved](Initial%20Work/Phi%20Tasks/Task%202/PHI%20CS%2073%20-%20Task%202%20%5BSUBMISSION%20-%2015%5D%20APPROVED.png) |
+| **XML Processing** | [Hierarchical Data Extraction via TinyXml](Initial%20Work/Phi%20Tasks/Task%203) | [Assessment](Initial%20Work/Phi%20Tasks/Task%203/Task%2003.png) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%203/Doubts.png) | [Approved](Initial%20Work/Phi%20Tasks/Task%203/PHI-CS-73%20TASK-3%20%5BSUBMISSION-1%5D%20APPROVED.png) |
+| **Spatial Logic** | [Formal ADT Specification for Spatial Partitioning](Initial%20Work/Phi%20Tasks/Task%204) | [Assessment](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task4.jpeg) | [Inquiry](Initial%20Work/Phi%20Tasks/Task%204/Doubts.png) \| [Resolution](Initial%20Work/Phi%20Tasks/Task%204/Doubts-Response.png) | - |
+| **Data Definition** | [Formal Specification of Persistence File Formats](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/Task5.jpeg) | - | - | [Pending] |
+| **Interface Design** | [Architectural Synthesis of the `pcf_ui` Library](Initial%20Work/Phi%20Tasks/Task%206) | - | - | [Repository](Initial%20Work/Phi%20Tasks/Task%206) |
+| **Advanced Logic** | [Cumulative Theoretical Logic & System Modeling](Initial%20Work/Phi%20Tasks/Tasks%20Descriptions/) | - | - | [Modules 07-10] |
+| **Thesis Prep** | [Foundational Technical Thesis Presentation](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) | [PDF](Initial%20Work/Initial%20PPTs/MAJOR_PROJECT-I_FINAL_REVIEW_PHI-CS-73.pdf) | [PPTX](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pptx) | [PDF](Initial%20Work/Initial%20PPTs/QUADTREE%20VISUALIZER.pdf) |
 
 ### 2. Foundational Programming Curriculum (C-Systems)
 

@@ -1,4 +1,4 @@
-# Technical Specification: QUADTREE-VISUALIZER
+# Technical Specification: QuadTree Visualizer
 
 ## Architectural Overview
 

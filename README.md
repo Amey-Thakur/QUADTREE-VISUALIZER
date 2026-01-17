@@ -92,12 +92,12 @@ The application allows users to spawn varying numbers of particles, apply physic
 
 ### Additional Resources
 
-| Resource | Description |Z
-|---|---|
-| [**Plagiarism Report**](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) | Detailed analysis of content originality |
-| [**Scan Report**](Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf) | Automated similarity index scan result |
-| [**Acceptance Letter**](Research%20Paper/IJERTV11IS040156_Acceptance.pdf) | Official acceptance from IJERT Editorial Board |
-| [**Payment Receipt**](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) | Processing fee transaction confirmation |
+| # | Resource | Description |
+|:-:|---|---|
+| 1 | [**Plagiarism Report**](Research%20Paper/QuadTree_Visualizer_Plagiarism_Report.pdf) | Detailed analysis of content originality |
+| 2 | [**Scan Report**](Research%20Paper/QuadTree_Visualizer_Plagiarism_Scan_Report.pdf) | Automated similarity index scan result |
+| 3 | [**Acceptance Letter**](Research%20Paper/IJERTV11IS040156_Acceptance.pdf) | Official acceptance from IJERT Editorial Board |
+| 4 | [**Payment Receipt**](Research%20Paper/IJERTV11IS040156_payment-receipt.pdf) | Processing fee transaction confirmation |
 
 > [!TIP]
 > **Performance Insight & Algorithm Visualization**

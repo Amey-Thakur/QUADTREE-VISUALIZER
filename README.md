@@ -571,7 +571,7 @@ Copyright © 2022 Amey Thakur, Mega Satish, Hasan Rizvi
 
 This repository serves as a permanent technical record for **QuadTree Visualizer**, developed as the **8th Semester Major Project**. It highlights the practical application of hierarchical data structures in spatial algorithm optimization and the deployment of high-performance interactive simulations via modern web interfaces.
 
-**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575) &nbsp;·&nbsp; [Mega's ORCID](https://orcid.org/0000-0002-1844-9557)
 
 ### Acknowledgments
 <a name="acknowledgments"></a>

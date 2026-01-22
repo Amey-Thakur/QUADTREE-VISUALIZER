@@ -96,6 +96,17 @@ const theme = createTheme({
 const basePath = process.env.NODE_ENV === 'production' ? '/QUADTREE-VISUALIZER' : ''
 
 function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
+  const [loading, setLoading] = React.useState(true)
+
+  React.useEffect(() => {
+    // Hide loading screen after page load
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 1000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -105,9 +116,21 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='description' content='Interactive QuadTree spatial partitioning visualizer with physics simulation' />
       </Head>
+
+      {/* Loading Screen */}
+      <div id="loading-screen" className={loading ? '' : 'hidden'}>
+        <div className="loader-content">
+          <div className="progress-container">
+            <div className={`progress-bar ${loading ? 'simulating' : ''}`} id="main-progress-bar"></div>
+          </div>
+          <p className="loading-text">Loading QuadTree Visualizer...</p>
+        </div>
+      </div>
+
       <Component {...pageProps} />
     </ThemeProvider>
   )
 }
+
 
 export default MyApp

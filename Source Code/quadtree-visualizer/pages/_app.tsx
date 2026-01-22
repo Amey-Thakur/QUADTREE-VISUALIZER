@@ -102,7 +102,7 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
     // Hide loading screen after page load
     const timer = setTimeout(() => {
       setLoading(false)
-    }, 1000)
+    }, 3200)
 
     return () => clearTimeout(timer)
   }, [])

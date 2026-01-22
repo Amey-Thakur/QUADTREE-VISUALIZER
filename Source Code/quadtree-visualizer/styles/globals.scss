@@ -97,13 +97,13 @@ select {
   .progress-bar {
     width: 0%;
     height: 100%;
-    background: linear-gradient(90deg, #58a6ff, #a371f7);
+    background: #ffffff;
     border-radius: 10px;
     transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 0 15px rgba(88, 166, 255, 0.5);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 
     &.simulating {
-      animation: progressSim 4s forwards cubic-bezier(0.1, 0, 0.2, 1);
+      animation: progressSim 3s forwards cubic-bezier(0.1, 0, 0.2, 1);
     }
   }
 
@@ -127,6 +127,6 @@ select {
   }
 
   100% {
-    width: 90%;
+    width: 100%;
   }
 }

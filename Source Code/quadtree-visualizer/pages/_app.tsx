@@ -122,7 +122,7 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
         id="loading-screen"
         className={loading ? '' : 'hidden'}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/raw/main/25-04-2022/2022-04-25%20at%2010.53.19.jpeg')`,
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(\'https://github.com/Amey-Thakur/QUADTREE-VISUALIZER/raw/main/25-04-2022/2022-04-25%20at%2010.53.19.jpeg\')',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -130,10 +130,10 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
       >
         <div className="loader-content">
           <div style={{ color: '#fff', marginBottom: '30px', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>
-            <h3 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', fontWeight: 500, fontFamily: "'Play', sans-serif" }}>
+            <h3 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', fontWeight: 500, fontFamily: '\'Play\', sans-serif' }}>
               Presented as part of the BE Major-Project @ Terna Engineering College
             </h3>
-            <p style={{ margin: '0', fontSize: '0.85rem', opacity: 0.8, fontFamily: "'Play', sans-serif" }}>
+            <p style={{ margin: '0', fontSize: '0.85rem', opacity: 0.8, fontFamily: '\'Play\', sans-serif' }}>
               Project Authors: Amey Thakur, Hasan Rizvi, Mega Satish and Ajay Davare <br /> (Group: Phi-CS-73, Batch of: 2022)
             </p>
           </div>

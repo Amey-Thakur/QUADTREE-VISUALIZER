@@ -29,3 +29,6 @@
 *.pdf linguist-documentation
 *.pptx linguist-documentation
 *.md linguist-documentation
+
+# Language Detection - Hide Jupyter Notebooks
+*.ipynb linguist-vendored

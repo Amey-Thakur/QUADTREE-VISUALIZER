@@ -363,6 +363,13 @@ Ensure your environment meets the minimum specifications:
 2.  **Access Web Gateway**:
     -   Navigate to: `http://localhost:3000`
 
+> [!TIP]
+> **High-Performance QuadTree Spatial Visualizer**
+>
+> Experience the IJERT-published research simulation featuring a high-fidelity visualization of recursive spatial partitioning, demonstrating the O(N log N) efficiency of QuadTrees for real-time collision detection and dynamic particle system management.
+>
+> [**Launch Live Demo**](https://amey-thakur.github.io/QUADTREE-VISUALIZER/)
+
 ---
 
 <!-- ACADEMIC DOCUMENTATION -->

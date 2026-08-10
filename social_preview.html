@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QuadTree Visualizer - Social Preview</title>
+<!-- Renders the 1280x640 social preview from this repository's own assets. -->
+</head>
+<body>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:640px;overflow:hidden;font-family:"Segoe UI",system-ui,sans-serif}
+.card{position:relative;width:1280px;height:640px;overflow:hidden;background:#F7F4ED}
+.spine{position:absolute;left:0;top:0;bottom:0;width:12px;background:#A6192E}
+.wash{position:absolute;right:0;top:0;bottom:0;width:660px;
+  background:radial-gradient(520px 420px at 62% 58%,rgba(166,25,46,.07),rgba(166,25,46,0) 70%)}
+.photo{position:absolute;right:54px;bottom:0;height:556px;width:auto}
+.left{position:absolute;left:74px;top:0;bottom:0;width:600px;display:flex;flex-direction:column;justify-content:center}
+.head{display:flex;align-items:center;gap:16px}
+.head img{height:64px;width:auto}
+.inst{font-size:16px;font-weight:700;color:#1b1b1b;line-height:1.35}
+.inst span{display:block;font-size:14px;font-weight:600;color:#6a6257;margin-top:2px}
+.k{margin-top:30px;font-size:13px;font-weight:700;letter-spacing:.22em;color:#A6192E}
+.h1{margin-top:14px;font-family:Georgia,"Times New Roman",serif;font-size:60px;font-weight:600;
+    line-height:1.04;letter-spacing:-.015em;color:#141210}
+.rule{margin:24px 0 20px;width:84px;height:3px;background:#A6192E}
+.desc{font-size:17px;color:#4a443b;line-height:1.65;max-width:520px}
+.by{margin-top:24px;font-size:16px;color:#141210;line-height:1.75}
+.by b{font-weight:700}
+.by span{display:block;font-size:12px;font-weight:700;letter-spacing:.18em;color:#8a8175;margin-bottom:7px}
+.guide{margin-top:12px;font-size:15px;color:#4a443b}
+.guide b{color:#141210}
+</style>
+<div class="card">
+  <div class="wash"></div>
+  <div class="spine"></div>
+  <img class="photo" src="25-04-2022/2022-04-25_at_10.53.19_Transparent.png" alt="Defence day, 25 April 2022">
+  <div class="left">
+    <div class="head"><img src="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png" alt="University of Mumbai">
+      <div class="inst">University of Mumbai<span>Terna Engineering College &middot; Computer Engineering</span></div></div>
+    <div class="k">BACHELOR OF ENGINEERING &middot; MAJOR PROJECT</div>
+    <div class="h1">QuadTree Visualizer</div>
+    <div class="rule"></div>
+    <div class="desc">An interactive study of spatial partitioning and collision detection, defended on 25 April 2022.</div>
+    <div class="by"><span>PROJECT TEAM</span>
+      <b>Amey Thakur</b> &middot; <b>Hasan Rizvi</b> &middot; <b>Mega Satish</b> &middot; <b>Ajay Davare</b></div>
+    <div class="guide">Guided by <b>Prof. Randeep Kaur Kahlon</b></div>
+  </div>
+</div>
+</body>
+</html>

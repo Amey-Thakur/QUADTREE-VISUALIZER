@@ -24,3 +24,4 @@ Otherwise, just look at the [Quadtree.h](https://github.com/pvigier/ecs/blob/mas
 ## License
 
 Distributed under the MIT License.
+

@@ -3,10 +3,10 @@
   # QuadTree Visualizer
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-  ![Status](https://img.shields.io/badge/Status-Completed-success)
-  [![Frontend](https://img.shields.io/badge/Frontend-Next.js%20%7C%20React%20%7C%20TypeScript-blueviolet)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
-  [![Research](https://img.shields.io/badge/Research-IJERT-orange)](https://ems.ijert.org/download-section_14TVPS67DSYEpSjrSUlGAmuer)
-  [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-blue)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
+  ![Status](https://img.shields.io/badge/Status-Completed-2EA043)
+  [![Frontend](https://img.shields.io/badge/Frontend-Next.js%20%7C%20React%20%7C%20TypeScript-8250DF)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
+  [![Research](https://img.shields.io/badge/Research-IJERT-BF3989)](https://ems.ijert.org/download-section_14TVPS67DSYEpSjrSUlGAmuer)
+  [![Developed by Amey Thakur, Hasan Rizvi & Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%2C%20Hasan%20Rizvi%20%26%20Mega%20Satish-0969DA)](https://github.com/Amey-Thakur/QUADTREE-VISUALIZER)
 
   A high-performance interactive simulation visualizing the efficiency of the QuadTree data structure in spatial partitioning and collision detection, built with Next.js and HTML5 Canvas.
 
@@ -34,7 +34,7 @@
 
   **Terna Engineering College | Computer Engineering | Batch of 2022**
 
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-black?style=flat&logo=github)](https://github.com/rizvihasan) | <a href="https://github.com/msatmod"><img src="Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717?style=flat&logo=github)](https://github.com/rizvihasan) | <a href="https://github.com/msatmod"><img src="Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) |
 | :---: | :---: | :---: |
 
   *Project Guide: **Prof. Randeep Kaur Kahlon** ([Area of Specialization](Major-Project%20Selection/Project%20Guide%20Area%20of%20specialization%202021%20-%202022.pdf))*

@@ -1,0 +1,50 @@
+# QuadTree Visualizer
+
+> A high-performance interactive simulation visualizing the efficiency of
+> the QuadTree data structure in spatial partitioning and collision
+> detection, built with Next.js and HTML5 Canvas.
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Hasan Rizvi
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Fourth Year, Semester VIII
+Licence: CC BY 4.0, attribution required
+Repository created: 5 August 2021
+Work dated: 25 April 2022
+
+## What is in this repository
+
+- 25-04-2022, 8 files
+- BlackBook, 54 files
+- Initial Work, 290 files
+- Major-Project Selection, 22 files
+- Major-Project-I, 9 files
+- Major-Project-II, 5 files
+- Mega, 6 files
+- Reference Papers, 8 files
+- Research Paper, 60 files
+- Review-1, 4 files
+- Review-2, 2 files
+- Review-3, 5 files
+- Review-4, 2 files
+- Source Code, 29 files
+- Source Code Output, 8 files
+- Submission Report, 3 files
+- docs, 1 file
+- BE-Major-Project.jpeg
+
+## Subject terms
+
+algorithm-visualization, collision-detection, computational-geometry,
+computer-engineering, computer-science, data-structures, engineering,
+major-project, nextjs, quadtree, react, research-paper,
+spatial-partitioning, typescript, university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/QUADTREE-VISUALIZER
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/QUADTREE-VISUALIZER/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
